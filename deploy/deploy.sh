@@ -1,10 +1,9 @@
 #!/bin/sh
 
-HOME_PATH=apache-estadisticas
-TRANSFER_PATH=$HOME_PATH/tmp
+TRANSFER_PATH=complementos-apps/tmp
 DEPLOY_TARGET_PATH_ESTADISTICAS=/servers/estadisticas
 
-scp -r demos/guimar/complementos-apps deploy@estadisticas.arte-consultores.com:$TRANSFER_PATH/complementos-apps
+scp -r complementos-apps deploy@estadisticas.arte-consultores.com:$TRANSFER_PATH/complementos-apps
 
 ssh deploy@estadisticas.arte-consultores.com <<EOF
 
