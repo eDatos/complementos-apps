@@ -1,3 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@ page contentType="text/css" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 /* HEADER */
 /* Bootstrap */
 .istac-navbar *,
@@ -185,12 +189,12 @@
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url("./fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0");
-    src: url("./fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), 
-        url("./fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), 
-        url("./fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), 
-        url("./fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), 
-        url("./fonts/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    src: url("<c:url value = "/fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0"/>");
+    src: url("<c:url value = "/fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0"/>") format("embedded-opentype"), 
+        url("<c:url value = "/fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0"/>") format("woff2"), 
+        url("<c:url value = "/fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0"/>") format("woff"), 
+        url("<c:url value = "/fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0"/>") format("truetype"), 
+        url("<c:url value = "/fonts/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular"/>") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -215,39 +219,39 @@ readers do not read off random characters that represent icons */
 
 @font-face {
     font-family: 'Roboto';
-    src: url('./fonts/roboto/Roboto-Regular.eot');
+    src: url('<c:url value = "/fonts/roboto/Roboto-Regular.eot"/>');
     src: local('Roboto'), local('Roboto-Regular'),
-        url('./fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/roboto/Roboto-Regular.woff2') format('woff2'),
-        url('./fonts/roboto/Roboto-Regular.woff') format('woff'),
-        url('./fonts/roboto/Roboto-Regular.ttf') format('truetype'),
-        url('./fonts/roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+        url('<c:url value = "/fonts/roboto/Roboto-Regular.eot?#iefix"/>') format('embedded-opentype'),
+        url('<c:url value = "/fonts/roboto/Roboto-Regular.woff2"/>') format('woff2'),
+        url('<c:url value = "/fonts/roboto/Roboto-Regular.woff"/>') format('woff'),
+        url('<c:url value = "/fonts/roboto/Roboto-Regular.ttf"/>') format('truetype'),
+        url('<c:url value = "/fonts/roboto/Roboto-Regular.svg#Roboto-Regular"/>') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('./fonts/roboto/Roboto-Bold.eot');
+    src: url('<c:url value = "/fonts/roboto/Roboto-Bold.eot"/>');
     src: local('Roboto Bold'), local('Roboto-Bold'),
-        url('./fonts/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/roboto/Roboto-Bold.woff2') format('woff2'),
-        url('./fonts/roboto/Roboto-Bold.woff') format('woff'),
-        url('./fonts/roboto/Roboto-Bold.ttf') format('truetype'),
-        url('./fonts/roboto/Roboto-Bold.svg#Roboto-Bold') format('svg');
+        url('<c:url value = "/fonts/roboto/Roboto-Bold.eot?#iefix"/>') format('embedded-opentype'),
+        url('<c:url value = "/fonts/roboto/Roboto-Bold.woff2"/>') format('woff2'),
+        url('<c:url value = "/fonts/roboto/Roboto-Bold.woff"/>') format('woff'),
+        url('<c:url value = "/fonts/roboto/Roboto-Bold.ttf"/>') format('truetype'),
+        url('<c:url value = "/fonts/roboto/Roboto-Bold.svg#Roboto-Bold"/>') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('./fonts/roboto/Roboto-Italic.eot');
+    src: url('<c:url value = "/fonts/roboto/Roboto-Italic.eot"/>');
     src: local('Roboto Italic'), local('Roboto-Italic'),
-        url('./fonts/roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/roboto/Roboto-Italic.woff2') format('woff2'),
-        url('./fonts/roboto/Roboto-Italic.woff') format('woff'),
-        url('./fonts/roboto/Roboto-Italic.ttf') format('truetype'),
-        url('./fonts/roboto/Roboto-Italic.svg#Roboto-Italic') format('svg');
+        url('<c:url value = "/fonts/roboto/Roboto-Italic.eot?#iefix"/>') format('embedded-opentype'),
+        url('<c:url value = "/fonts/roboto/Roboto-Italic.woff2"/>') format('woff2'),
+        url('<c:url value = "/fonts/roboto/Roboto-Italic.woff"/>') format('woff'),
+        url('<c:url value = "/fonts/roboto/Roboto-Italic.ttf"/>') format('truetype'),
+        url('<c:url value = "/fonts/roboto/Roboto-Italic.svg#Roboto-Italic"/>') format('svg');
     font-weight: normal;
     font-style: italic;
 }

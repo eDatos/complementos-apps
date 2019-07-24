@@ -10,10 +10,17 @@
   <name>complementos-apps</name>
   
   <properties>
+    <servlet-api.version>2.5</servlet-api.version>
     <jstl.version>1.2</jstl.version>
   </properties>
   
   <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>${servlet-api.version}</version>
+      <scope>provided</scope>
+    </dependency>
     <dependency>
       <groupId>jstl</groupId>
       <artifactId>jstl</artifactId>
