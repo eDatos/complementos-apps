@@ -13,6 +13,30 @@
     <servlet-api.version>2.5</servlet-api.version>
     <jstl.version>1.2</jstl.version>
   </properties>
+
+  <scm>
+    <connection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</connection>
+    <developerConnection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</developerConnection>
+    <tag>HEAD</tag>
+    <url>http://git.arte-consultores.com/istac/complementos-apps</url>
+  </scm>
+
+  <issueManagement>
+    <system>Jira</system>
+    <url>http://jira.arte-consultores.com/browse/METAMAC</url>
+  </issueManagement>
+  <distributionManagement>
+    <repository>
+      <id>arte-repository</id>
+      <name>Arte Repository - RELEASE</name>
+      <url>http://repository.arte-consultores.com/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>arte-repository</id>
+      <name>Arte Repository - SNAPSHOT</name>
+      <url>http://repository.arte-consultores.com/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
   
   <dependencies>
     <dependency>
