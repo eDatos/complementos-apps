@@ -452,11 +452,11 @@
             <div class="navbar-collapse collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item pointer">
-                        <a id="eleccionesLink" class="nav-link" href="./">ELECCIONES</a>
+                        <a id="eleccionesLink" class="nav-link" href="<fmt:message key="sie.url"/>">ELECCIONES</a>
                     </li>
                     <!--
                     <li class="nav-item pointer">
-                        <a class="nav-link" href="./">ATLAS</a>
+                        <a class="nav-link" href="<fmt:message key="statistical_operations_external.url"/>">ATLAS</a>
                     </li>
                     -->
                 </ul>
