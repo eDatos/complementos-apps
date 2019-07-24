@@ -1,6 +1,8 @@
 #!/bin/sh
 
-TRANSFER_PATH=complementos-apps/tmp
+HOME_PATH=complementos-apps
+TRANSFER_PATH=$HOME_PATH/tmp
+DEMO_ENV=$HOME_PATH/env
 DEPLOY_TARGET_PATH=/servers/metamac/tomcats/metamac01/webapps
 
 RESTART=1
@@ -22,6 +24,10 @@ ssh deploy@estadisticas.arte-consultores.com <<EOF
     sudo mv $TRANSFER_PATH/complementos-apps.war $DEPLOY_TARGET_PATH/complementos-apps.war
     sudo unzip $DEPLOY_TARGET_PATH/complementos-apps.war -d $DEPLOY_TARGET_PATH/complementos-apps
     sudo rm -rf $DEPLOY_TARGET_PATH/complementos-apps.war
+    
+    # Restore Configuration
+    sudo rm -f $DEPLOY_TARGET_PATH/complementos-apps/WEB-INF/classes/application.properties
+    sudo cp $DEMO_ENV/application.properties $DEPLOY_TARGET_PATH/complementos-apps/WEB-INF/classes/
 
     if [ $RESTART -eq 1 ]; then
         sudo chown -R metamac.metamac /servers/metamac
