@@ -1,14 +1,8 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
-<web-app 
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="complementos-apps" version="2.5"
+    xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://java.sun.com/xml/ns/javaee"
-    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
-    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-    id="complementos-apps"
-    version="2.5">
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
   	<servlet>
 		<servlet-name>apis-styles</servlet-name>
@@ -21,19 +15,19 @@
 
 	<servlet>
 		<servlet-name>apps-footer</servlet-name>
-		<jsp-file>/apps/footer.jsp</jsp-file>
+		<jsp-file>/apps/footer/footer.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>apps-footer</servlet-name>
-		<url-pattern>/apps/footer.html</url-pattern>
+		<url-pattern>/apps/footer/footer.html</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>apps-navbar</servlet-name>
-		<jsp-file>/apps/navbar.jsp</jsp-file>
+		<jsp-file>/apps/navbar/navbar.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>apps-navbar</servlet-name>
-		<url-pattern>/apps/navbar.html</url-pattern>
+		<url-pattern>/apps/navbar/navbar.html</url-pattern>
 	</servlet-mapping>
 </web-app>
