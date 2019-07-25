@@ -454,11 +454,9 @@
                     <li class="nav-item pointer">
                         <a id="eleccionesLink" class="nav-link" href="<fmt:message key="sie.url"/>">ELECCIONES</a>
                     </li>
-                    <!--
                     <li class="nav-item pointer">
-                        <a class="nav-link" href="<fmt:message key="statistical_operations_external.url"/>">ATLAS</a>
+                        <a id="statisticalOperationsExternalLink" class="nav-link" href="<fmt:message key="statistical_operations_external.url"/>">INVENTARIO DE OPERACIONES ESTADÍSTICAS</a>
                     </li>
-                    -->
                 </ul>
             </div>
             <div class="hidden-xl-up">
