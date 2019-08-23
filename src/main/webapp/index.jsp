@@ -1,10 +1,8 @@
+<!doctype html>
 <%@ page pageEncoding="UTF-8" %>
 <%@ page contentType="text/html" %>
 <%@ taglib prefix="fmt"  uri="http://java.sun.com/jsp/jstl/fmt" %>
-
 <fmt:bundle basename="application">
-
-<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8">
