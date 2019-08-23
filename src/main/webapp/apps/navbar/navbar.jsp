@@ -5,6 +5,19 @@
 <fmt:bundle basename="application">
 <style>
     /* Bootstrap */
+    html {
+        min-height: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    body {
+        position: relative;
+        box-sizing: border-box;
+        min-height: 100%;
+        margin: 0;
+    }
+    
     .istac-navbar *,
     .istac-navbar *::before,
     .istac-navbar *::after {
@@ -316,8 +329,8 @@
     }
 
     @media (max-width: 1199px) {
-        .istac-navbar {
-            margin-bottom: 50px;
+        body {
+            padding-top: 50px;
         }
     }
 
@@ -344,8 +357,8 @@
     }
 
     @media (min-width: 1200px) {
-        .istac-navbar {
-            margin-bottom: 70px;
+        body {
+            padding-top: 70px;
         }
 
         .istac-navbar a.nav-link.active {

@@ -15,29 +15,14 @@
 
 		<%@include file="apps/navbar/navbar.jsp" %>
 		<style>
-			html, body {
+			body {
 				height: 100%;
 			}
-			
-			html, body, .main, .main * {
+			.main, .main * {
 				padding: 0;
 				margin: 0;
 				box-sizing: border-box;
 			}
-			
-			body {
-				position: relative;
-				margin: 0 !important;
-				padding: 0 0 170px;
-			}
-			
-			/* BEGIN - overriding navbar.jsp styles */
-			
-			.istac-navbar {
-				margin-bottom: 0 !important;
-			}
-			
-			/* END - overriding navbar.jsp styles */
 			
 			.main {
 				height: 100%;
@@ -118,7 +103,7 @@
 				</ul>
 			</div>
 		</div>
-		<%@include file="apps/footer/footer.jsp" %>
+		<%@include file="apps/footer/footer-complete.jsp" %>
 		
 	</body>
 </html>

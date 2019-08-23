@@ -23,6 +23,15 @@
 	</servlet-mapping>
 
 	<servlet>
+		<servlet-name>apps-footer-complete</servlet-name>
+		<jsp-file>/apps/footer/footer-complete.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>apps-footer-complete</servlet-name>
+		<url-pattern>/apps/footer/footer-complete.html</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
 		<servlet-name>apps-navbar</servlet-name>
 		<jsp-file>/apps/navbar/navbar.jsp</jsp-file>
 	</servlet>
