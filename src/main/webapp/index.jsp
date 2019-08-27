@@ -98,7 +98,7 @@
 						<a class="link-app sie-app" href="<fmt:message key="sie.url"/>">Elecciones</a>
 					</li>
 					<li class="list-app">
-						<a class="link-app indicadores-app" href="#">Indicadores</a>
+						<a class="link-app indicadores-app" href="<fmt:message key="indicators.url"/>">Indicadores</a>
 					</li>
 				</ul>
 			</div>
