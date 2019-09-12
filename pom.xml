@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>es.gobcan.istac.complementos-apps</groupId>
   <artifactId>complementos-apps</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
   <name>complementos-apps</name>
@@ -18,7 +17,7 @@
   <scm>
     <connection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</connection>
     <developerConnection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</developerConnection>
-    <tag>HEAD</tag>
+    <tag>20190912143121-v1.0.0</tag>
     <url>http://git.arte-consultores.com/istac/complementos-apps</url>
   </scm>
 
