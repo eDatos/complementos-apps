@@ -3,7 +3,7 @@
 
   <groupId>es.gobcan.istac.complementos-apps</groupId>
   <artifactId>complementos-apps</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>complementos-apps</name>
@@ -17,7 +17,7 @@
   <scm>
     <connection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</connection>
     <developerConnection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</developerConnection>
-    <tag>20190912143121-v1.0.0</tag>
+    <tag>HEAD</tag>
     <url>http://git.arte-consultores.com/istac/complementos-apps</url>
   </scm>
 
