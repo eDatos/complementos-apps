@@ -4,7 +4,6 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 
 <fmt:bundle basename="application">
-<link rel="stylesheet" href="./styles.css">
 <div id="contenido"> <!-- TODO: No se cierra. Debería cerrarse -->
 	<div id="cabecera">
 		<div id="cab_superior">
