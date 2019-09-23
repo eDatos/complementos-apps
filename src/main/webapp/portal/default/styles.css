@@ -8,19 +8,26 @@ a img                                        {border:none;}
 #cabecera #cab_superior 						{text-align: right; width:760px;}
 #cabecera #cab_superior ul 					{margin:7px 0 0 0; padding:0;}
 #cabecera #cab_superior ul li 					{display:inline;font-size:0.9em;list-style-type:none;padding:0 5px 0 0;}
-#cabecera #cab_superior ul li a					{color:#535353; text-decoration:none; margin-right:7px;}
+#cabecera #cab_superior ul li a					{color:#535353; text-decoration:none; padding-right: 2px; margin-right:1px; display: inline-block;}
 #cabecera #cab_superior ul li a:hover			{text-decoration:underline;}
+#cabecera #cab_superior ul li a img {
+	vertical-align: text-bottom;
+	float: none;
+	height: 14px;
+	width: 14px;
+}
+
 
 #cabecera #menu_contextual 					{background-color:#036;clear:both;float:left;height:22px;width:760px;}
 #cabecera #menu_contextual ul.menu 			{float:left; margin:0; padding:0 1px 0 1px;}
-#cabecera #menu_contextual ul.menu li 			{display:inline; margin-right:5px; text-transform:uppercase;}
+#cabecera #menu_contextual ul.menu li 			{display:inline; margin-right:2px; text-transform:uppercase;}
 #cabecera #menu_contextual ul.menu li a 			{color:#fff;float:left;font:0.9em Arial, Helvetica, sans-serif;margin-left:3px;padding:5px 21px 3px 22px;text-decoration:none;font-weight:bold;}
 #cabecera #menu_contextual ul.menu li a:hover 	{background-color:#3478B0;margin-left:3px;text-decoration:none;}
 #cabecera #menu_contextual ul.menu li.selec a 	{background-color:#3478B0;color:#fff;display:inline;float:left;font-weight:bold;text-decoration:none;}
 
 #cabecera #menu_contextual #formulario_google 						{float:right}
 #cabecera #menu_contextual #formulario_google .texto					{font:0.9em bold Arial, Helvetica, sans-serif; color:#ffffff;margin-top:1px;}
-#cabecera #menu_contextual #formulario_google .buscar					{border:#535353 1px solid; color:#535353; font:0.9em Arial, Helvetica, sans-serif; margin-top:1px; height:14px;width:108px;}
+#cabecera #menu_contextual #formulario_google .buscar					{border:#535353 1px solid; color:#535353; font:0.9em Arial, Helvetica, sans-serif; margin-top:1px; height:14px;width:108px; box-sizing: content-box;}
 #cabecera #menu_contextual #formulario_google .boton_busqueda			{font:0.9em bold Arial, Helvetica, sans-serif;	font-weight: bold; text-transform:uppercase;text-decoration:none;color:#ffffff;padding-right:3px; padding-top:3px;margin-right:3px}
 #cabecera #menu_contextual #formulario_google .boton_busqueda:hover	{background-color:#3478B0;text-decoration:none}
 #cabecera #menu_contextual #formulario_google INPUT.boton 				{margin: 0px 5px 0px 0px; BORDER-RIGHT: #036 1px solid;  BORDER-TOP: #036 1px solid; BORDER-LEFT: #036 1px solid; CURSOR: hand; COLOR:white; BORDER-BOTTOM: #036 1px solid; BACKGROUND-COLOR:#036; font:0.9em bold Arial, Helvetica, sans-serif; font-weight: bold; text-transform:uppercase; height:20px;}
@@ -142,6 +149,27 @@ a img                                        {border:none;}
 #migas ul li strong	 			{color:#000;}
 #migas ul li a 			 		{color:#535353;padding-right:5px;text-decoration:none;}
 #migas ul li a:hover 			{text-decoration:underline;}
+#migas p {
+	float: right;
+	padding: 9px 5px 0px 17px;
+	margin: 0px;
+}
+
+#migas p a img {
+	height: 14px;
+	width: 14px;
+}
+
+#migas .redes_sociales {
+	float: right;
+	margin-top: 7px;
+}
+
+#migas .redes_sociales a {
+	margin-left: 2px;
+	text-decoration: none;
+}
+
 /******************************************************* FIN MIGAS *****************************************************************************************/
 
 /*********************************************************** PIE  *********************************************************************************************/

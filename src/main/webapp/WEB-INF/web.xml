@@ -40,6 +40,15 @@
 		<url-pattern>/apps/navbar/navbar.html</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>portal-default-header</servlet-name>
+		<jsp-file>/portal/default/header.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>portal-default-header</servlet-name>
+		<url-pattern>/portal/default/header.html</url-pattern>
+	</servlet-mapping>
+	
 	<filter>
 		<filter-name>CorsFilter</filter-name>
 		<filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
