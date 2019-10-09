@@ -34,10 +34,6 @@
 							ISTAC</a>
 					</li>
 					<li>
-						<a href="/istac/webescolar/" class="inactive" accesskey="3"
-							title="Web escolar (tecla de acceso: 3)">Web escolar</a>
-					</li>
-					<li>
 						<a href="/istac/noticias/" class="inactive" accesskey="4"
 							title="Noticias (tecla de acceso: 4)">Noticias</a>
 					</li>
