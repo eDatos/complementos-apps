@@ -13,5 +13,10 @@
         <from>/resources/libs/highmaps/latest(.*)$</from>
         <to type="redirect">%{context-path}/resources/libs/highmaps/v7.1.2$1</to>
     </rule>
+    
+    <rule>
+        <from>/resources/libs/highcharts-editor/latest(.*)$</from>
+        <to type="redirect">%{context-path}/resources/libs/highcharts-editor/v0.3.0$1</to>
+    </rule>
 
 </urlrewrite>
