@@ -103,6 +103,10 @@
         display: block;
         padding: 0.5em 1em;
     }
+    .istac-navbar .nav-link .border {
+	    border: 1px solid #8CD2EA;
+	    padding: 2px;
+    }
 
     .istac-navbar .nav-link:focus,
     .istac-navbar .nav-link:hover {
@@ -166,12 +170,12 @@
     }
 
     .istac-navbar .navbar-inverse .navbar-nav .nav-link {
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.75);
     }
 
     .istac-navbar .navbar-inverse .navbar-nav .nav-link:focus,
     .istac-navbar .navbar-inverse .navbar-nav .nav-link:hover {
-        color: rgba(255, 255, 255, 0.75);
+        color: white;
     }
 
     .istac-navbar .navbar-inverse .navbar-nav .nav-link.active {
@@ -465,10 +469,9 @@
             <div class="navbar-collapse collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item pointer">
-                        <a id="eleccionesLink" class="nav-link" href="<fmt:message key="sie.url"/>">ELECCIONES</a>
-                    </li>
-                    <li class="nav-item pointer">
-                        <a id="statisticalOperationsExternalLink" class="nav-link" href="<fmt:message key="statistical_operations_external.url"/>">INVENTARIO DE OPERACIONES ESTADÍSTICAS</a>
+                        <a class="nav-link" href="<fmt:message key="complementos_apps.url"/>">
+                        	<span class="border">INICIO</span>
+                       	</a>
                     </li>
                 </ul>
             </div>

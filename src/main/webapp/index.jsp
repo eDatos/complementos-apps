@@ -49,7 +49,7 @@
 				display: block;
 			}
 			
-			.main .list-apps{
+			.main .list-apps {
 				list-style: none;
 				display: flex;
 				justify-content: center;
@@ -61,8 +61,34 @@
 				max-width: 400px;
 				min-width: 300px;
 				height: 200px;
+				margin: 10px;
 				padding: 10px;
 				flex: 1;
+				background-color: #dadada;
+				
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			.list-app.sie-app {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/vote.jpg");
+			}
+			
+			.list-app.indicadores-app {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/indicators.jpg");
+			}
+			
+			.list-app.operaciones-estadisticas-app {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/statistics-operations.jpg");
+			}
+			
+			.list-app.estadistica-geoespacial-app {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/geospatial-statistics.jpg");
+			}
+			
+			.list-app.apis-app {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/apis.jpg");
 			}
 			
 			.main .link-app {
@@ -75,18 +101,6 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: center;
-			}
-			
-			.main .link-app.sie-app {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/vote.jpg");
-			}
-			
-			.main .link-app.indicadores-app {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/indicators.jpg");
 			}
 
 		</style>
@@ -94,11 +108,23 @@
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps">
-					<li class="list-app">
-						<a class="link-app sie-app" href="<fmt:message key="sie.url"/>">Elecciones</a>
+					<li class="list-app sie-app">
+						<a class="link-app" href="<fmt:message key="sie.url"/>">Elecciones</a>
 					</li>
-					<li class="list-app">
-						<a class="link-app indicadores-app" href="<fmt:message key="indicators.url"/>">Indicadores</a>
+					<li class="list-app indicadores-app">
+						<a class="link-app" href="<fmt:message key="indicators.url"/>">Indicadores</a>
+					</li>
+					<li class="list-app operaciones-estadisticas-app">
+						<a class="link-app " href="<fmt:message key="indicators.url"/>">Operaciones Estadísticas</a>
+					</li>
+					<li class="list-app estadistica-geoespacial-app">
+						<a class="link-app" href="<fmt:message key="indicators.url"/>">Estadística geoespacial</a>
+					</li>
+					<li class="list-app datos-abiertos-app">
+						<a class="link-app" href="<fmt:message key="indicators.url"/>">Catálogo de datos abiertos</a>
+					</li>
+					<li class="list-app apis-app">
+						<a class="link-app" href="<fmt:message key="indicators.url"/>">Catálogo de APIS</a>
 					</li>
 				</ul>
 			</div>
