@@ -58,12 +58,10 @@
 			}
 			
 			.main .list-apps .list-app {
-				max-width: 400px;
-				min-width: 300px;
+				width: 300px;
 				height: 200px;
 				margin: 10px;
 				padding: 10px;
-				flex: 1;
 				background-color: #dadada;
 				
 				background-size: cover;
@@ -91,6 +89,10 @@
 				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/apis.jpg");
 			}
 			
+			.list-app.datos-abiertos-app {
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("<fmt:message key="complementos_apps.url"/>/assets/img/open-data.jpg");
+			}
+			
 			.main .link-app {
 				width: 100%;
 				height: 100%;
@@ -111,20 +113,22 @@
 					<li class="list-app sie-app">
 						<a class="link-app" href="<fmt:message key="sie.url"/>">Elecciones</a>
 					</li>
-					<li class="list-app indicadores-app">
-						<a class="link-app" href="<fmt:message key="indicators.url"/>">Indicadores</a>
-					</li>
+
 					<li class="list-app operaciones-estadisticas-app">
-						<a class="link-app " href="<fmt:message key="indicators.url"/>">Operaciones Estadísticas</a>
+						<a class="link-app " href="<fmt:message key="operaciones_estadisticas.url"/>">Operaciones Estadísticas</a>
 					</li>
+
+					<!--
 					<li class="list-app estadistica-geoespacial-app">
 						<a class="link-app" href="<fmt:message key="indicators.url"/>">Estadística geoespacial</a>
 					</li>
+					-->
+
 					<li class="list-app datos-abiertos-app">
-						<a class="link-app" href="<fmt:message key="indicators.url"/>">Catálogo de datos abiertos</a>
+						<a class="link-app" href="<fmt:message key="datos_abiertos.url"/>">Catálogo de datos abiertos</a>
 					</li>
 					<li class="list-app apis-app">
-						<a class="link-app" href="<fmt:message key="indicators.url"/>">Catálogo de APIS</a>
+						<a class="link-app" href="<fmt:message key="catalogo_apis.url"/>">Catálogo de APIS</a>
 					</li>
 				</ul>
 			</div>
