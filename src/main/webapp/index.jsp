@@ -16,7 +16,9 @@
 		<%@include file="apps/navbar/navbar.jsp" %>
 		<style>
 			body {
-				height: 100%;
+				min-height: 100%;
+				display: flex;
+				flex-direction: column;
 			}
 			.main, .main * {
 				padding: 0;
@@ -25,12 +27,15 @@
 			}
 			
 			.main {
-				height: 100%;
+				min-height: 100%;
 				width: 100%;
 				display: flex;
 				align-items: center;
 				font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 				font-weight: 300;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				flex: 1;
 			}
 			
 			.main a {
