@@ -11,9 +11,6 @@
 		<link rel="icon" href="<fmt:message key="complementos_apps.url"/>/assets/img/favicon.ico" type="image/x-icon" />
 	</head>
 	<body>
-		
-
-		<%@include file="apps/navbar/navbar.jsp" %>
 		<style>
 			body {
 				min-height: 100%;
@@ -112,6 +109,7 @@
 
 		</style>
 
+		<%@include file="apps/navbar/navbar.jsp" %>
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps">

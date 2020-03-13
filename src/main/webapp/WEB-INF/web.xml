@@ -66,6 +66,17 @@
         <servlet-name>portal-default-header</servlet-name>
         <url-pattern>/portal/default/header.html</url-pattern>
     </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>apis-index</servlet-name>
+        <jsp-file>/apis.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>apis-index</servlet-name>
+        <url-pattern>/apis.html</url-pattern>
+    </servlet-mapping>
+    
 
     <filter>
         <filter-name>UrlRewriteFilter</filter-name>
