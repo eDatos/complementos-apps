@@ -6,7 +6,7 @@
 <%@include file="../apps/navbar/navbar.jsp" %>
 
 <div id="title-bar">
-	<a href="https://www.gobiernodecanarias.org/aplicaciones/appsistac/apis/">
+	<a href="https://www.gobiernodecanarias.org/aplicaciones/appsistac/apis">
 		<h1>
 			<i class="fa fa-istac-home"></i>
 			<span>Catálogo API de eDatos</span>

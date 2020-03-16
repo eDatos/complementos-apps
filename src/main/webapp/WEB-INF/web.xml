@@ -76,6 +76,10 @@
         <servlet-name>apis-index</servlet-name>
         <url-pattern>/apis.html</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>apis-index</servlet-name>
+        <url-pattern>/apis</url-pattern>
+    </servlet-mapping>
     
 
     <filter>

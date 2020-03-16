@@ -138,33 +138,43 @@
 			</li>
 			
 			<li class="apis-item">
-				<h2><a href="http://www.gobiernodecanarias.org/istac/api/structural-resources" alt="API de recursos estructurales">API de recursos estructurales</a></h2>
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/structural-resources" alt="API de recursos estructurales">API de recursos estructurales</a></h2>
 				<p>Los recursos estructurales son aquellos que sirven de apoyo para normalizar a los recursos estadísticos que se produce. Los principales recursos estructurales existente son los esquemas de organizaciones, esquemas de temas, esquemas de conceptos, clasificaciones y definiciones de estructuras de datos. Esta API permite consultar el inventario completo de los recursos estructurales que maneja la organización.</p>
 			</li>
 			
 			<li class="apis-item">
-				<h2><a href="http://www.gobiernodecanarias.org/istac/api/structural-resources" alt="API de recursos estructurales">API de recursos estructurales</a></h2>
-				<p>Los recursos estructurales son aquellos que sirven de apoyo para normalizar a los recursos estadísticos que se produce. Los principales recursos estructurales existente son los esquemas de organizaciones, esquemas de temas, esquemas de conceptos, clasificaciones y definiciones de estructuras de datos. Esta API permite consultar el inventario completo de los recursos estructurales que maneja la organización.</p>
-			</li>
-			
-			<li class="apis-item">
-				<h2><a href="http://www.gobiernodecanarias.org/istac/api/cmetadata" alt="API de metadatos comunes">API de metadatos comunes</a></h2>
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/cmetadata" alt="API de metadatos comunes">API de metadatos comunes</a></h2>
 				<p>Existen determinados metadatos que siempre toman el mismo valor para todos los recursos que son publicados por una organización en concreto. Ejemplos de este tipo de metadatos son: los datos de contacto de la organización, la descripción de la organización o la licencia que aplica la organización a los datos que publican. Para evitar definir en cada uno de los recursos el valor que toman estos metadatos (que como hemos dicho siempre es el mismo en la misma organización), se definen las configuraciones de metadatos comunes. Cada organización podrá tener su propia configuración de metadatos y esto nos permite que el mantenimiento de este tipo de documentación sea sencilla y poco propicia a errores.</p>
 			</li>
 			
 			<li class="apis-item">
-				<h2><a href="http://www.gobiernodecanarias.org/istac/api/statistical-resources" alt="API de recursos estadísticos (beta)">API de recursos estadísticos</a></h2>
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/statistical-resources" alt="API de recursos estadísticos (beta)">API de recursos estadísticos</a></h2>
 				<p>Los recursos de información estadística son los productos que se obtienen de una operación estadística. El objetivo de esta API es facilitar la consulta de todos los recursos estadísticos almacenados en eDatos: cubos o tablas estadísticas, publicaciones o colecciones de tablas, consultas a cubos estadísticos.</p>
 			</li>
 			
 			<li class="apis-item">
-				<h2><a href="http://www.gobiernodecanarias.org/istac/api/indicators" alt="API de indicadores">API de indicadores</a></h2>
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/indicators" alt="API de indicadores">API de indicadores</a></h2>
 				<p>Un indicador es una medida de la intensidad de un fenómeno en el espacio-tiempo. Esa medida tiene datos de distintas granularidades espaciales (por ejemplo: islas y municipios), o de distintas unidades temporales (por ejemplo: años y meses). Un solo indicador rara vez puede proporcionar información útil acerca de fenómenos complejos tales como la coyuntura económica, las condiciones de vida o la escolarización entre tantos otros. Los sistemas de indicadores están diseñados para aportar información más precisa sobre un fenómeno, y para ello se organizan en dimensiones o áreas de análisis, bajo las que se integran los indicadores. El objetivo de esta API es permitir el acceso a datos y metadatos de: Sistemas de indicadores, indicadores e instancias de indicadores.</p>
 			</li>
 			
 			<li class="apis-item">
-				<h2><a href="http://www.gobiernodecanarias.org/istac/api/callejero" alt="ISTAC API Gazetteer">ISTAC API Gazetteer (Callejero)</a></h2>
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/callejero" alt="ISTAC API Gazetteer">ISTAC API Gazetteer (Callejero)</a></h2>
 				<p>La api Gazetteer (Callejero) ofrece el servicio de diccionario geográfico basándose en los diferentes municipios de las Islas Canarias. Obteniendo, si así se desea, la información de salida tanto en formato json como xml. Para obtener un formato u otro se realizará mediante la inclusión de la cabecera "Accept" en la llamada, cuyos valores pueden ser application/json o application/xml; o bien indicándolo en la propia url mediante el uso de ".format". Como por ejemplo: <a href="https://www3.gobiernodecanarias.org/istac/api/callejero/v1.0/municipalities.json">http://[...]/municipalities.json</a> / <a href="https://www3.gobiernodecanarias.org/istac/api/callejero/v1.0/municipalities.xml">http://[...]/municipalities.xml</a></p>
+			</li>
+			
+			<li class="apis-item">
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/permalinks" alt="API de permalinks">APIs de Permalinks</a></h2>
+				<p>Los permalinks son enlaces permanentes que se generan para asegurarnos que una URL va a ser accesible a lo largo del tiempo.</p>
+			</li>
+			
+			<li class="apis-item">
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/export" alt="APIs de Exportaciones">APIs de Exportaciones</a></h2>
+				<p>Realizar exportaciones de los recursos estadísticos resulta una tarea común y de gran utilidad para poder tratar en el día a día con los datos manejados por el organismo. Esta API nos provee la funcionalidad necesaria para poder exportar los recursos estadísticos en diferentes formatos.</p>
+			</li>
+			
+			<li class="apis-item">
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/registry" alt="APIs de Registro SDMX">APIs de Registro SDMX</a></h2>
+				<p></p>	
 			</li>
 		</ul>
 	</div>
