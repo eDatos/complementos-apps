@@ -165,6 +165,7 @@
         box-sizing: border-box;
         font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         line-height: 1.05;
+        left: 0;
     }
 
     footer.istac-footer .footer-content {
