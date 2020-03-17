@@ -120,15 +120,7 @@
 		/* END TITLE BAR */
 	</style>
 	
-	<%@include file="apps/navbar/navbar.jsp" %>
-	<div id="title-bar">
-		<a href="https://www.gobiernodecanarias.org/aplicaciones/appsistac/apis/">
-			<h1>
-				<i class="fa fa-istac-home"></i>
-				<span>Catálogo API de eDatos</span>
-			</h1>
-		</a>
-	</div>
+	<%@include file="apis/header.jsp" %>
 	
 	<div class="apis">
 		<ul class="apis-list">
@@ -159,7 +151,7 @@
 			
 			<li class="apis-item">
 				<h2><a href="<fmt:message key="istac_apis_base.url"/>/callejero" alt="ISTAC API Gazetteer">ISTAC API Gazetteer (Callejero)</a></h2>
-				<p>La api Gazetteer (Callejero) ofrece el servicio de diccionario geográfico basándose en los diferentes municipios de las Islas Canarias. Obteniendo, si así se desea, la información de salida tanto en formato json como xml. Para obtener un formato u otro se realizará mediante la inclusión de la cabecera "Accept" en la llamada, cuyos valores pueden ser application/json o application/xml; o bien indicándolo en la propia url mediante el uso de ".format". Como por ejemplo: <a href="https://www3.gobiernodecanarias.org/istac/api/callejero/v1.0/municipalities.json">http://[...]/municipalities.json</a> / <a href="https://www3.gobiernodecanarias.org/istac/api/callejero/v1.0/municipalities.xml">http://[...]/municipalities.xml</a></p>
+				<p>La api Gazetteer (Callejero) ofrece el servicio de diccionario geográfico basándose en los diferentes municipios de las Islas Canarias. Obteniendo, si así se desea, la información de salida tanto en formato json como xml. Para obtener un formato u otro se realizará mediante la inclusión de la cabecera "Accept" en la llamada, cuyos valores pueden ser application/json o application/xml; o bien indicándolo en la propia url mediante el uso de ".format". Como por ejemplo: <a href="<fmt:message key="istac_apis_base.url"/>/callejero/v1.0/municipalities.json">http://[...]/municipalities.json</a> / <a href="<fmt:message key="istac_apis_base.url"/>/callejero/v1.0/municipalities.xml">http://[...]/municipalities.xml</a></p>
 			</li>
 			
 			<li class="apis-item">
