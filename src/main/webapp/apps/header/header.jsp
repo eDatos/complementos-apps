@@ -4,6 +4,7 @@
 <%@ page import="java.util.Map" %>
 
 <fmt:bundle basename="application">
+
 <%
     Map params = request.getParameterMap();
     boolean includeTileBar = params.containsKey("appName");
@@ -13,7 +14,7 @@
 
 <%@include file="./styles.jsp" %>
 
-<script src="<fmt:message key="complementos_apps.url"/>/apps/navbar/navbar.js"></script>
+<script src="<fmt:message key="complementos_apps.url"/>/apps/header/header.js"></script>
 <script>
     var NAVBAR_ID = "istacNavbarId";
 

@@ -50,11 +50,15 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>apps-navbar</servlet-name>
-        <jsp-file>/apps/navbar/navbar.jsp</jsp-file>
+        <servlet-name>apps-header</servlet-name>
+        <jsp-file>/apps/header/header.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>apps-navbar</servlet-name>
+        <servlet-name>apps-header</servlet-name>
+        <url-pattern>/apps/header/header.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping><!-- TODO EDATOS-3128 Keep until metadata value changes -->
+        <servlet-name>apps-header</servlet-name>
         <url-pattern>/apps/navbar/navbar.html</url-pattern>
     </servlet-mapping>
 
