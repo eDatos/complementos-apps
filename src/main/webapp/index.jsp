@@ -109,7 +109,7 @@
 
 		</style>
 
-		<%@include file="apps/navbar/navbar.jsp" %>
+		<jsp:include page="apps/navbar/navbar.jsp"></jsp:include>
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps">
