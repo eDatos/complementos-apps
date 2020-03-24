@@ -109,7 +109,7 @@
 
 		</style>
 
-		<jsp:include page="apps/navbar/navbar.jsp"></jsp:include>
+		<jsp:include page="apps/header/header.jsp"></jsp:include>
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps">

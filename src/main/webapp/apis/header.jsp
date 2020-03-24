@@ -3,15 +3,12 @@
 <%@ taglib prefix="fmt"  uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <fmt:bundle basename="application">
-<%@include file="../apps/navbar/navbar.jsp" %>
+	<% request.setCharacterEncoding("utf-8"); %>
+	<fmt:message key="complementos_apps.url" var="insertTranslation" />
+	<jsp:include page="/apps/header/header.jsp">
+		<jsp:param name="appName" value="Catálogo API de eDatos" />
+		<jsp:param name="appUrl" value="${insertTranslation}/apis" />
+	</jsp:include>
 
-<div id="title-bar">
-	<a href="<fmt:message key="complementos_apps.url"/>/apis">
-		<h1>
-			<i class="fa fa-istac-home"></i>
-			<span>Catálogo API de eDatos</span>
-		</h1>
-	</a>
-</div>
-<div class="content-wrapper">
+	<div class="content-wrapper">
 </fmt:bundle>
