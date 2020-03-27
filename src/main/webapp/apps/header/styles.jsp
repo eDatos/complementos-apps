@@ -87,6 +87,10 @@
         justify-content: space-between !important;
     }
 
+    .istac-navbar .align-items-center {
+        align-items: center;
+    }
+
     .istac-navbar .fixed-top {
         position: fixed;
         top: 0;
@@ -360,7 +364,7 @@
     }
 
     .istac-navbar ul.navbar-nav .nav-item:last-child {
-        margin-right: 36px;
+        margin-right: 15px;
     }
 
     .istac-navbar a.nav-link {
@@ -428,6 +432,10 @@
         .istac-navbar .navbar-brand.logo,
         .istac-navbar .istac-navbar-toggler {
             padding: 10px 36px 10px 36px;
+        }
+
+        .istac-navbar ul.navbar-nav .nav-item:last-child {
+            margin-right: 36px;
         }
     }
 

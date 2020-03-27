@@ -78,11 +78,11 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>apis-index</servlet-name>
-        <url-pattern>/apis.html</url-pattern>
+        <url-pattern>/api.html</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>apis-index</servlet-name>
-        <url-pattern>/apis</url-pattern>
+        <url-pattern>/api</url-pattern>
     </servlet-mapping>
     
 

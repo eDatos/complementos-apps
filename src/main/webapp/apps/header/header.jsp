@@ -44,8 +44,8 @@
                     <img class="logo-img" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAXEgAAFxIBZ5/SUgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANdSURBVGiB7Zrdi1VVGIeffUYbcpzRFM1C0pIxEDScwkAh+vAuKYiKIJJklC4iCm8CiegP6AMhECoDTYI+oItIiKAbSYIJG8twJCzI/NbIoiwd5+liOXpanjOz9p69Z9/MA+du7fd92Gudtfb+nZNREmovsAq4C1gJzAduuPwB+As4DfwMDAEDwJdZlp0oyyFFcon6kvq9xflW3awuqFJ0mbpTHZ6AaMyFyzVvL1N0nrpLvVSiaMxF9Q21e6Kyj6qnKhSN+VV9oIhoh7ptEkWbGVZfVrNU2S7105pkm3lPnT6e7Az1q5pFm/lYbXS0WwbAR8DavEuoQpYBJ1uuDfVN4NmChc8De4FBwiHxB5ABPUAv0AfcDYw9xa0ZbCW7ruCU7VEfV7vG66r2qP3qgZw9zseF5qrHchY5YJHthys70Eb1aGKv43GBhepr6onEAlvV64rIRn171M8S+m1vV2C6+pD6ieHIjLmkPjNR0ahnh/r6GLJn1FtSCs1TX1D3N128qUzZqN8G9bdIdr+6HMK3N0+xPmB5lmU7KrG92qcLuAeYC/wIDGRZNlJlzymmmKId6geGV5O1pj531ok61LTfHVRfVG+u26stLTbp0ZPsC3W9OqNux/+h/jvGcah6Vl1Tt+cojYQxc4CFVYuk0gD+TBg3q2qRVBrAuYRxt1UtkkoDOJwwbmXVIqk0gEMJ49aonVXLpNAA9iWM6wLWVeyShrponG1tlD11u15BPZQo/XDdrgAY8qsUfrCEl84yhG81PUJ9axJ8utUH1afV1eq1B5whu0rluQpl+9Xfo37fqSvigX3qSKLwsPp8yaIdhiC7HWfURfFFu3LcZdW3LSdImaXuTuj3bnzhAq+djvEYUh8pKJqpj6lHEnsdb1XkyZzCo+xVn1CvTxCdrW5SB3P2+Ltd3PoO0F/krgH/AF8TotHDhLi1QYhblxKeS1YB0wrU3tdOuBPYDdxfoGiVtM/zDIniQMHlUQUf2mo/jqRnqp/XLKrhrT5tCamd6vaaRIfVLRaJH9Sn1HOTKPuLem9u0Uj6JvX9ikUvqK+qMyckG4nfYXU/jveWJtpCfIn6iunP0zEj6jeGhP/GlJ6lZWnqYuA+4E7CAbGYkKB3AyOEOOEs8BNwkKt/8DiVp89/XpCDXdMBfi0AAAAASUVORK5CYII=" alt="Logo pequeño del ISTAC" />
                 </a>
             </div>
-            <div class="d-flex justify-content-end">
-                <div class="navbar-collapse collapse" id="navbarResponsive">
+            <div class="d-flex justify-content-end align-items-center">
+                <div>
                     <ul class="navbar-nav">
                         <li class="nav-item pointer">
                             <a class="nav-link" href="<fmt:message key="complementos_apps.url"/>">
@@ -53,12 +53,6 @@
                             </a>
                         </li>
                     </ul>
-                </div>
-                <div class="hidden-xl-up">
-                    <a class="istac-navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                       aria-label="Toggle navigation">
-                        <i class="fa fa-bars"></i>
-                    </a>
                 </div>
             </div>
         </nav>
