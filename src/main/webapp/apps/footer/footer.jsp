@@ -212,7 +212,7 @@
                 <a target="_blank" href="http://www.gobiernodecanarias.org/istac/politica-privacidad.html">Política de privacidad</a>
                 <a target="_blank" href="http://www.gobiernodecanarias.org/principal/sugrec/">Sugerencias y relamaciones</a>
                 <a target="_blank" href="http://www.gobiernodecanarias.org/istac/servicios/atencion.html">Consultas</a>
-                <a target="_blank" href="http://www.gobiernodecanarias.org/istac/api/">Cat&#225;logo API</a>
+                <a target="_blank" href="http://www.gobiernodecanarias.org/istac/api/">Catálogo de API abiertas</a>
             </div>
         </div>
         
