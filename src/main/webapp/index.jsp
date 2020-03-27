@@ -43,6 +43,9 @@
 				list-style: none;
 				padding: 0;
 			}
+			.list-apps .list-app {
+				max-width: 350px;
+			}
 
 			.list-app .app-image {
 				background-size: cover;
@@ -88,7 +91,7 @@
 		<jsp:include page="apps/header/header.jsp"></jsp:include>
 		<div class="main">
 			<div class="container">
-				<ul class="list-apps row">
+				<ul class="list-apps row justify-content-center">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app sie-app">
 						<a class="link-app" href="<fmt:message key="sie.url"/>">
 							<div class="app-image"></div>

@@ -170,12 +170,12 @@
 
     footer.istac-footer .footer-content {
         width: 100%;
-        padding: 10px 36px;
+        padding: 10px 15px;
         background-color: #59656E;
         min-height: 170px;
 
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
         row-gap: 20px;
     }
 
@@ -205,6 +205,10 @@
     }
 
     @media (min-width: 712px) {
+        footer.istac-footer .footer-content {
+            padding-left: 36px;
+            padding-right: 36px;
+        }
         footer.istac-footer .istac-contact {
             border-right: white solid 2px;
         }
@@ -372,8 +376,9 @@
 
         <div class="flex-container-vertical istac-links">
             <div class="flex-container-vertical istac-links-wrapper">
-                <a target="_blank" href="http://www.gobiernodecanarias.org/principal/sugrec/">Sugerencias y relamaciones</a>
                 <a target="_blank" href="http://www.gobiernodecanarias.org/istac/aviso_legal.html">Aviso Legal</a>
+                <a target="_blank" href="http://www.gobiernodecanarias.org/istac/politica-privacidad.html">Política de privacidad</a>
+                <a target="_blank" href="http://www.gobiernodecanarias.org/principal/sugrec/">Sugerencias y relamaciones</a>
                 <a target="_blank" href="http://www.gobiernodecanarias.org/istac/servicios/atencion.html">Consultas</a>
                 <a target="_blank" href="http://www.gobiernodecanarias.org/istac/api/">Cat&#225;logo API</a>
             </div>
