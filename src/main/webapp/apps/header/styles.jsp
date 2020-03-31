@@ -455,7 +455,7 @@
     /* TITLE BAR */
     .istac-title-bar {
         border-bottom: 2px solid #59656e;
-        padding: 15px 36px;
+        padding: 15px;
         background-color: #fff;
         display: flex;
         flex-direction: row;
@@ -502,6 +502,13 @@
     @media (min-width: 430px) {
         .istac-title-bar .istac-app-header-title {
             padding-right: 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .istac-title-bar {
+            padding-left: 36px;
+            padding-right: 36px;
         }
     }
 
