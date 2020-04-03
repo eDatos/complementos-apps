@@ -88,7 +88,9 @@
 
 		</style>
 
-		<jsp:include page="apps/header/header.jsp"></jsp:include>
+		<jsp:include page="apps/header/header.jsp">
+			<jsp:param name="appName" value="Inventario de aplicaciones" />
+		</jsp:include>
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps row justify-content-center">
