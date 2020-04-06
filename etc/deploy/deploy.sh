@@ -16,6 +16,9 @@ scp -o ProxyCommand="ssh -W %h:%p deploy@estadisticas.arte-consultores.com" -r t
 
 ssh -o ProxyCommand="ssh -W %h:%p deploy@estadisticas.arte-consultores.com" deploy@192.168.10.16 <<EOF
 
+    chmod a+x $TRANSFER_PATH/deploy/*.sh;
+    . $TRANSFER_PATH/deploy/utilities.sh
+
     ###
     # COMPLEMENTOS-APPS-INTERNAL
     ###
@@ -27,7 +30,7 @@ ssh -o ProxyCommand="ssh -W %h:%p deploy@estadisticas.arte-consultores.com" depl
 
     # Update Process
     sudo rm -rf $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps
-    sudo mv $TRANSFER_PATH/complementos-apps.war $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war
+    sudo cp $TRANSFER_PATH/complementos-apps.war $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war
     sudo unzip $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war -d $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps
     sudo rm -rf $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war
     
