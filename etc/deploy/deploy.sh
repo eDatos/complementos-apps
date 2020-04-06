@@ -12,9 +12,9 @@ if [ "$1" == "--no-restart" ]; then
     RESTART=0
 fi
 
-scp -r target/complementos-apps-*.war deploy@estadisticas.arte-consultores.com:$TRANSFER_PATH/complementos-apps.war
+scp -o ProxyCommand="ssh -W %h:%p deploy@estadisticas.arte-consultores.com" -r target/complementos-apps-*.war deploy@192.168.10.16:$TRANSFER_PATH/complementos-apps.war
 
-ssh deploy@estadisticas.arte-consultores.com <<EOF
+ssh -o ProxyCommand="ssh -W %h:%p deploy@estadisticas.arte-consultores.com" deploy@192.168.10.16 <<EOF
 
     ###
     # COMPLEMENTOS-APPS-INTERNAL
