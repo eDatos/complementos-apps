@@ -6,7 +6,7 @@
 	<% request.setCharacterEncoding("utf-8"); %>
 	<fmt:message key="complementos_apps.url" var="insertTranslation" />
 	<jsp:include page="/apps/header/header.jsp">
-		<jsp:param name="appName" value="Catálogo API de eDatos" />
+		<jsp:param name="appName" value="Catálogo de API abiertas" />
 		<jsp:param name="appUrl" value="${insertTranslation}/api" />
 	</jsp:include>
 
