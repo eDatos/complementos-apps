@@ -22,7 +22,7 @@
     
     <servlet>
         <servlet-name>apis-footer</servlet-name>
-        <jsp-file>/apps/footer/footer-complete.jsp</jsp-file>
+        <jsp-file>/apps/footer/footer.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>apis-footer</servlet-name>
@@ -56,10 +56,6 @@
     <servlet-mapping>
         <servlet-name>apps-header</servlet-name>
         <url-pattern>/apps/header/header.html</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping><!-- TODO EDATOS-3128 Keep until metadata value changes -->
-        <servlet-name>apps-header</servlet-name>
-        <url-pattern>/apps/navbar/navbar.html</url-pattern>
     </servlet-mapping>
 
     <servlet>
