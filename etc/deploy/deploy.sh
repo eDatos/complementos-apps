@@ -30,14 +30,14 @@ ssh -o ProxyCommand="ssh -W %h:%p deploy@estadisticas.arte-consultores.com" depl
     fi
 
     # Update Process
-    sudo rm -rf $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps
+    sudo rm -rf $DEPLOY_TARGET_PATH_INTERNAL/apps-internal
     sudo cp $TRANSFER_PATH/complementos-apps.war $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war
-    sudo unzip $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war -d $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps
+    sudo unzip $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war -d $DEPLOY_TARGET_PATH_INTERNAL/apps-internal
     sudo rm -rf $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps.war
     
     # Restore Configuration
-    sudo rm -f $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps/$ENVIRONMENT_RELATIVE_PATH_FILE
-    sudo cp $DEMO_ENV/application_internal.properties $DEPLOY_TARGET_PATH_INTERNAL/complementos-apps/$ENVIRONMENT_RELATIVE_PATH_FILE
+    sudo rm -f $DEPLOY_TARGET_PATH_INTERNAL/apps-internal/$ENVIRONMENT_RELATIVE_PATH_FILE
+    sudo cp $DEMO_ENV/application_internal.properties $DEPLOY_TARGET_PATH_INTERNAL/apps-internal/$ENVIRONMENT_RELATIVE_PATH_FILE
 
     if [ $RESTART -eq 1 ]; then
         sudo chown -R edatos-internal.edatos-internal /servers/edatos-internal     
@@ -54,14 +54,14 @@ ssh -o ProxyCommand="ssh -W %h:%p deploy@estadisticas.arte-consultores.com" depl
     fi
 
     # Update Process
-    sudo rm -rf $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps
+    sudo rm -rf $DEPLOY_TARGET_PATH_EXTERNAL/apps
     sudo mv $TRANSFER_PATH/complementos-apps.war $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps.war
-    sudo unzip $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps.war -d $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps
+    sudo unzip $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps.war -d $DEPLOY_TARGET_PATH_EXTERNAL/apps
     sudo rm -rf $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps.war
     
     # Restore Configuration
-    sudo rm -f $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps/$ENVIRONMENT_RELATIVE_PATH_FILE
-    sudo cp $DEMO_ENV/application_external.properties $DEPLOY_TARGET_PATH_EXTERNAL/complementos-apps/$ENVIRONMENT_RELATIVE_PATH_FILE
+    sudo rm -f $DEPLOY_TARGET_PATH_EXTERNAL/apps/$ENVIRONMENT_RELATIVE_PATH_FILE
+    sudo cp $DEMO_ENV/application_external.properties $DEPLOY_TARGET_PATH_EXTERNAL/apps/$ENVIRONMENT_RELATIVE_PATH_FILE
 
     if [ $RESTART -eq 1 ]; then
         sudo chown -R edatos-external.edatos-external /servers/edatos-external        
