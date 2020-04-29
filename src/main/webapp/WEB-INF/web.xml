@@ -2,6 +2,7 @@
 <web-app id="complementos-apps" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
+    <!-- /apis -->
     <servlet>
         <servlet-name>apis-styles</servlet-name>
         <jsp-file>/apis/styles.jsp</jsp-file>
@@ -30,7 +31,7 @@
     </servlet-mapping>
     
     
-
+    <!-- /apps -->
     <servlet>
         <servlet-name>apps-footer</servlet-name>
         <jsp-file>/apps/footer/footer.jsp</jsp-file>
@@ -58,6 +59,7 @@
         <url-pattern>/apps/header/header.html</url-pattern>
     </servlet-mapping>
 
+    <!-- /portal -->
     <servlet>
         <servlet-name>portal-default-header</servlet-name>
         <jsp-file>/portal/default/header.jsp</jsp-file>
@@ -67,7 +69,7 @@
         <url-pattern>/portal/default/header.html</url-pattern>
     </servlet-mapping>
     
-    
+    <!-- /api -->
     <servlet>
         <servlet-name>apis-index</servlet-name>
         <jsp-file>/apis.jsp</jsp-file>

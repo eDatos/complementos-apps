@@ -12,12 +12,12 @@
 					<li><a href="https://sede.gobcan.es/hacienda/" target="" accesskey="e" title="Sede electrónica">Sede
 							electrónica</a></li>
 					<li>|</li>
-					<li><a href="/istac/servicios/atencion.html" accesskey="o"
+					<li><a href="<fmt:message key='web_istac_base.url' />/servicios/atencion.html" accesskey="o"
 							title="Contacte con nosotros (tecla de acceso: o)">Contacto</a></li>
 				</ul>
 			</div>
 			<!-- IMAGEN ISTAC -->
-			<h1><a href="/istac"
+			<h1><a href="<fmt:message key='web_istac_base.url' />"
 					title="Página principal del Instituto Canario de Estadística (ISTAC) - Opciones de accesibilidad (tecla de acceso: i)"
 					accesskey="i">Instituto Canario de Estadística</a></h1>
 
@@ -26,25 +26,25 @@
 			<div id="menu_contextual">
 				<ul class="menu">
 					<li>
-						<a href="/istac/temas_estadisticos/" class="inactive" accesskey="1"
+						<a href="<fmt:message key='web_istac_base.url' />/temas_estadisticos/" class="inactive" accesskey="1"
 							title="Estadísticas (tecla de acceso: 1)">Estadísticas</a>
 					</li>
 					<li>
-						<a href="/istac/istac/" class="inactive" accesskey="2" title="El ISTAC (tecla de acceso: 2)">El
+						<a href="<fmt:message key='web_istac_base.url' />/istac/" class="inactive" accesskey="2" title="El ISTAC (tecla de acceso: 2)">El
 							ISTAC</a>
 					</li>
 					<li>
-						<a href="/istac/noticias/" class="inactive" accesskey="4"
+						<a href="<fmt:message key='web_istac_base.url' />/noticias/" class="inactive" accesskey="4"
 							title="Noticias (tecla de acceso: 4)">Noticias</a>
 					</li>
 					<li>
-						<a href="/istac/datos-abiertos/" class="inactive" accesskey="5"
+						<a href="<fmt:message key='web_istac_base.url' />/datos-abiertos/" class="inactive" accesskey="5"
 							title="Datos abiertos (tecla de acceso: 5)">Datos abiertos</a>
 					</li>
 				</ul>
 
-				<!-- form name="gs" method="GET" action="http://www.gobiernodecanarias.org/istac/buscador/busca" -->
-				<form name="gs" method="GET" action="/istac/buscador/busca">
+				<!-- form name="gs" method="GET" action="<fmt:message key='web_istac_base.url' />/buscador/busca" -->
+				<form name="gs" method="GET" action="<fmt:message key='web_istac_base.url' />/buscador/busca">
 					<div id="formulario_google" style="padding-top: 1px;">
 						<input type="text" id="userQuery" name="userQuery" placeholder="texto de búsqueda"
 							class="buscar" value="">
@@ -70,12 +70,12 @@
 				</c:import>
 			</c:if>
 			<div class="redes_sociales">
-				<a href="http://www.gobiernodecanarias.org/istac/herramientas/rss.html" accesskey="r"
+				<a href="<fmt:message key='web_istac_base.url' />/herramientas/rss.html" accesskey="r"
 					title="Canales RSS (tecla de acceso: r)">
 					<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/rss_20x20.png"
 						title="Canales RSS (tecla de acceso: r)" alt="Canales RSS (tecla de acceso: r)">
 				</a>
-				<a href="http://www.gobiernodecanarias.org/istac/twitter" accesskey="t"
+				<a href="<fmt:message key='web_istac_base.url' />/twitter" accesskey="t"
 					title="Seguir a istac_es en Twitter (tecla de acceso: t)">
 					<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/twitter_20x20.png"
 						title="Seguir a istac_es en Twitter (tecla de acceso: t)" alt="Seguir a istac_es en Twitter (tecla
