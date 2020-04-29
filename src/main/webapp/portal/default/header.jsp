@@ -41,6 +41,10 @@
 						<a href="<fmt:message key='web_istac_base.url' />/datos-abiertos/" class="inactive" accesskey="5"
 							title="Datos abiertos (tecla de acceso: 5)">Datos abiertos</a>
 					</li>
+                    <li>
+                        <a href="<fmt:message key='web_istac_base.url' />/impacto-covid-19/" class="inactive" accesskey="6" 
+                        title="COVID-19 (tecla de acceso: 5)">COVID-19</a>
+                    </li>
 				</ul>
 
 				<!-- form name="gs" method="GET" action="<fmt:message key='web_istac_base.url' />/buscador/busca" -->
