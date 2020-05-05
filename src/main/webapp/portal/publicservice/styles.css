@@ -135,8 +135,8 @@ a img                                        {border:none;}
 /************************************************************ FIN FOTO CABECERA ****************************************************************************/
 
 /********************************************************* MIGAS *******************************************************************************************/
-#migas 						{background:url(../img/maqueta/borde_bajo_migas.gif) repeat-x left bottom;float:left;margin:0px;padding:0px 0px 7px;width:100%;}
-#migas p.txt 		 		{background:url(../img/auxis/flecha_amarilla.gif) no-repeat left 4px;color:#0058b0;float:left;font-size:1em;margin:0px; padding:9px 5px 0px 17px;}
+#migas 						{background:url(../../resources/images/borde_bajo_migas.gif) repeat-x left bottom;float:left;margin:0px;padding:0px 0px 7px;width:100%;}
+#migas p.txt 		 		{background:url(../../resources/images/flecha_amarilla.gif) no-repeat left 4px;color:#0058b0;float:left;font-size:1em;margin:0px; padding:9px 5px 0px 17px;}
 #migas ul 			 		{float:left; list-style-type:none; margin:0px; padding:9px 0px 0px 0px;}
 #migas ul li 			 		{color:#000000; display:inline; font-size:1em; margin-left:5px;}
 #migas ul li strong	 			{color:#000;}
@@ -156,7 +156,7 @@ a img                                        {border:none;}
 /********************************************************** FIN PIE  ******************************************************************************************/
 
 /********************************************************** LINEA DE PUNTOS ***********************************************************************************/
-#puntos 						{background:url(../img/maqueta/borde_bajo_migas.gif) repeat-x left bottom;float:left;margin:0px 0px 5px 0px;padding:0px;width:100%;}
+#puntos 						{background:url(../../resources/images/borde_bajo_migas.gif) repeat-x left bottom;float:left;margin:0px 0px 5px 0px;padding:0px;width:100%;}
 /********************************************************** LINEA DE PUNTOS ***********************************************************************************/
 
 /************************************************** FECHA DE ACTUALIZACIÓN  ***********************************************************************************/
@@ -209,7 +209,7 @@ h2.tit_conten_1_col			{background:transparent url(../img/maqueta/pestana_grande2
 .contenido li a, .contenido p a, h3.tit a, .mas_sobre a{	color:#003366;	text-decoration:none; }
 .contenido li a:hover, .contenido p a:hover, h3.tit a:hover, .mas_sobre a:hover{	text-decoration: underline; }
 .contenido li a:visited, .contenido p a:visited, h3.tit a:visited, .mas_sobre a:visited{	color:#990099;}
-.subrayado 					{background:transparent url(../img/maqueta/borde_bajo_migas.gif) repeat-x scroll left bottom ;	width: 100%; margin: 0 0 5px 0;	padding: 0 0 1px 0; }
+.subrayado 					{background:transparent url(../../resources/images/borde_bajo_migas.gif) repeat-x scroll left bottom ;	width: 100%; margin: 0 0 5px 0;	padding: 0 0 1px 0; }
 
 /***********************************************************/
 /* ESTILOS PARA LISTADO DE CONTENIDOS CON DIVERSOS NIVELES */

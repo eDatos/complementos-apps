@@ -26,11 +26,12 @@
 			<div id="menu_contextual">
 				<ul class="menu">
 					<li>
-						<a href="<fmt:message key='web_istac_base.url' />/temas_estadisticos/" class="inactive" accesskey="1"
-							title="Estadísticas (tecla de acceso: 1)">Estadísticas</a>
+						<a href="<fmt:message key='web_istac_base.url' />/temas_estadisticos/" class="inactive"
+							accesskey="1" title="Estadísticas (tecla de acceso: 1)">Estadísticas</a>
 					</li>
 					<li>
-						<a href="<fmt:message key='web_istac_base.url' />/istac/" class="inactive" accesskey="2" title="El ISTAC (tecla de acceso: 2)">El
+						<a href="<fmt:message key='web_istac_base.url' />/istac/" class="inactive" accesskey="2"
+							title="El ISTAC (tecla de acceso: 2)">El
 							ISTAC</a>
 					</li>
 					<li>
@@ -38,12 +39,12 @@
 							title="Noticias (tecla de acceso: 4)">Noticias</a>
 					</li>
 					<li>
-						<a href="<fmt:message key='web_istac_base.url' />/datos-abiertos/" class="inactive" accesskey="5"
-							title="Datos abiertos (tecla de acceso: 5)">Datos abiertos</a>
+						<a href="<fmt:message key='web_istac_base.url' />/datos-abiertos/" class="inactive"
+							accesskey="5" title="Datos abiertos (tecla de acceso: 5)">Datos abiertos</a>
 					</li>
                     <li>
-                        <a href="<fmt:message key='web_istac_base.url' />/impacto-covid-19/" class="inactive" accesskey="6" 
-                        title="COVID-19 (tecla de acceso: 5)">COVID-19</a>
+						<a href="<fmt:message key='web_istac_base.url' />/impacto-covid-19/" class="inactive"
+							accesskey="6" title="COVID-19 (tecla de acceso: 5)">COVID-19</a>
                     </li>
 				</ul>
 
