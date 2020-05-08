@@ -110,7 +110,7 @@
 						<a class="link-app" href="<fmt:message key="terria.url"/>">
 							<div class="app-image"></div>
 							<h2 class="app-name">Atlas Estadísticos de Canarias</h2>
-							<p class="app-description">Los Atlas Estadísticos de Canarias suponen un salto conceptual. Se trata de una visión "del mapa al dato" frente al acercamiento tradicional que suponía ir de una tabla de datos a la generación de un mapa temático.</p>
+							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
 						</a>
 					</li>
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app sie-app">
@@ -151,8 +151,8 @@
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app profesionales_turismo-app">
 						<a class="link-app" href="<fmt:message key="profesionales_turismo.url"/>">
 							<div class="app-image"></div>
-							<h2 class="app-name">Colaboración de profesionales del turismo</h2>
-							<p class="app-description">Portal de colaboración en estadísticas de turismo para profesionales del sector, permitiendo la cumplimentación de encuestas así como el acceso a datos elaborados a medida.</p>
+							<h2 class="app-name">Portal de profesionales del turismo</h2>
+							<p class="app-description">Acceso profesional a cumplimentación de encuestas y a datos a medida.</p>
 						</a>
 					</li>
 				</ul>
