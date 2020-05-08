@@ -73,6 +73,18 @@
 			.list-app.datos-abiertos-app .app-image {
 				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/open-data.jpg");
 			}
+			
+			.list-app.encuestas-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/survey.jpg");
+			}
+			
+			.list-app.profesionales_turismo-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/tourism.jpg");
+			}
+			
+			.list-app.terria-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/maps.png");
+			}
 
 			.list-app .app-name {
 				color: #008BD0;
@@ -101,7 +113,6 @@
 							<p class="app-description">Acceda a los datos de todas las convocatorias electorales en Canarias desde 1979.</p>
 						</a>
 					</li>
-
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app operaciones-estadisticas-app">
 						<a class="link-app" href="<fmt:message key="operaciones_estadisticas.url"/>">
 							<div class="app-image"></div>
@@ -121,6 +132,27 @@
 							<div class="app-image"></div>
 							<h2 class="app-name">Catálogo de API abiertas</h2>
 							<p class="app-description">Estudie y pruebe nuestras API de acceso abierto a la información estadística de Canarias.</p>
+						</a>
+					</li>
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app encuestas-app">
+						<a class="link-app" href="<fmt:message key="encuestas.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Sistema de encuestas web</h2>
+							<p class="app-description">Acceda a los cuestionarios web de las encuestas para las que se le ha solicitado su colaboración.</p>
+						</a>
+					</li>
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app profesionales_turismo-app">
+						<a class="link-app" href="<fmt:message key="profesionales_turismo.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Colaboración de profesionales del turismo</h2>
+							<p class="app-description">Portal de colaboración en estadísticas de turismo para profesionales del sector, permitiendo la cumplimentación de encuestas así como el acceso a datos elaborados a medida.</p>
+						</a>
+					</li>
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
+						<a class="link-app" href="<fmt:message key="terria.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Atlas Estadísticos de Canarias</h2>
+							<p class="app-description">Los Atlas Estadísticos de Canarias suponen un salto conceptual. Se trata de una visión "del mapa al dato" frente al acercamiento tradicional que suponía ir de una tabla de datos a la generación de un mapa temático.</p>
 						</a>
 					</li>
 				</ul>
