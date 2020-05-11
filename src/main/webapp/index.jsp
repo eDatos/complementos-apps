@@ -152,7 +152,7 @@
 						<a class="link-app" href="<fmt:message key="profesionales_turismo.url"/>">
 							<div class="app-image"></div>
 							<h2 class="app-name">Portal de profesionales del turismo</h2>
-							<p class="app-description">Acceso profesional a cumplimentación de encuestas y a datos a medida.</p>
+							<p class="app-description">Acceso profesional a encuestas y a datos a medida.</p>
 						</a>
 					</li>
 				</ul>
