@@ -1,3 +1,7 @@
+@import 'https://www.gobiernodecanarias.org/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_cabecera.css';
+@import 'https://www.gobiernodecanarias.org/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_banner.css';
+@import 'https://www.gobiernodecanarias.org/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css';
+
 #cabecera h1 a 				{background:url(https://www.gobiernodecanarias.org/gcc/img/logos/logo.gif) no-repeat;float:left;height:79px;width:150px ;text-decoration:none;}
 
 /* Se definen los elementos de estilo particulares para las consejerías*/
