@@ -29,7 +29,7 @@ const CSS_FILE_LIST = [
 CSS_FILE_LIST.forEach((file) => {
     mkdirp.sync(path.dirname(BASE_FOLDER + BASE_PATH + file.path));
     wget({ url: BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
-    console.log(`@import url('../../${BASE_PATH}${file.path}') ${file.media ? file.media : ''};`)
+    console.log(`@import url('../../${BASE_PATH}${file.path}')${file.media ? ' ' + file.media : ''};`)
 });
 
 const RESOURCES_FILE_LIST = [
@@ -43,6 +43,8 @@ const RESOURCES_FILE_LIST = [
     { path: "gcc/img/listas/flecha_menulat.gif" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js" },
+    { path: "gobcan/gcc/img/listas/li3.gif" },
+    { path: "gobcan/gcc/img/listas/li2.gif" },
 ];
 
 
