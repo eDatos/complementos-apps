@@ -144,7 +144,6 @@ h2.tit_gris {
 	-moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; 
 	margin:0;
 	width:100%;
-	color:#fff;
 	font-size: 1em;
     font-weight: 700;
 	height:auto;
@@ -166,7 +165,7 @@ h2.tit_conten_1_col {
 	background-image:none;
 	padding: 5px 10px 5px 10px;
 	-moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0;
-	margin:0 0;
+	margin:0 0 8px 0;
 	width:100%;
 	color:#000;
 	font-weight:700;
@@ -177,10 +176,14 @@ h2.tit_conten_grande {
 	background-image:none;
 	padding: 5px 10px 5px 10px;
 	-moz-border-radius: 6px 6px 0 0; -webkit-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0;
-	margin:0 0;
+	margin:0 0 8px 0;
 	width:100%;
 	color:#000;
 	font-weight:700;
+	height: auto;
+}
+span.h2-icon {
+	margin-right: 0px;
 }
 /**/
 .contenido h3 {
@@ -212,10 +215,12 @@ h2.tit_conten_grande {
 .redes_sociales_div { float: right; margin-left: 5px; padding-top: 6px; text-align: right;}
 #cabecera {width:100%;}
 #cabecera #menu_contextual {background-color:#036; clear:both; float:left; width:100%; height:22px;}
+#cabecera #menu_contextual .navbar-collapse {padding: 0}
 #cabecera #cab_superior {text-align: right; width: auto;}
 #migas ul { float: none;}
 #anuncio { width: 100%;}
 /*#banner_grande_simple {width: 720px;}*/
+.banner_grande_doble_buttons {width: 80%;}
 #banner { width: 100%; display:block;}
 #banner_grande_simple { width: 100%;}
 #banner_grande_simple img { width: 100%;}
@@ -231,6 +236,21 @@ h2.tit_conten_grande {
 #div_688442 span p:first-child { margin-bottom: 7px; margin-left: 0px; text-align: center;}
 #div_688442 span p:last-child { display: none;}
 #div_688442 span p:first-child img { float: none; margin: 0;}
+
+/* BLOQUE TEM?TICO */
+.bloque_tematico_container  .bloque_tematico_imagenes_container {
+	padding-top: 5px;
+}
+
+/* BLOQUE NOVEDADES */
+#frm_bloque_novedades_categorizadas
+	padding-top: 1px;
+}
+
+/* BLOQUE MAPA WEB */
+.bloque_mapa_web_container  .contenido  {
+	padding-top: 1px;
+}
 
 /* FORMULARIOS RESPONSIVE*/
 /*form input { display: block;}*/
@@ -266,38 +286,35 @@ form div { height: auto;}
 .formEnviar .btn_busc { margin-left:auto; margin-right:auto; }
 /**/
 
-/* MEDIA QUERIES */
-/*ESTILOS DE BUSCADOR EN BOTON CONTRAIDO*/
-#cabecera #menu_contextual.menu_contraido {display:none}
-#cabecera #menu_contextual #formulario_google input.buscar { height: 18px; padding-left: 5px; vertical-align: middle}
-#menu_contextual .collapse.navbar-collapse.navbar-ex1-collapse .nav-menu.navbar-nav { width: 100%; padding:0px;}
-#menu_contextual .nav-menu.navbar-nav {width: 100%; margin: 0px;}
-#menu_contextual .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {padding:0px 0px 10px 0px;}
-
-@media (max-width: 767px) {
-	#cabecera #menu_contextual {display:none}
-	#cabecera #menu_contextual.menu_contraido {display:block;}
-	#cabecera #menu_contextual #formulario_google { width: 100%; text-align:center;}
-	#cabecera #menu_contextual #formulario_google input.buscar { width: 90%; height: 22px;}
-	#cabecera #menu_contextual ul li a {text-align: center; text-transform: uppercase;}
-	#cabecera #menu_contextual #formulario_google input.boton { font-size: 13.2px; color: #EBEBEB; padding: 5px; width:70px; height:auto;}
-	#cabecera #menu_contextual #formulario_google input.boton:hover { font-size: 13.2px; color: #FFFFFF; background-color: #428BCA; width:95%; height:auto;}
+/* BLOQUES BASICOS */
+.bloque_basico_container li table {
+	border-collapse: separate;
+    border-spacing: 2px;
 }
 /**/
 
-/*Versión móvil con botón contraído*/
+/*Versi?n m?vil */
 @media (max-width: 767px) {
 	#contenido {width:auto;}
-	#cabecera #cab_superior { text-align: center; width: auto; }
+	#cabecera #cab_superior {text-align: center;width: auto;}
 	.columna_pequ {width:100%;}
 	.bloq_cen {width:100%; left:0%;}
 	.bloq_iz_grande{width:100%;}
 	.bloq_der_grande{width:100%;}
 	.leftc {right:0%; padding: 0px 15px 0px 15px;}
 	.rightc {padding: 0px 15px 0px 15px;}
-	.fondo_menu {}
-	.fondo_columnas {}
+	#cabecera #menu_contextual .navbar-toggle {display: block;}
 	#cabecera #menu_contextual {height:47px;}
+	#cabecera #menu_contextual ul.menu {text-align: center}
+	#cabecera #menu_contextual ul.menu li {width: 100%}
+	#cabecera #menu_contextual ul.menu li a {font-size: 120%; margin: 0; width: 100%; padding: 10px 0}
+	#cabecera #menu_contextual ul.menu li a:hover {margin: 0}
+	#cabecera #menu_contextual li#formulario_google input.buscar {width: 90%; height: 30px;}
+	#cabecera #menu_contextual li#formulario_google input.boton {width: 100px; height: 50px; font-size: 110%; border: 1px white solid; border-radius: 5px;margin: 5px 0}
+	#cabecera #menu_contextual li#formulario_google input.boton:hover {width: 100px; height: 50px; font-size: 110%; border: 1px white solid; border-radius: 5px;margin: 5px 0}
+	#headercontainer h1, #headercontainer h2 {float: none !important;}
+	#headercontainer h1 a, #headercontainer h2 a {background-position: 50% !important;width: 100% !important;}
+	#headercontainer h2 {text-align: center !important;}
 	#banner {display:none;}
 	#foto_cabecera { display:none;}
 	#pie {height:40px;}
@@ -305,22 +322,15 @@ form div { height: auto;}
 	#pie p.izda {color: #000000; float:none; margin: 0; padding: 6px 0 0 16px; width: 100%; clear:both; text-align:center;}
 }
 
-/*Versión tablet con contenido{width:100%}*/
+/*Versi?n tablet con contenido{width:100%}*/
 @media (min-width: 768px)  and (max-width: 991px) {
 	#contenido { width: 100%;}
-	#cabecera #cab_superior { text-align: right; width: auto;}
+	#banner {display:none;}
+	#foto_cabecera { display:none;}
 	.columna_pequ { width:25%;}
 	.bloq_cen { width:75%; left: 25%;}
 	.bloq_iz_grande{ width:75%;}
 	.bloq_der_grande{ width:75%;}
 	.leftc {right:75%;}
 	.rightc {padding: 0px 0px 0px 15px;}
-	.fondo_menu { clear:both;}
-	.fondo_columnas { clear:both;}
-	#cabecera #menu_contextual { height:22px;}
-	#banner { display:block;}
-	#foto_cabecera { display:block;}
-	#pie { background-color: #FFDF61; float: left; height: 23px; margin: 10px 0 0; width: 100%;}
-	#pie .dcha { float: right; text-align: right; width: 50%; clear:none;}
-	#pie p.izda { color: #000000; float: left; font-size: 0.8em; margin: 0; padding: 6px 0 0 16px; width: 40%;clear:none; text-align:left;}
 }

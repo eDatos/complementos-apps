@@ -1,4 +1,4 @@
-/* PERSONALIZACIÓN MENÚ RESPONSIVE BOOTSTRAP */
+/* PERSONALIZACI�N MEN� RESPONSIVE BOOTSTRAP */
 .nav-menu { display: block;}
 .nav-menu { margin-bottom: 0; padding-left: 0; list-style: none;}
 
@@ -47,7 +47,7 @@
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-	color: #003366; background-color: #428BCA; border: 1px solid #13866f; border-bottom-color: transparent; cursor: default;
+	color: #003366; background-color: #155991; border: 1px solid #13866f; border-bottom-color: transparent; cursor: default;
 }
 	
 .nav-tabs.nav-justified { width: 100%; border-bottom: 0;}
@@ -212,7 +212,7 @@
 	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
 		color: #ffffff;
-		background-color: #428BCA;
+		background-color: #155991;
 	}
 
 	.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
@@ -332,7 +332,7 @@
 
 .navbar-btn { margin-top: 8px; margin-bottom: 8px;}
 .navbar-text { float: left; margin-top: 15px; margin-bottom: 15px;}
-.navbar-default { background-color: #428BCA; border-color: #283849;}
+.navbar-default { background-color: #155991; border-color: #283849;}
 .navbar-default .navbar-brand { color: #ebebeb;}
 
 .navbar-default .navbar-brand:hover,
@@ -341,7 +341,7 @@
 	background-color: transparent;
 }
 .navbar-default .navbar-text {
-	color: #428BCA;
+	color: #155991;
 }
 .navbar-default .navbar-nav > li > a { color: #ebebeb;}
 
@@ -410,7 +410,7 @@
 .navbar-inverse .navbar-nav > li > a { color: white;}
 
 .navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus { color: #ffffff; background-color: #428BCA;}
+.navbar-inverse .navbar-nav > li > a:focus { color: #ffffff; background-color: #155991;}
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -429,7 +429,7 @@
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-	background-color: #428BCA;
+	background-color: #155991;
 }
 .navbar-inverse .navbar-toggle .icon-bar { background-color: #ffffff;}
 
@@ -441,7 +441,7 @@
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   /* background-color: rgba(22, 157, 130, 0.71);*/
-	background-color:#428BCA;
+	background-color:#155991;
 	color: #ffffff;
 }
 
@@ -460,4 +460,4 @@
 
 .navbar { min-height: 22px; height: 22px; border: 0px; margin: 0px;}
 
-ul.nav-menu li.selec a { background-color:#428BCA;}
+ul.nav-menu li.selec a { background-color:#155991;}
