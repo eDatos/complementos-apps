@@ -1,0 +1,12 @@
+#migas {
+	padding-top: 6px !important;
+}
+.redes_sociales_div {
+	float: right;
+	text-align: right;
+	padding-top: 6px;
+	margin-left: 5px;
+}
+.redes_sociales_div a {
+	text-decoration: none;
+}
