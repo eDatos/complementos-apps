@@ -41,6 +41,7 @@ const RESOURCES_FILE_LIST = [
     { path: "gcc/img/maqueta/borde_bajo_migas.gif" },
     { path: "gcc/img/auxis/flecha_amarilla.gif" },
     { path: "gcc/img/listas/flecha_menulat.gif" },
+    { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js" },
 ];
 
