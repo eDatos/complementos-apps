@@ -53,6 +53,10 @@
 				background-position: center;
 				height: 160px;
 			}
+			
+			.list-app.terria-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/maps.jpg");
+			}
 
 			.list-app.sie-app .app-image  {
 				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/vote.jpg");
@@ -74,6 +78,14 @@
 				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/open-data.jpg");
 			}
 
+			.list-app.encuestas-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/survey.jpg");
+			}
+			
+			.list-app.profesionales_turismo-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/tourism.jpg");
+			}		
+
 			.list-app .app-name {
 				color: #008BD0;
 				margin-top: 15px;
@@ -93,7 +105,14 @@
 		</jsp:include>
 		<div class="main">
 			<div class="container">
-				<ul class="list-apps row justify-content-center">
+				<ul class="list-apps row justify-content-left">
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
+						<a class="link-app" href="<fmt:message key="terria.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Atlas Estadísticos de Canarias</h2>
+							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
+						</a>
+					</li>
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app sie-app">
 						<a class="link-app" href="<fmt:message key="sie.url"/>">
 							<div class="app-image"></div>
@@ -101,7 +120,6 @@
 							<p class="app-description">Acceda a los datos de todas las convocatorias electorales en Canarias desde 1979.</p>
 						</a>
 					</li>
-
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app operaciones-estadisticas-app">
 						<a class="link-app" href="<fmt:message key="operaciones_estadisticas.url"/>">
 							<div class="app-image"></div>
@@ -121,6 +139,20 @@
 							<div class="app-image"></div>
 							<h2 class="app-name">Catálogo de API abiertas</h2>
 							<p class="app-description">Estudie y pruebe nuestras API de acceso abierto a la información estadística de Canarias.</p>
+						</a>
+					</li>
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app encuestas-app">
+						<a class="link-app" href="<fmt:message key="encuestas.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Sistema de encuestas web</h2>
+							<p class="app-description">Acceda a los cuestionarios web de las encuestas para las que se le ha solicitado su colaboración.</p>
+						</a>
+					</li>
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app profesionales_turismo-app">
+						<a class="link-app" href="<fmt:message key="profesionales_turismo.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Portal de profesionales del turismo</h2>
+							<p class="app-description">Acceso profesional a encuestas y a datos a medida.</p>
 						</a>
 					</li>
 				</ul>

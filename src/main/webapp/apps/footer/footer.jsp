@@ -212,7 +212,7 @@
                 <a target="_blank" href="<fmt:message key='web_istac_base.url' />/politica-privacidad.html">Política de privacidad</a>
                 <a target="_blank" href="http://www.gobiernodecanarias.org/principal/sugrec/">Sugerencias y relamaciones</a>
                 <a target="_blank" href="<fmt:message key='web_istac_base.url' />/servicios/atencion.html">Consultas</a>
-                <a target="_blank" href="<fmt:message key='web_istac_base.url' />/api/">Catálogo de API abiertas</a>
+                <a target="_blank" href="<fmt:message key='catalogo_apis.url' />">Catálogo de API abiertas</a>
             </div>
         </div>
         
