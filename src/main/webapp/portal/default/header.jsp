@@ -90,21 +90,21 @@
 		<div id="migas" role="navigation" aria-label="Camino de hormigas">
 			<div id="redessocialescontainer">
 				<div class="redes_sociales_div">
-					<a href="<fmt:message key='web_istac_base.url' />/herramientas/rss.html" accesskey="r"
-						title="Canales RSS (tecla de acceso: r)">
-						<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/rss_20x20.png"
+					<a href="<fmt:message key='web_istac_base.url' />/herramientas/rss.html" title="Canal de Rss"
+						target="_blank">
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/rss_20x20.png"
 							title="Canal de Rss" alt="Canal de Rss">
 					</a>
 					<a href="https://twitter.com/istac_es" title="Canal de Twitter" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/twitter_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/twitter_20x20.png"
 							title="Canal de Twitter" alt="Canal de Twitter">
 					</a>
 					<a href="https://www.slideshare.net/ISTAC" title="Canal de Slideshare" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/Slideshare_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/Slideshare_20x20.png"
 							title="Canal de Slideshare" alt="Canal de Slideshare">
 					</a>
 					<a href="https://www.youtube.com/user/istacES" title="Canal de Youtube" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/youtube_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/youtube_20x20.png"
 							title="Canal de Youtube" alt="Canal de Youtube">
 					</a>
 
