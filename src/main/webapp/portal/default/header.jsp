@@ -120,6 +120,8 @@
 		</div>
 
 		<script type="text/javascript"
+			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+		<script type="text/javascript"
 			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
 
 </fmt:bundle>
