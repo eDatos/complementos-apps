@@ -16,6 +16,8 @@ const CSS_FILE_LIST = [
     { path: "gcc/css/basico.css" },
     { path: "gcc/css/cuerpo.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/imprime.css", media: "print" },
+    // cmsweb/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui.css"
+    // cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/custom.css?dc=20191126
     { path: "istac/resources/css/istac.css", service: ["istac"] },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_cabecera.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" },
@@ -36,6 +38,7 @@ CSS_FILE_LIST.forEach((file) => {
 });
 
 const RESOURCES_FILE_LIST = [
+    // default - istac
     { path: "gcc/img/iconos/rss_20x20.png" },
     { path: "gcc/img/iconos/twitter_20x20.png" },
     { path: "gcc/img/iconos/Slideshare_20x20.png" },
@@ -48,6 +51,11 @@ const RESOURCES_FILE_LIST = [
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js" },
     { path: "gcc/img/listas/li3.gif" },
     { path: "gcc/img/listas/li2.gif" },
+    // agricultura
+    { path: "gcc/img/logos/cagp.jpg" },
+    { path: "gcc/img/logos/logo.gif" },
+    // funcion publica
+    { path: "gcc/img/logos/cpj.gif" },
 ];
 
 
