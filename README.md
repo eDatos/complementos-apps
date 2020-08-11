@@ -20,4 +20,6 @@ Son descargados y servidos desde:
 
 No deben ser modificados a mano, en su lugar revisar los archivos a descargar desde scripts/update-external-resources y usar en su lugar `npm run update-external-resources`, que descargará los recursos. Han de subirse al repo, para evitar problemas de indisponibilidad.
 
-Servirlos aquí nos permite controlar los tiempos a la hora de actualizar los estilos, y evitar problemas de indisponibilidadd.
+Servirlos aquí nos permite controlar los tiempos a la hora de actualizar los estilos, y evitar problemas de indisponibilidad.
+
+*!OJO!* Este método es una ayuda, es recomendable revisar el contenido de lo descargado, no sea que nos haya guardado una página de error.

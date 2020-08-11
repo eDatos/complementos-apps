@@ -16,7 +16,7 @@ const CSS_FILE_LIST = [
     { path: "gcc/css/basico.css" },
     { path: "gcc/css/cuerpo.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/imprime.css", media: "print" },
-    { path: "istac/resources/css/istac.css" },
+    { path: "istac/resources/css/istac.css", service: ["istac"] },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_cabecera.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_widget.css" },
@@ -29,6 +29,9 @@ const CSS_FILE_LIST = [
 CSS_FILE_LIST.forEach((file) => {
     mkdirp.sync(path.dirname(BASE_FOLDER + BASE_PATH + file.path));
     wget({ url: BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
+    if (file.service) {
+        console.log("Next file is only for " + file.service.toString() + " services")
+    }
     console.log(`@import url('../../${BASE_PATH}${file.path}')${file.media ? ' ' + file.media : ''};`)
 });
 
@@ -43,8 +46,8 @@ const RESOURCES_FILE_LIST = [
     { path: "gcc/img/listas/flecha_menulat.gif" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js" },
-    { path: "gobcan/gcc/img/listas/li3.gif" },
-    { path: "gobcan/gcc/img/listas/li2.gif" },
+    { path: "gcc/img/listas/li3.gif" },
+    { path: "gcc/img/listas/li2.gif" },
 ];
 
 
