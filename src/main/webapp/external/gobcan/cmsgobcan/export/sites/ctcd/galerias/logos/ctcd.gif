@@ -1,0 +1,2969 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+<head>
+	
+	
+
+<title>Gobierno de Canarias</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="Gobierno de Canarias"/>
+
+<meta http-equiv="expires" content="tue, 9 jan 2019 15:00:00 GMT"/>
+<meta name="keywords" content="gobierno canarias, gobierno, canarias"/>
+
+
+
+<meta name="apple-itunes-app" content="app-id=com.gobiernodecanarias.egobcan"/>
+<meta name="google-play-app" content="app-id=898720542"/>
+
+
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="revisit-after" content="7 days "/>
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+
+<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/imprime.css"  rel="stylesheet" type="text/css" media="print" />
+<script type="text/javascript">
+	//Carga dinamica de css dependiendo de si se accede a traves de http o https
+	//no se pueden referenciar de forma relativa porque desde el offline del ade
+	//la ruta empieza por opencms. y los css son externos.
+	(function() {
+		var prefix = ("https:" == document.location.protocol ? "https" : "http" ) + "://www.gobiernodecanarias.org/gcc/";
+		var estilos = document.createElement("link"); estilos.type = "text/css"; estilos.rel = "stylesheet"; estilos.media="screen";
+		estilos.href = prefix + "css/estilos.css";
+		var voz = document.createElement("link"); voz.type = "text/css"; voz.rel = "stylesheet"; voz.media="aural";
+		voz.href = prefix + "css/voz.css";
+		var favicon = document.createElement("link"); favicon.rel = "shortcut icon";
+		favicon.href = prefix + "img/favicon.ico";
+		var especifico = document.createElement("link"); especifico.type = "text/css"; especifico.rel = "stylesheet"; especifico.media="screen";
+		especifico.href = prefix + "css/especifico.css";
+		var s = document.getElementsByTagName("link")[0];
+		s.parentNode.insertBefore(favicon, s);
+		s.parentNode.insertBefore(especifico, s);
+		s.parentNode.insertBefore(voz, s);
+		s.parentNode.insertBefore(estilos, s);
+	})();
+</script>
+<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui.css"  rel="stylesheet" type="text/css" media="screen" />
+<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/custom.css?dc=20191126"  rel="stylesheet" type="text/css" media="screen" />
+
+
+
+	<link href="/cmsgobcan/export/sites/principal/portada.css_1744168543.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+
+
+
+	<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/app/jquery.smartbanner.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+
+
+	<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/my_readspeaker.css"  rel="stylesheet" type="text/css" media="screen" />
+	<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/animatedborder.css"  rel="stylesheet" type="text/css" media="screen" />	
+
+	
+
+
+	
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/flvplayer/swfobject.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/mediaplayer/jwplayer.js"></script>     
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/faq.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui-datepicker-es.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/assets/jquery-ui/jquery-ui-autocomplete.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery-maskedinput.min.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js"></script>
+
+
+
+	<script type="text/javascript" src="//f1-eu.readspeaker.com/script/7294/webReader/webReader.js?pids=wr&dload=DocReader.AutoAdd"></script>
+	<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.animatedborder.js"></script>
+	<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/my_readspeaker.js"></script>	
+
+
+
+
+	<script type="text/javascript" src="https://www--gobiernodecanarias--org.insuit.net/i4tservice/insuit-app.js"></script>
+
+
+
+
+	<script src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/app/jquery.smartbanner.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$(function () { $.smartbanner({ daysHidden: 0, daysReminder: 0 }) })
+		});
+    </script>
+
+    
+    
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/tipo_banner.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/tipo_lector_rss.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/truncate.js"></script>
+	
+<link rel="stylesheet" href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_cabecera.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_banner.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_tematico.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_lector_rss.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_bloque_novedad.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_caja_lateral.css" type="text/css"></link>
+<link rel="stylesheet" href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_widget.css" type="text/css"></link>
+	
+	
+	<!-- RESPONSIVE -->
+	
+	
+<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/bootstrap.min.css"  rel="stylesheet" type="text/css" media="screen" />
+<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_responsive.css"  rel="stylesheet" type="text/css" media="screen" />
+<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_bootstrap.css"  rel="stylesheet" type="text/css" media="screen" />
+<!--[if lt IE 10]>
+	<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/ie9.css"  rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+<!--[if lt IE 9]>
+	<link href="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/ie8.css"  rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+
+
+	
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/banners_responsive.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
+<script type="text/javascript" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/formulario-responsive.js"></script>
+	<!-- /RESPONSIVE -->
+    
+	
+	
+	
+		
+
+
+	
+	<script async="1" type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-33902766-1"></script>
+	<script type="text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+			gtag('config', 'UA-33902766-1');
+		
+	</script>
+
+	
+</head>
+	<body>
+		
+<style id="antiClickjacking">body{display:none !important;}</style>
+<script type="text/javascript">
+	if (self === top) {
+		var antiClickjacking = document.getElementById("antiClickjacking");
+		antiClickjacking.parentNode.removeChild(antiClickjacking);
+	} else {
+		top.location = self.location;
+	}
+</script>
+		<!-- BLOQUE de CONTENIDO -->
+		<div id="contenido" class="container">
+			<div id="cabecera">
+				<div  id="headercontainer" >
+
+
+
+ 
+	<div role="navigation" aria-label="Cabecera">
+		
+		<div id="cab_superior">
+			<!-- MENU DE AYUDA -->
+			<ul>
+				<li class="bypass-blocks"><a href="#centercontainer" title="Salta contenido repetido y le sit&uacute;a en el bloque principal de la p&aacute;gina">Ir al contenido principal</a></li>
+				
+					 
+						
+							
+							
+							
+							
+							<li><a href="/principal/accesibilidad.html" target="" accesskey="a" title="Opciones de accesibilidad (tecla de acceso: a)">Accesibilidad</a>|</li>           
+						
+						
+					 
+				
+					 
+						
+							
+							
+							
+							
+							<li><a href="/principal/mapa.html" target="" accesskey="m" title="Índice de contenidos (tecla de acceso: m)">Mapa web</a>|</li>           
+						
+						
+					 
+				
+					 
+						
+							
+							
+							
+							
+							<li><a href="/principal/contacto.html" target="" accesskey="o" title="Contacte con nosotros (tecla de acceso: o)">Contacto</a></li>           
+						
+						
+					 
+				
+				
+				
+				
+				
+			</ul>
+			<div class="cleared"></div>
+		</div>
+		<!-- IMAGEN GOBIERNO DE CANARIAS -->
+		
+			<h1 class="logo">
+				 
+					 
+						
+							
+							
+							
+							
+							<a href="/principal/" target="" accesskey="i" title="Página principal del Gobierno de Canarias - Opciones de accesibilidad (tecla de acceso: i)">Gobierno de Canarias</a>           
+						
+						
+						
+					 
+				                
+				
+			</h1>
+		   
+		<!-- IMAGEN ENTIDAD -->
+		   
+		<!-- IMAGEN ENTIDAD 2 -->
+		
+		
+		
+		<!-- MENU CONTEXTUAL --> 
+		<div id="menu_contextual" class="menu_contraido">
+			<nav class="navbar navbar-inverse">
+				<div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+				<div class="navbar-collapse navbar-ex1-collapse collapse" aria-expanded="false">
+					<ul class="menu nav-menu navbar-nav">
+						
+							
+								
+									
+									
+									
+									
+								
+								
+								
+								
+								<li ><a href="/principal/temas/" target="" accesskey="2" title="Temas (tecla de acceso: 2)">TEMAS</a></li>
+							 
+						
+							
+								
+									
+									
+									
+									
+								
+								
+								
+								
+								<li ><a href="/principal/gobierno.html" target="" accesskey="3" title="El gobierno (tecla de acceso: 3)">EL GOBIERNO</a></li>
+							 
+						
+							
+								
+								
+									
+									
+									
+									
+								
+								
+								
+								<li ><a href="https://www3.gobiernodecanarias.org/noticias/" target="" accesskey="4" title="Noticias (tecla de acceso: 4)">NOTICIAS</a></li>
+							 
+						
+						
+							<!-- FORMULARIO DE BUSQUEDA SI EXISTE APLICATIVO QUE LO SUSTENTE -->
+							<li id="formulario_google">
+								
+									
+										
+									
+									
+								
+								
+								
+									
+									
+										
+									
+								
+								
+								
+									
+										
+									
+									
+								
+								
+								
+									
+									
+										
+									
+								
+								
+								
+									
+									
+										
+									
+								
+								
+								
+								
+								
+								<form target="_blank" name="gs" method="GET" action="https://www.gobiernodecanarias.org/buscador/search">
+									<input
+										type="text"
+										name="query"
+										size="32"
+										maxlength="256"
+										id="cajabusca"
+										class="buscar"
+										placeholder="texto de b&uacute;squeda"
+										accesskey="b"
+										title="Introduzca el texto de b&uacute;squeda (tecla de acceso: b)"
+										/>
+									<input type="submit" value="BUSCAR" class="boton">
+									<input type="hidden" name="ambitos" value="gobcan" />
+									<input type="hidden" name="fqtr" value="" />
+									<input type="hidden" name="fbt" value="false" />
+								</form>
+							</li>
+						
+					</ul>
+				</div>
+			</nav>			
+		</div>
+		<div style="clear:left"></div>
+	</div>
+	
+
+</div>
+			</div>
+			<div id="banner" role="banner">
+				<div  id="bannercontainer" >
+
+
+
+
+	<div id="anuncio">
+	  	<div  style="position:relative">
+		
+			
+		
+				
+		
+			<noscript>
+				<style type="text/css">
+					.banner_grande_doble {display:none;}
+					.banner_grande_doble_texto {display:none;}
+					.banner_pequeno_doble {display:none;}
+					.banner_pequeno_doble_texto {display:none;}
+					.banner_grande_simple{display:none;}
+					.banner_grande_simple_texto {display:none;}
+				</style>
+				<p>Usted tiene javascript desactivado por lo que algunos elementos de la p&aacute;gina puede que no funcionen correctamente.</p>
+			</noscript>
+        	
+	    		
+        	 		
+        	 		
+        	     		<div id="banner_grande_doble_texto" class="banner_grande_doble_texto">
+        	    			
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+    		                	
+    		                
+								
+									
+									
+									
+									
+									
+    		                	
+    		                
+        	    		</div>
+        	    		<div id="banner_grande_doble" class="banner_grande_doble">
+        	       			
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+		      		   				
+    		        					
+	    		       					
+		                               		
+    			                       		
+	        		               			
+                        		       		
+	    		                 		
+										<a class="enlaceImagen" href="http://www3.gobiernodecanarias.org/sanidad/ichh/colectasi.asp" target="_blank" accesskey="" title="Dona Sangre">
+											
+												<img class="banner" title="Dona Sangre" src="/cmsgobcan/export/sites/principal/galerias/imagenes/banners/592X92_dona_cada_3o4-2.jpg" alt="Dona Sangre"/>
+											
+										</a>
+	    		           			
+	    		            		
+									
+	    		                
+    						
+		      					
+									
+									
+									
+		      		   				
+    		        					
+	    		       					
+		                               		
+    			                       		
+	        		               			
+                        		       		
+	    		                 		
+										<a class="enlaceImagen" href="https://www.youtube.com/watch?v=fwkk9UHR0ro" target="_blank" accesskey="" title="El último regalo">
+											
+												<img class="banner" title="El último regalo" src="/cmsgobcan/export/sites/principal/coronavirus/imagenes/Banner-covid-el-ultimo-regalo-592x92.jpg" alt="El último regalo"/>
+											
+										</a>
+	    		           			
+	    		            		
+									
+	    		                
+    						
+		      					
+									
+									
+									
+		      		   				
+    		        					
+	    		       					
+		                               		
+    			                       		
+	        		               			
+                        		       		
+	    		                 		
+										<a class="enlaceImagen" href="https://www.gobiernodecanarias.org/sanidad/scs/covid19" target="_blank" accesskey="" title="Información relativa al Coronavirus (COVID-19)">
+											
+												<img class="banner" title="Información relativa al Coronavirus (COVID-19)" src="/cmsgobcan/export/sites/principal/coronavirus/imagenes/592x92-banner-nueva-normalidad.jpg" alt="Información relativa al Coronavirus (COVID-19)"/>
+											
+										</a>
+	    		           			
+	    		            		
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+		      		   				
+    		        					
+	                               	       	
+		    	                       		
+			                       			
+                		               		
+		    		        			
+	    		       					
+										<a class="enlaceImagen" href="/principal/servicios/012.html" target="_blank" accesskey="" title="012 - Twitter">
+											
+												<img class="banner" title="012 -Twitter" src="/cmsgobcan/export/sites/principal/galerias/imagenes/banners/banner_591x92/banner_012_twitter_591X92.jpg" alt="012 -Twitter"/>
+											
+										</a>
+	    		           			
+	    		            		
+									
+	    		                
+    						
+		      					
+									
+									
+									
+		      		   				
+    		        					
+	    		       					
+		                               		
+    			                       		
+	        		               			
+                        		       		
+	    		                 		
+										<a class="enlaceImagen" href="https://sede.gobcan.es/sede/" target="_blank" accesskey="" title="Sede electronica Gobierno de Canarias">
+											
+												<img class="banner" title="Sede electronica Gobierno de Canarias" src="/cmsgobcan/export/sites/principal/galerias/imagenes/banners/banner_591x92/592x92-banner-sede-gobcan.jpg" alt="Sede electronica Gobierno de Canarias"/>
+											
+										</a>
+	    		           			
+	    		            		
+									
+	    		                
+    						
+		      					
+									
+									
+									
+	    		                
+    						
+		      					
+									
+									
+									
+		      		   				
+    		        					
+	                               	       	
+		    	                       		
+			                       			
+                		               		
+		    		        			
+	    		       					
+										<a class="enlaceImagen" href="/principal/sugrec/" target="_blank" accesskey="" title="Sugerencias y Reclamaciones">
+											
+												<img class="banner" title="Sugerencias y Reclamaciones" src="/cmsgobcan/export/sites/principal/galerias/imagenes/banners/banner_591x92/592X92-sugerencias-reclamaciones.jpg" alt="Sugerencias y Reclamaciones"/>
+											
+										</a>
+	    		           			
+	    		            		
+									
+	    		                
+    						
+        	    		</div>
+						
+							<div class="banner_grande_doble_buttons">
+								<a href="javascript:bannerprev();" title="Anterior banner">
+									<img src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/imagenes/banner/prev-button.png" id="previous" title="Anterior" alt="Anterior" />
+								</a>
+								<a href="javascript:bannernext();" title="Siguiente banner">
+									<img src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/imagenes/banner/next-button.png" id="next" title="Siguiente" alt="Siguiente" />
+								</a>
+							</div>
+						
+        	    		<div id="banner_pequeno_doble_texto" class="banner_pequeno_doble_texto">
+        	    			
+		      					
+									
+									
+									
+									
+									
+    		                	
+    		               
+		      					
+									
+									
+									
+									
+									
+    		                	
+    		               
+		      					
+									
+									
+									
+									
+									
+    		                	
+    		               
+        	    		</div>
+        	    		<div id="banner_pequeno_doble" class="banner_pequeno_doble">
+        	       			
+		      					
+									
+									
+									
+									
+										
+										
+											
+											
+											
+											
+											<a class="enlaceImagen" href="http://www.gobiernodecanarias.org/seguridad/cgpoliciacanaria/" target="_blank" accesskey="" title="Cuerpo General de la Policía Canaria">
+												
+													<img class="banner" title="Cuerpo General de la Policía Canaria" src="/cmsgobcan/export/sites/principal/galerias/imagenes/banners/banner_151x92/policia_canaria_151x92.jpg" alt="Cuerpo General de la Policía Canaria"/>
+												
+											</a>
+										
+									
+									
+									
+    		                	
+    		                
+		      					
+									
+									
+									
+									
+										
+										
+											
+											
+											
+											
+											<a class="enlaceImagen" href="https://www.gobiernodecanarias.org/participacionciudadana/iniciativas/" target="_blank" accesskey="" title="Participación Ciudadana">
+												
+													<img class="banner" title="Participación Ciudadana" src="/cmsgobcan/export/sites/principal/galerias/imagenes/banners/banner_151x92/participacion_151x92.jpg" alt="Participación Ciudadana"/>
+												
+											</a>
+										
+									
+									
+									
+    		                	
+    		                
+		      					
+									
+									
+									
+									
+										
+										
+											
+											
+											
+											
+											<a class="enlaceImagen" href="http://www3.gobiernodecanarias.org/empleo/portal/web/sce" target="_blank" accesskey="" title="Empleo">
+												
+													<img class="banner" title="Empleo" src="/cmsgobcan/export/sites/principal/galerias/imagenes/banners/banner_151x92/empleo_151x92.jpg" alt="Empleo"/>
+												
+											</a>
+										
+									
+									
+									
+    		                	
+    		                
+						</div>
+        	 		
+	    		
+				
+			
+			<script>
+				$(document).ready(function() {
+					$('#banner_grande_doble, #banner_grande_doble_texto, #banner_grande_doble_botton, #banner_pequeno_doble, #banner_pequeno_doble_texto, #banner_grande_simple, #banner_grande_simple_texto, #banner_grande, #banner_pequeno').cycle({
+						fx: 'fade',
+					
+						timeout: 5000,
+						speed: 0,
+					
+						cleartypeNoBg: true
+					});
+				});
+			</script>
+		
+		</div>
+	</div>
+
+</div>
+			</div>
+			<div id="migas" role="navigation" aria-label="Camino de hormigas">
+				<div  id="redessocialescontainer" ></div>	
+				
+				
+
+
+<p class='txt'>Est&aacute; en:</p><ul><li><strong>Inicio</strong></li></ul>
+				   
+			</div>
+			<!-- CONTENIDO -->
+			<div id="bloq_interior">
+				
+				
+					<!-- READSPEAKER -->
+					
+<div id="rs_banner" role="application">
+	<div id="repro_readspeaker">
+		<div id="readspeaker_button" class="rs_skip rsbtn rs_preserve">
+		    <a rel="nofollow" class="rsbtn_play" accesskey="L" title="Escucha esta p&aacute;gina utilizando ReadSpeaker webReader" href="">
+		        <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Escuchar</span></span></span>
+		        <span class="rsbtn_right rsimg rsplay rspart"></span>
+		    </a>
+		</div>
+	</div>
+</div>
+
+				
+				
+				<!-- VISTA 3 COLUMNAS -->
+				
+					<div class="row"> 
+						<!-- COLUMNA CENTRAL -->
+						<div class="bloq_cen col-xs-12 col-sm-9 col-sm-push-3 col-md-6 col-md-push-3 col-lg-6 col-lg-push-3" role="main">
+							<div  id="centercontainer" >
+ 
+
+
+
+	<div class="bloque_tematico_container"> <!-- Este div se ha colocado para que funcione la edicion visual (el recuadro punteado)-->
+		
+		<div class="contenido">
+			
+			
+
+				
+					
+					<div class="bloque_tematico_imagenes_container">
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="https://www.gobiernodecanarias.org/derechossociales/"
+											target="_blank"
+											accesskey=""
+											title="DERECHOS SOCIALES" >
+											<img	title="DERECHOS SOCIALES"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/derechos_sociales_1x.jpg"
+													alt="DERECHOS SOCIALES" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="http://www.gobiernodecanarias.org/turismo/"
+											target="_blank"
+											accesskey=""
+											title="TURISMO" >
+											<img	title="TURISMO"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/turismo_1x.jpg"
+													alt="TURISMO" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="https://www.gobiernodecanarias.org/empleo/"
+											target="_blank"
+											accesskey=""
+											title="EMPLEO" >
+											<img	title="EMPLEO"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/empleo_1x.jpg"
+													alt="EMPLEO" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="https://www.gobiernodecanarias.org/industria/"
+											target="_blank"
+											accesskey=""
+											title="INDUSTRIA" >
+											<img	title="INDUSTRIA"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/industria_1x.jpg"
+													alt="INDUSTRIA" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="https://www.gobiernodecanarias.org/energia/"
+											target="_blank"
+											accesskey=""
+											title="ENERGÍA" >
+											<img	title="ENERGÍA"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/energia_1x.jpg"
+													alt="ENERGÍA" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="https://www.gobiernodecanarias.org/agricultura/"
+											target="_blank"
+											accesskey=""
+											title="AGRICULTURA" >
+											<img	title="AGRICULTURA"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/agricultura_1x.jpg"
+													alt="AGRICULTURA" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="https://www.gobiernodecanarias.org/sanidad/"
+											target="_blank"
+											accesskey=""
+											title="SANIDAD" >
+											<img	title="SANIDAD"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/sanidad_1x.jpg"
+													alt="SANIDAD" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+										
+									
+									<div class="imagen_tematica">
+										<a	href="https://www.gobiernodecanarias.org/educacion/"
+											target="_blank"
+											accesskey=""
+											title="EDUCACIÓN" >
+											<img	title="EDUCACIÓN"
+													src="/cmsgobcan/export/sites/principal/galerias/temas/educacion_1x.jpg"
+													alt="EDUCACIÓN" />
+										</a>
+										<div style="clear:both"></div>
+									</div>
+								
+							
+						
+						<div style="clear:both"></div>
+					</div>
+				
+			
+			
+				
+					
+					
+					
+					
+				 
+				
+				<div class="mas_sobre">
+					<a href="/principal/temas/" target="" accesskey="" title="Ir al listado completo de temas"><strong>más temas</strong></a>
+					<div style="clear:both"></div>
+				</div>			
+			
+			<div style="clear:both"></div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+<div>
+	<div class="uweb_lector_rss_container">
+		<h2 class="tit_conten">
+				Noticias</h2>
+		<div class="contenido row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+			
+				<div id="uweb_lector_rss_6f0c3efc-38cf-11e9-9b63-6717373e7cdd" class="divRss">
+					<div id="rssContent">
+						<img title="Cargando" alt="Cargando" src="/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/imagenes/cargando.gif" />
+					</div>
+					<p class="mas_sobre">
+							<a href="https://www3.gobiernodecanarias.org/noticias" target="" accesskey="" title="Noticias">más noticias</a>
+						</p>
+						<div style="clear:both"></div>
+					</div>
+				
+				<script type="text/javascript">
+					$(function () {
+						$('#uweb_lector_rss_6f0c3efc-38cf-11e9-9b63-6717373e7cdd #rssContent').FeedEk({
+							Feeder: '/principal/feed2json.jsp',
+							FeedUrl: 'https://www3.gobiernodecanarias.org/noticias/category/destacados/feed',
+							
+								MaxCount: 3,
+							
+							ShowDesc: true,
+							ShowPubDate: true,
+							
+								DescCharacterLimit: 150,
+							
+							Linkable: true,
+							ErrorMessage: 'Error 01: La ruta https://www3.gobiernodecanarias.org/noticias/category/destacados/feed no es un RSS v&aacute;lido.'
+						});
+					});
+				</script>
+			</div><!--/col-->
+		</div> <!--/row-->
+		</div> <!-- /uweb_lector_rss_container -->
+</div>
+
+
+
+
+
+ 
+
+
+
+
+
+	
+	
+	<div id="94b4509d-9ff0-11e4-ac1b-001a4a8c8be4" class="bloque_novedad_container">
+		<!-- TITULO BEGIN -->
+		
+			
+				
+				
+				
+					
+				
+			
+			<h2 class="tit_conten">
+				<span >Convocatorias y Eventos</span>
+				<span class="h2-icon">
+					<!-- TITULO CON ENLACES MULTIMEDIA BEGIN -->
+					
+					<!-- ICONO RSS -->
+					
+					<!-- TITULO CON ENLACES MULTIMEDIA END -->
+				</span>
+			</h2>
+		
+		<!-- TITULO END -->
+		<!-- CONTENIDO BEGIN -->
+		<div class="contenido">
+			
+			<form name="frm_bloque_novedades_categorizadas" class="frm_bloque_novedades_categorizadas" method="post">
+				<input type="hidden" id="pag_novedades-94b4509d-9ff0-11e4-ac1b-001a4a8c8be4" name="pag_novedades-94b4509d-9ff0-11e4-ac1b-001a4a8c8be4" value="" />
+				
+			</form>
+			
+			
+			
+				
+					
+				
+				
+				
+			
+			
+				
+				
+
+
+
+
+
+
+	
+		
+		
+	
+
+				
+					
+					
+						
+							
+							
+							<!-- NOVEDAD BEGIN -->
+							<div class="noticia" style="float:none;">
+								<!-- NOVEDAD TITULO BEGIN -->
+								
+									
+										
+										
+											
+											
+											
+											 
+										
+										<h3 class="tit_noticia">
+											<a href="https://sede.gobcan.es/sede/procedimientos_servicios/tramites/4583" target="_blank" accesskey="" title="Subvenciones 2021, destinadas a apoyar la creación de empresas por jóvenes agricultores">
+												 <span style="font-weight: bold;">Subvenciones 2021, destinadas a apoyar la creación de empresas por jóvenes agricultores</span>
+											</a>
+										</h3>
+									
+									
+								
+								<!-- NOVEDAD TITULO END -->
+								<!-- NOVEDAD DETALLE BEGIN -->
+								<div class="txt_noticia" style="text-align:left">
+									
+									
+										<p>Plazo abierto para presentación de solicitudes hasta el 28 de septiembre de 2020.</p>
+									 
+									
+									<div style="clear:both"></div>
+								</div>
+								<!-- NOVEDAD DETALLE END -->
+							</div>
+							<!-- NOVEDAD END -->
+							
+						
+							
+							
+							<!-- NOVEDAD BEGIN -->
+							<div class="noticia" style="float:none;">
+								<!-- NOVEDAD TITULO BEGIN -->
+								
+									
+										
+										
+											
+											
+											
+											 
+										
+										<h3 class="tit_noticia">
+											<a href="https://sede.gobcan.es/sede/procedimientos_servicios/tramites/4582" target="_blank" accesskey="" title="Declaración de actividades, y de bienes, derechos y obligaciones patrimoniales de los altos cargos de la Administración Pública de la Comunidad Autónoma de Canarias">
+												 <span style="font-weight: bold;">Declaración de actividades, y de bienes, derechos y obligaciones patrimoniales de los altos cargos de la Administración Pública de la Comunidad Autónoma de Canarias</span>
+											</a>
+										</h3>
+									
+									
+								
+								<!-- NOVEDAD TITULO END -->
+								<!-- NOVEDAD DETALLE BEGIN -->
+								<div class="txt_noticia" style="text-align:left">
+									
+									
+										<p>Dar cumplimiento de sus actividades e intereses, inscribiendo y depositando las declaraciones practicadas por los mismos en la sección correspondiente del Registro de Intereses de altos cargos</p>
+									 
+									
+									<div style="clear:both"></div>
+								</div>
+								<!-- NOVEDAD DETALLE END -->
+							</div>
+							<!-- NOVEDAD END -->
+							
+						
+							
+							
+							<!-- NOVEDAD BEGIN -->
+							<div class="noticia" style="float:none;">
+								<!-- NOVEDAD TITULO BEGIN -->
+								
+									
+										
+										
+											
+											
+											
+											 
+										
+										<h3 class="tit_noticia">
+											<a href="https://www.gobiernodecanarias.org/administracionespublicas/dgmcs/temas/altos_cargos/" target="_blank" accesskey="" title="Altos cargos">
+												 <span style="font-weight: bold;">Altos cargos</span>
+											</a>
+										</h3>
+									
+									
+								
+								<!-- NOVEDAD TITULO END -->
+								<!-- NOVEDAD DETALLE BEGIN -->
+								<div class="txt_noticia" style="text-align:left">
+									
+									
+										<p>Actuaciones debidas tras el cese de alto cargo o del personal eventual.</p>
+									 
+									
+									<div style="clear:both"></div>
+								</div>
+								<!-- NOVEDAD DETALLE END -->
+							</div>
+							<!-- NOVEDAD END -->
+							
+						
+							
+							
+							<!-- NOVEDAD BEGIN -->
+							<div class="noticia" style="float:none;">
+								<!-- NOVEDAD TITULO BEGIN -->
+								
+									
+										
+										
+											
+											
+											
+											 
+										
+										<h3 class="tit_noticia">
+											<a href="http://www.gobiernodecanarias.org/cultura/agendacultural/index.html" target="_blank" accesskey="" title="Agenda cultural">
+												 <span style="font-weight: bold;">Agenda cultural</span>
+											</a>
+										</h3>
+									
+									
+								
+								<!-- NOVEDAD TITULO END -->
+								<!-- NOVEDAD DETALLE BEGIN -->
+								<div class="txt_noticia" style="text-align:left">
+									
+									
+										<p><span>Acceda a la Agenda Cultural del Gobierno de Canarias</span></p>
+									 
+									
+									<div style="clear:both"></div>
+								</div>
+								<!-- NOVEDAD DETALLE END -->
+							</div>
+							<!-- NOVEDAD END -->
+							
+						
+						
+				
+				
+			  
+		</div>
+		 
+	</div>
+
+</div>
+							&nbsp;
+						</div>
+						<!-- COLUMNA IZQUIERDA -->
+						<div class="leftc columna_pequ col-xs-12 col-sm-3 col-sm-pull-9 col-md-3 col-md-pull-6 col-lg-3 col-lg-pull-6">
+							<!--IZQUIERDA--><div  id="leftcontainer" >
+
+
+
+
+
+
+<div id="78ed9da2-fbb4-11e3-a92c-59e3af293bae" role="navigation" aria-labelledby="78ed9da2-fbb4-11e3-a92c-59e3af293bae_title">
+
+
+
+
+
+
+	
+	<div class="fondo_columnas">
+		<span ><h2 id="78ed9da2-fbb4-11e3-a92c-59e3af293bae_title" class="tit_azul">El Gobierno</h2></span>
+		
+		
+		 <div class="bordes_columnas">
+		   
+		   
+		   
+		   
+		      <ul class="menu_lat_der">   
+		        
+				
+					
+				
+				
+				
+			
+			
+		        
+				
+
+
+
+
+
+
+	
+		
+		
+	
+
+			
+
+					
+				
+				
+				
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/presidencia/" target="_blank" accesskey="" title="Presidencia del Gobierno">Presidencia del Gobierno</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/organigrama" target="_blank" accesskey="" title="Organigrama">Organigrama</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		          
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="/principal/consejerias.html" target="_blank" accesskey="" title="Webs de las Consejerías">Webs de las Consejerías</a>
+                                                            
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		          
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="/principal/empresas.html" target="_blank" accesskey="" title="Webs de Empresas Públicas">Webs de Empresas Públicas</a>
+                                                            
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+						            
+				
+
+			
+		     
+		                                          
+		         
+		      </ul>
+		     
+		      
+		   
+		   
+				
+		   
+		   
+		   
+		   
+		   
+		   
+		           
+		     
+		     
+		  </div>
+		
+		
+</div>
+
+
+
+
+<div style="clear:both"></div>
+</div>
+
+
+
+
+
+
+
+
+<div id="210c897b-0054-11e4-8d28-59e3af293bae" role="navigation" aria-labelledby="210c897b-0054-11e4-8d28-59e3af293bae_title">
+
+
+
+
+
+
+	
+	<div class="fondo_columnas">
+		<span ><h2 id="210c897b-0054-11e4-8d28-59e3af293bae_title" class="tit_ama">Servicios</h2></span>
+		
+		
+		 <div class="bordes_columnas">
+		   
+		   
+		   
+		   
+		      <ul class="menu_lat_der">   
+		        
+				
+					
+				
+				
+				
+			
+			
+		        
+				
+
+
+
+
+
+
+	
+		
+		
+	
+
+			
+
+					
+				
+				
+				
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Sede electrónica: Procedimientos y servicios" src="/cmsgobcan/export/sites/principal/galerias/imagenes/servicios/56x56_destacado-sede.jpg" alt="Sede electrónica: Procedimientos y servicios"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://sede.gobcan.es/" target="_blank" accesskey="" title="Sede electrónica: Procedimientos y servicios">Sede electrónica: Procedimientos y servicios</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Boletín Oficial de Canarias" src="/cmsgobcan/export/sites/principal/galerias/imagenes/servicios/56x56_boc_canarias.jpg" alt="Boletín Oficial de Canarias"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/boc/" target="_blank" accesskey="" title="Boletín Oficial de Canarias">Boletín Oficial de Canarias</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Servicio de Información y Atención Ciudadana" src="/cmsgobcan/export/sites/principal/galerias/imagenes/servicios/56x56_siac.jpg" alt="Servicio de Información y Atención Ciudadana"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/siac/" target="_blank" accesskey="" title="Servicio de Información y Atención Ciudadana">Servicio de Información y Atención Ciudadana</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://www.gobiernodecanarias.org/emergencias/" target="_blank" accesskey="" title="Emergencias 1-1-2">Emergencias 1-1-2</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Sistema de Información Territorial de Canarias" src="/cmsgobcan/export/sites/principal/galerias/imagenes/servicios/ser_sis_inf_ter.jpg" alt="Sistema de Información Territorial de Canarias"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.idecan.grafcan.es/idecan/" target="_blank" accesskey="" title="Sistema de Información Territorial de Canarias">Sistema de Información Territorial de Canarias</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://sede.gobcan.es/sede/tramites?contentTypeId=321b9560-73a9-11df-8da5-bf2cae36f426&amp;titulo=Introduzca+el+texto&amp;tema=&amp;departamento=&amp;perfil=&amp;organo=&amp;tipo_tramite=1b345260-7ead-11df-bdfa-925b42b7f915&amp;plazo=1&amp;enviado=true" target="_blank" accesskey="" title="Ayudas y subvenciones">Ayudas y subvenciones</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/hacienda/dgpatrimonio/Contratacion_Publica/" target="_blank" accesskey="" title="Contratación Pública">Contratación Pública</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/cpj/dgfp/" target="_blank" accesskey="" title="Empleo Público">Empleo Público</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		          
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="/principal/servicios/legislacion.html" target="" accesskey="" title="Legislación">Legislación</a>
+                                                            
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/oficinasderegistro/" target="_blank" accesskey="" title="Oficinas de registro">Oficinas de registro</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://www.gobiernodecanarias.org/administracionespublicas/dgmcs/temas/informacion/red060/" target="_blank" accesskey="" title="Red060">Red060</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+				           
+                                         	<li> 
+                      	                   
+	                                    
+	                               
+	                                                 
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://www.gobiernodecanarias.org/administracionespublicas/innovacioncalidad/cartas" target="_blank" accesskey="" title="Cartas de servicios">Cartas de servicios</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+						            
+				
+
+			
+		     
+		                                   
+								   <li class="dif">
+					                              
+                              					      	
+    	                       		 			      	
+  	                       		 			      	
+			                               		      	
+                               		 			    	 <a href="/principal/servicios/" target="" accesskey="" title="más">más</a>
+                                                                       
+                                    				       
+                                				   </li>    
+                              					
+		       				            
+		         
+		      </ul>
+		     
+		      
+		   
+		   
+				
+		   
+		   
+		   
+		   
+		   
+		   
+		           
+		     
+		     
+		  </div>
+		
+		
+</div>
+
+
+
+
+<div style="clear:both"></div>
+</div>
+
+</div> 
+							&nbsp;
+						</div>                
+						<!-- COLUMNA DERECHA -->
+						<div class="rightc columna_pequ col-xs-12 col-sm-3 col-sm-pull-9 col-md-3 col-md-pull-0 col-lg-3 pull-right">
+							<div  id="rightcontainer" >
+
+
+
+	
+	
+
+	
+		
+			
+			
+			
+		
+		
+	
+	
+	
+
+<div>
+	<div id="e8341cd7-6f69-11ea-88c4-6717373e7cdd" class="fondo_columnas" role="complementary" aira-labelledby="e8341cd7-6f69-11ea-88c4-6717373e7cdd_title">	<!-- Este div se ha colocado para que funcione la edici?n visual (el recuadro punteado)-->
+		
+			<h2  id="e8341cd7-6f69-11ea-88c4-6717373e7cdd_title" class="tit_azul"><span >Información Covid-19</span></h2>
+		
+		<div class="bordes_columnas">
+		
+			
+				
+				
+					<p style="text-align: center; margin-bottom: 0px;"><a href="https://www.gobiernodecanarias.org/principal/coronavirus/"><img title="Información Coronavirus" src="/cmsgobcan/export/sites/principal/coronavirus/imagenes/148x51-nueva-normalidad.jpg" alt="Información Coronavirus" /></a></p>
+				
+			
+			
+		
+		</div>
+	</div>
+	<div style="clear:left"></div>
+</div>	
+
+
+
+
+	
+	
+
+	
+		
+			
+			
+			
+		
+		
+	
+	
+	
+
+<div>
+	<div id="6eeaba46-fd4e-11e3-8d7a-59e3af293bae" class="fondo_columnas" role="complementary" aira-labelledby="6eeaba46-fd4e-11e3-8d7a-59e3af293bae_title">	<!-- Este div se ha colocado para que funcione la edici?n visual (el recuadro punteado)-->
+		
+			<h2  id="6eeaba46-fd4e-11e3-8d7a-59e3af293bae_title" class="tit_azul"><span >Redes Sociales – App</span></h2>
+		
+		<div class="bordes_columnas">
+		
+			
+				
+				
+					<p style="text-align: center; margin-bottom: 0px;"><a href="/principal/redes_sociales.html"><img title="Redes Sociales" src="/cmsgobcan/export/sites/principal/galerias/imagenes/redes_sociales/destacado_app.jpg" alt="Redes Sociales" /></a></p>
+				
+			
+			
+		
+		</div>
+	</div>
+	<div style="clear:left"></div>
+</div>	
+
+
+
+
+
+
+
+<div id="3748d40e-0054-11e4-8d28-59e3af293bae" role="navigation" aria-labelledby="3748d40e-0054-11e4-8d28-59e3af293bae_title">
+
+
+
+
+
+
+	
+	<div class="fondo_columnas">
+		<span ><h2 id="3748d40e-0054-11e4-8d28-59e3af293bae_title" class="tit_azul">Destacados</h2></span>
+		
+		
+		 <div class="bordes_columnas">
+		   
+		   
+		   
+		   
+		      <ul class="menu_lat_der">   
+		        
+				
+					
+				
+				
+				
+			
+			
+		        
+				
+
+
+
+
+
+
+	
+		
+		
+	
+
+			
+
+					
+				
+				
+				
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Registro Cl@ve" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/56x56-destacado-clave2.jpg" alt="Registro Cl@ve"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://clave.gob.es/clave_Home/registro.html" target="_blank" accesskey="" title="Registro Cl@ve">Registro Cl@ve</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Ley de Presupuestos 2020" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/56x56_ley_presupuestos_2020.jpg" alt="Ley de Presupuestos 2019"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/hacienda/dgplani/presupuestos/2020/ley/index.jsp" target="_blank" accesskey="" title="Ley de Presupuestos 2020">Ley de Presupuestos 2020</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Sugerencias y Reclamaciones" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/56x56_sugerencias_reclamaciones.jpg" alt="Sugerencias y Reclamaciones"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		          
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="/principal/sugrec/" target="_blank" accesskey="" title="Sugerencias y Reclamaciones">Sugerencias y Reclamaciones</a>
+                                                            
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Elecciones Parlamento de Canarias" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/des_56x56-elecciones-2019.jpg" alt="Elecciones Parlamento de Canarias"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://www.gobiernodecanarias.org/elecciones2019/Inicio/es" target="_blank" accesskey="" title="Elecciones Parlamento de Canarias">Elecciones Parlamento de Canarias</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Participación ciudadana en la elaboración normativa" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/56x56-participacion.jpg" alt="Participación ciudadana en la elaboración normativa"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://www.gobiernodecanarias.org/participacionciudadana/iniciativas/" target="_blank" accesskey="" title="Participación ciudadana en la elaboración normativa">Participación ciudadana en la elaboración normativa</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Transparencia" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/des_transparencia.jpg" alt="Transparencia"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/transparencia" target="_blank" accesskey="" title="Transparencia">Transparencia</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Facturación Electrónica" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/des_facturacion_electronica.jpg" alt="Facturación Electrónica"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="http://www.gobiernodecanarias.org/hacienda/facturacion_electronica/index.jsp" target="_blank" accesskey="" title="Facturación Electrónica">Facturación Electrónica</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+					
+					
+                            
+                                     
+                              		 
+   		   			   
+        					
+        					
+        					  <li class="con_img">
+        					
+        					
+	   				   
+				           
+	                                    
+	                               
+	                                            
+                                     		        
+                                     		        	
+ 		                                         		
+ 		                                         			<img width="56" height="56" title="Portal de Datos Abiertos del Gobierno de Canarias" src="/cmsgobcan/export/sites/principal/galerias/imagenes/destacados/des_datos_abiertos.jpg" alt="Datos Abiertos"/>
+ 		                                         		
+ 		                                          	
+     	                                                
+     	                                                
+     	                                                
+		                                         
+		                                        
+		                                        
+		                                        
+		                                        
+		                                          
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                           
+						       
+                                   		        
+                                  		           
+                                                           
+                              					 
+    	                       					 
+	                       					 
+                               				         
+                               				         <a href="https://opendata.gobiernodecanarias.org/opendata/" target="_blank" accesskey="" title="Portal de Datos Abiertos del Gobierno de Canarias">Datos Abiertos</a>
+                                                            
+                                    		        
+                                     		     
+                                     		      
+					          </li>	
+					          
+				
+							
+						
+					
+						            
+				
+
+			
+		     
+		                                          
+		         
+		      </ul>
+		     
+		      
+		   
+		   
+				
+		   
+		   
+		   
+		   
+		   
+		   
+		           
+		     
+		     
+		  </div>
+		
+		
+</div>
+
+
+
+
+<div style="clear:both"></div>
+</div>
+
+</div>
+							&nbsp;
+						</div>
+					</div>
+				
+				
+				<!-- VISTA 2 COLUMNAS D -->   
+				
+				
+				<!-- VISTA 2 COLUMNAS I -->   
+				
+				
+				<!-- VISTA 1 COLUMNA -->   
+				
+				
+			</div><!-- /CONTENIDO MOD RESPONSIVE -->
+			<div style="clear:both"></div>
+			
+			<!-- PIE DE PAGINA -->
+			<div id="subpie">
+				<div  id="subfootercontainer" ></div>
+			</div>
+			<div id="fechaactual" role="contentinfo" aria-label="Fecha de &uacute;ltima actualizaci&oacute;n">
+				
+				
+			</div>
+			<div id="pie" role="contentinfo" aria-label="Pie de p&aacute;gina con copyright">
+				<div  id="footercontainer" >
+
+
+ 
+	<div>
+		<p class="izda">
+			<span >&copy; Gobierno de Canarias</span>
+		</p>
+		<div class="dcha">
+			<ul>
+				
+					
+						
+							
+							
+							
+							
+							<li>
+								<a href="/principal/avisolegal.html" target="" accesskey="" title="Aviso legal">
+									Aviso legal
+								</a>
+								|
+							</li>
+						
+						
+					 
+				
+					
+						
+							
+							
+							
+							
+							<li>
+								<a href="/principal/sugrec/" target="_blank" accesskey="" title="Sugerencias y reclamaciones">
+									Sugerencias y reclamaciones
+								</a>
+								
+							</li>
+						
+						
+					 
+				
+			</ul>
+		</div> 
+	</div>
+</div>
+			</div>
+		</div> 
+		
+
+
+	<div id="aviso-cookies" role="contentinfo" aria-label="Aviso pol&iacute;tica de cookies">
+		<h2>INFORMACI&Oacute;N IMPORTANTE SOBRE COOKIES</h2>
+		<p>Este portal web utiliza cookies propias y de terceros para recopilar informaci&oacute;n que ayuda a optimizar su visita. Las cookies no se utilizan para recoger informaci&oacute;n de car&aacute;cter personal. Puede cambiar su configuraci&oacute;n siempre que lo desee. Dispone de m&aacute;s informaci&oacute;n en nuestra <a title="Pol&iacute;tica de Cookies" href="/principal/politica-de-cookies/" target="_self">Pol&iacute;tica de Cookies</a>.</p>
+		<button type="button" class="btn" onclick="ocultarAviso()">Cerrar aviso</button>
+	</div>
+	<script>
+		function readCookie(a){
+			var d=[],
+				e=document.cookie.split(";");
+			a=RegExp("^\\s*"+a+"=\\s*(.*?)\\s*$");
+			for(var b=0;b<e.length;b++){
+				var f=e[b].match(a);
+				f&&d.push(f[1])
+			}
+			return d
+		}
+		
+		function ocultarAviso() {
+			document.getElementById('aviso-cookies').style.display = 'none';
+			document.cookie='cookies_allowed=true;expires=Tue, 01 Jan 2030 00:00:00 GMT;path=/';
+		}
+		
+		if(readCookie('cookies_allowed') == 'true') {
+			document.getElementById('aviso-cookies').style.display = 'none';
+		}
+	</script>
+
+	</body>
+</html>
