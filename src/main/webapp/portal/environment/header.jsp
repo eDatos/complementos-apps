@@ -4,6 +4,14 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 
 <fmt:bundle basename="application">
+	<!-- Added functionality from header -->
+	<script type="text/javascript"
+		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
+	<script type="text/javascript"
+		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js"></script>
+
 	<div id="contenido" class="container">
 		<div id="cabecera">
 			<div id="headercontainer">
@@ -131,12 +139,4 @@
 				<li><strong>Portal Medio Ambiente</strong></li>
 			</ul>
 		</div>
-
-
-		<!-- Added functionality from header -->
-		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
-		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
-
 </fmt:bundle>
