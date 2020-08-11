@@ -10,7 +10,7 @@
 	<script type="text/javascript"
 		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
 	<script type="text/javascript"
-		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js"></script>
+		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js"></script>
 
 	<div id="contenido" class="container">
 		<div id="cabecera">
