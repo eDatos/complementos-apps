@@ -61,6 +61,7 @@ const RESOURCES_FILE_LIST = [
     // medioambiente
     { path: "cmsgobcan/export/sites/medioambiente/galerias/banners/2_sostenibilidad_591x92.png" },
     { path: "cmsgobcan/export/sites/medioambiente/galerias/banners/banner_derecho_151x95_medio_ambiente.png" },
+    { path: "cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js" },
     { path: "gcc/img/logos/ctelccpt.jpg" },
     // turismo
     { path: "cmsgobcan/export/sites/ctcd/galerias/logos/ctcd.gif" },
