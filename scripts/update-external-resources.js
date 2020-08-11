@@ -3,7 +3,8 @@ var mkdirp = require('mkdirp');
 var path = require('path');
 var rimraf = require('rimraf');
 
-const BASE_URL = "https://www.gobiernodecanarias.org/";
+const DEFAULT_PROTOCOL = "https";
+const BASE_URL = "://www.gobiernodecanarias.org/";
 const BASE_FOLDER = './src/main/webapp/';
 const BASE_PATH = 'external/gobcan/';
 
@@ -30,7 +31,7 @@ const CSS_FILE_LIST = [
 
 CSS_FILE_LIST.forEach((file) => {
     mkdirp.sync(path.dirname(BASE_FOLDER + BASE_PATH + file.path));
-    wget({ url: BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
+    wget({ url: DEFAULT_PROTOCOL + BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
     if (file.service) {
         console.log("Next file is only for " + file.service.toString() + " services")
     }
@@ -64,13 +65,15 @@ const RESOURCES_FILE_LIST = [
     { path: "cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js" },
     { path: "gcc/img/logos/ctelccpt.jpg" },
     // turismo
-    { path: "cmsgobcan/export/sites/ctcd/galerias/logos/ctcd.gif" },
-    { path: "cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png" },
+    { path: "gcc/img/logos/ctcd.gif" },
+    { path: "cmsgobcan/export/sites/turismo/galerias/logos/08TURI.png", protocol: "http" },
+    { path: "cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png", protocol: "http" },
 ];
 
 
 RESOURCES_FILE_LIST.forEach((file) => {
     mkdirp.sync(path.dirname(BASE_FOLDER + BASE_PATH + file.path));
-    wget({ url: BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
+    const PROTOCOL = file.protocol ? file.protocol : DEFAULT_PROTOCOL;
+    wget({ url: PROTOCOL + BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
     console.log(`Downloaded ${BASE_FOLDER + BASE_PATH + file.path}`)
 });
