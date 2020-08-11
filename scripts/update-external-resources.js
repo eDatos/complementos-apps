@@ -54,8 +54,17 @@ const RESOURCES_FILE_LIST = [
     // agricultura
     { path: "gcc/img/logos/cagp.jpg" },
     { path: "gcc/img/logos/logo.gif" },
+    { path: "gcc/img/iconos/facebook_20x20.png" },
+    { path: "gcc/img/iconos/youtube_20x20.png" },
     // funcion publica
     { path: "gcc/img/logos/cpj.gif" },
+    // medioambiente
+    { path: "cmsgobcan/export/sites/medioambiente/galerias/banners/2_sostenibilidad_591x92.png" },
+    { path: "cmsgobcan/export/sites/medioambiente/galerias/banners/banner_derecho_151x95_medio_ambiente.png" },
+    { path: "gcc/img/logos/ctelccpt.jpg" },
+    // turismo
+    { path: "cmsgobcan/export/sites/ctcd/galerias/logos/ctcd.gif" },
+    { path: "cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png" },
 ];
 
 
