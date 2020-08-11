@@ -31,9 +31,8 @@
 					</h1>
 					<!-- IMAGEN ENTIDAD -->
 					<h2>
-						<!-- TODO Recurso http -->
 						<img style="vertical-align:middle"
-							ssrc="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/ctcd/galerias/logos/ctcd.gif"
+							src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/ctcd/galerias/logos/ctcd.gif"
 							alt="">
 					</h2>
 					<!-- IMAGEN ENTIDAD 2 -->
@@ -54,9 +53,9 @@
 				</div>
 			</div>
 		</div>
-		<!-- TODO Recurso http -->
+
 		<img class="banner" title=""
-			ssrc="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png"
+			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png"
 			alt="" style="z-index: 4; width: 765px; height: 95px;">
 
 		<!-- Added functionality from header -->

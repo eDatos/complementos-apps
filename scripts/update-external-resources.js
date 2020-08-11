@@ -24,6 +24,7 @@ const CSS_FILE_LIST = [
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_widget.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_caja_lateral.css" },
+    { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_banner.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/bootstrap.min.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_responsive.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_bootstrap.css" },
