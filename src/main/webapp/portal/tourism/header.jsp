@@ -32,7 +32,7 @@
 					<!-- IMAGEN ENTIDAD -->
 					<h2>
 						<img style="vertical-align:middle"
-							src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/ctcd/galerias/logos/ctcd.gif"
+							src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/turismo/galerias/logos/08TURI.png"
 							alt="">
 					</h2>
 					<!-- IMAGEN ENTIDAD 2 -->
