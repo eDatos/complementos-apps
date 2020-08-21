@@ -122,7 +122,7 @@
 			</li>
 
 			<li class="apis-item">
-				<h2><a href="<fmt:message key="istac_apis_base.url"/>/permalinks" alt="API de enlaces permanences (permalinks)">API de enlaces permanences (permalinks)</a></h2>
+				<h2><a href="<fmt:message key="istac_apis_base.url"/>/permalinks" alt="API de enlaces permanentes (permalinks)">API de enlaces permanentes (permalinks)</a></h2>
 				<p>Los permalinks son enlaces permanentes que se generan para asegurarnos que una URL va a ser accesible a lo largo del tiempo.</p>
 			</li>
 		</ul>

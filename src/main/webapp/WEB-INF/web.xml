@@ -68,6 +68,35 @@
         <servlet-name>portal-default-header</servlet-name>
         <url-pattern>/portal/default/header.html</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>portal-environment-header</servlet-name>
+        <jsp-file>/portal/environment/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>portal-environment-header</servlet-name>
+        <url-pattern>/portal/environment/header.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>portal-tourism-header</servlet-name>
+        <jsp-file>/portal/tourism/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>portal-tourism-header</servlet-name>
+        <url-pattern>/portal/tourism/header.html</url-pattern>
+    </servlet-mapping>
+
+    <!-- /visualizer -->
+    <servlet>
+        <servlet-name>portal-agriculture-header</servlet-name>
+        <jsp-file>/visualizer/agricultura/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>portal-agriculture-header</servlet-name>
+        <url-pattern>/visualizer/agricultura/header.html</url-pattern>
+    </servlet-mapping>
     
     <!-- /api -->
     <servlet>

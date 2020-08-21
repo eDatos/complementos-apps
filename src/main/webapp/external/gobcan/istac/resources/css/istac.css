@@ -1,0 +1,116 @@
+.section{font-family:"Droid Sans",sans-serif;font-size:15px;color:#000;max-width:960px;margin:0 auto;padding:5px 0 0 0;clear:both}
+.section .izq{float:left}
+.section .der{float:right}
+.section h1,.section h2{padding-bottom:10px;font-weight:700;font-size:25px}
+.section h2{border-bottom:1px solid #d6d6d6;box-sizing:border-box}
+.section h2 a{color:#999;font-size:18px;text-decoration:none}
+.section h2 a:hover{color:#000;text-decoration:underline}
+.section ol li,.section p{line-height:1.4em;padding:0 0 10px;color:#333;text-align:justify}
+.section#header{padding-top:15px}
+.section#footer{font-size:12px;border-top:1px solid #d6d6d6;margin:40px auto}
+.section#footer ul,.section#header ul{list-style-type:none;margin:0;padding:0}
+.section#footer ul li,.section#header ul li{display:inline;padding:0 5px 0 0}
+.section#footer ul li a,.section#header ul li a{color:#000;font-weight:600;text-decoration:none}
+.section#header ul li a{text-transform:uppercase;padding:0 4px 8px 0!important;margin:15px 6px 0 0!important}
+.section#footer ul li a:hover,.section#header ul li a:hover{border-bottom:2px solid #000;font-weight:600;color:#9c9c9c}
+.section#footer ul li a:active,.section#header ul li a:active{font-weight:600;color:#9c9c9c}
+.istac-logo{background:url(../imagenes/logo_istac.jpg) no-repeat scroll 0 0;float:left}
+.Qfeedbackgeneric{display:none;background-color:#bfd5ea;border:1px #666 solid;line-height:1.2em;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px}
+.Qfeedbackcorrect{display:none;background:url(../../webescolar/resources/imagenes/botones/tic.gif) no-repeat;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px;line-height:1.5em}
+.Qfeedbackincorrect{display:none;background:url(../../webescolar/resources/imagenes/botones/wrong.gif) no-repeat;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px;line-height:1.5em}
+.Qfeedbackcorrect-chb2{display:none;background-color:#c1e8bd;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px;line-height:1.2em}
+.Qfeedbackincorrect-chb2{display:none;background-color:#fcc;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px;line-height:1.2em}
+.Qfeedbacksaved{display:none;background-color:#fc9;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px;border:1px #666 solid;line-height:1.2em}
+.Qfeedbacksaved{display:none;background-color:#fc9;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px;border:1px #666 solid;line-height:1.2em}
+#cabecera h1 a{background:transparent url(../imagenes/logo_istac.jpg) no-repeat scroll 5px 5px;float:left;height:61px;width:250px;text-decoration:none}
+#cabecera h2 a img{height:79px;width:255px;text-decoration:none;float:right}
+#cabecera h2 img{float:right}
+.aniversario{background-color:transparent;background-image:url(../imagenes/25a_Color.png);background-repeat:no-repeat;background-position:right top;background-size:80% 80%}
+#contenido #headercontainer h1{height:66px}
+#contenido #headercontainer h2{float:right;height:66px;min-width:200px;margin-top:7px;margin-right:7px}
+.contenido h3.titdesp{text-decoration:none;color:#036;background:0 0;padding-left:0;vertical-align:middle}
+.contenido h3.titdesp a:hover{color:#036;text-decoration:underline}
+.contenido h3.titdesp a:focus{text-decoration:none;color:#036;outline:thin}
+.contenido h3.titdesp a:visited{color:#036}
+.contenido h3.titdesp a img{padding-right:4px}
+.contenido h3.tit{font-size: 1.1em;text-decoration:none;color:#036}
+.contenido h3.tit a:hover{color:#036;text-decoration:underline}
+.contenido h3.tit a:focus{text-decoration:none;color:#036;outline:thin}
+.contenido h3.tit a:visited{color:#036}
+.contenido div.noticia{float:initial}
+.contenido div.espacio_mas_noticias{float:none;padding:10px 0}
+.contenido div.mas_noticias{padding:10px 0}
+.contenido ol{padding-left:1.2em;line-height:1.6}
+.contenido ul li{margin:0 0}
+.contenido p{margin-right:10px}
+h2.tit_gris{color:#000}
+ul.menu_lat_der li a{display:flex}
+#pie .dcha{width:60%!important; display: contents;}
+#pie .dcha ul{padding-top:3px; background-color: #ffdf61;}
+#pie .dcha ul li a{vertical-align:middle}
+#footercontainer #pie .dcha{width:60%}
+#footercontainer #pie p.izda{width:30%!important; display: contents;}
+#redessocialescontainer div a img{height:18px;width:18px}
+h3.tit_noticia{padding:0 0 3px 10px;font-size:1em;background:transparent url(../imagenes/texto.gif) no-repeat scroll left top;margin:7px 0 1px;width:96%;font-family:Tahoma,geneva,arial,sans-serif;color:#036}
+h3.tit_noticia a{text-decoration:none;margin-left:5px;color:#036}
+.gris{color:#afafaf}
+.gap{padding-bottom:4px}
+.gap a,.gap a:hover,.gap a:link,.gap a:visited{text-decoration:none!important;color:#afafaf}
+img.redes{width:14px;height:14px}
+p.metodo_gris{background-color:#b0c4de;border-style:solid;border-width:1px;padding:3px 3px;margin:0 auto;width:90%;font-weight:700;word-wrap:break-word}
+p.metodo_blanco{border-style:none solid solid solid;border-width:1px;margin:0 auto 10px auto;padding:3px 3px;width:90%}
+#cabecera #cab_superior ul li{display:inline;font-size:.9em;list-style-type:none;padding-right:2px}
+#cabecera #cab_superior ul li a{color:#535353;margin-right:7px;text-decoration:none}
+#cabecera #cab_superior ul li a img{vertical-align:text-bottom;float:none;width:14px;height:14px}
+#logo div#jasig{position:relative;float:right;clear:both;display:block}
+#logo div#mac{background-image:url(../imagenes/mac.jpg);background-size:contain;background-repeat:no-repeat;background-position:center bottom;width:56px;height:65px;float:left}
+#logo div#feder{background-image:url(../imagenes/feder.jpg);background-size:contain;background-repeat:no-repeat;background-position:center bottom;width:105px;height:62px;float:right}
+span.metodo{font-family:"Courier New",Courier,monospace}
+.pdf{background:transparent url(/istac/webescolar/resources/imagenes/iconos/file_pdf.png) no-repeat scroll 0 0;display:inline;margin:0 7px;padding:2px 0 1px 18px;width:40%}
+.doc{background:transparent url(/istac/webescolar/resources/imagenes/iconos/file_txt.jpg) no-repeat scroll 0 0;display:inline;margin:0 7px;padding:2px 0 1px 18px;width:45%}
+.ppt{background:transparent url(/istac/webescolar/resources/imagenes/iconos/file_ppt.png) no-repeat scroll 0 0;display:inline;margin:0 7px;padding:2px 0 1px 18px;width:45%}
+.calc{background:transparent url(/istac/webescolar/resources/imagenes/iconos/file_txt.jpg) no-repeat scroll 0 0;display:inline;margin:0 7px;padding:2px 0 1px 18px;width:45%}
+.xls{background:transparent url(/istac/webescolar/resources/imagenes/iconos/file_xls.jpg) no-repeat scroll 0 0;display:inline;margin:0 7px;padding:2px 0 1px 18px;width:45%}
+.zip{background:transparent url(/istac/webescolar/resources/imagenes/iconos/file_zip.png) no-repeat scroll 0 0;display:inline;margin:0 7px;padding:2px 0 1px 18px;width:45%}
+.tabla_test{width:100%;padding:4px;border-collapse:separate}
+.tabla_test_qinput{width:100%;padding:8px;font-size:1em;line-height:1.4em;border-collapse:separate}
+.tr100{float:left;width:100%}
+.td4{width:4%;text-align:left}
+.td92{width:92%;text-align:left}
+.cartel{float:right;margin:0 auto 0 auto;width:50%}
+.cartel2{float:left;width:50%}
+.td33{float:left;margin:0;padding:0;width:33%}
+.td50{float:left;margin:0;padding:0;width:50%}
+td.qnum{background-color:#ccc;font-size:2em;color:#669;text-align:left;width:.7em}
+td.qbody{font-size:1em;line-height:.8em}
+table.qinput{width:100%;padding:8px;font-size:1em;line-height:1.4em;border-collapse:separate}
+#feedback{margin:8px;padding:8px;position:static;font-family:Verdana,Helvetica,Arial,sans-serif;font-size:1em;line-height:1.2em;position:static}
+#feedback ol,#feedback p,#feedback table,#feedback ul{font-size:1em}
+#centercontainer a{text-decoration:none}
+#dashboard{font:1em/1.125em FontAwesome,Tahoma,geneva,arial,sans-serif;max-width:552px;margin:auto}
+#dashboard h2{font-size:.69em;margin:4px 0}
+#dashboard h3{font-size:.67em;color:#4b4b4b}
+#dashboard p{font-size:.67em;color:#4b4b4b;text-align:right}
+#chart{height:280px}
+#control{height:60px}
+#ccaa{height:340px}
+#sectores{height:280px}
+#cabecera #menu_contextual #formulario_google{padding-top:1px}
+.tab-panel{height:850px; margin:1px auto;}
+.tab-panel-istac{max-height:initial; margin:1px auto;}
+.tab-gds {height:1200px; margin:1px auto}
+.box{ display:none; height: 300px; width: 200px; background-color:#FFFFFF; }
+.tbox{ display:none; margin-bottom:40px; font-family:Arial; font-size:8pt; color:#0072A2; text-align:center; display:inline-block; height: 300px; width: 200px; }
+.hca{ color:#0072A2; font-style:normal; text-decoration:underline; }
+.hca:hover { color:#124e66; text-decoration:underline; }
+figure { margin:1em 5em !important;}
+.uweb_tipo_caja_lateral_container_imagenes img {  max-width: 151px; max-height: 62px;}
+span.ext-lnk {width: 13px;height: 14px;display: inline-block;background-image: url(http://www.gobiernodecanarias.org/cmsweb/export/system/modules/es.gobcan.istac.web/resources/images/external_link.gif);}
+.contenido ul li {background-image: none;}
+.contenido li a:visited, .contenido p a:visited,.contenido h3.tit a:visited, .mas_sobre a:visited,.contenido h4.tit a:visited  {color: #003366;}
+.contenido li a:hover, .contenido p a:hover,.contenido h3.tit a:hover, .mas_sobre a:hover,.contenido h4.tit a:hover{color: #990099;}
+.contenido li a, .contenido p a, .contenido h3.tit a, .mas_sobre a, h4.tit a{color: #003366;}
+.contenido h3.tit {color: #000;}
+.contenido h3.informe {font-size: 1.1em; background-image: none;}
+.contenido h4.informe {font-weight: bold;}
+.contenido p.informe {text-align: initial;}

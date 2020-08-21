@@ -4,106 +4,129 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 
 <fmt:bundle basename="application">
-	<div id="contenido">
+	<div id="contenido" class="container">
 		<div id="cabecera">
-			<div id="cab_superior">
-				<!-- MENÚ DE AYUDA -->
-				<ul>
-					<li><a href="https://sede.gobcan.es/hacienda/" target="" accesskey="e" title="Sede electrónica">Sede
-							electrónica</a></li>
-					<li>|</li>
-					<li><a href="<fmt:message key='web_istac_base.url' />/servicios/atencion.html" accesskey="o"
-							title="Contacte con nosotros (tecla de acceso: o)">Contacto</a></li>
-				</ul>
-			</div>
-			<!-- IMAGEN ISTAC -->
-			<h1><a href="<fmt:message key='web_istac_base.url' />"
-					title="Página principal del Instituto Canario de Estadística (ISTAC) - Opciones de accesibilidad (tecla de acceso: i)"
-					accesskey="i">Instituto Canario de Estadística</a></h1>
-
-			<!-- begin: #menu -->
-
-			<div id="menu_contextual">
-				<ul class="menu">
-					<li>
-						<a href="<fmt:message key='web_istac_base.url' />/temas_estadisticos/" class="inactive"
-							accesskey="1" title="Estadísticas (tecla de acceso: 1)">Estadísticas</a>
-					</li>
-					<li>
-						<a href="<fmt:message key='web_istac_base.url' />/istac/" class="inactive" accesskey="2"
-							title="El ISTAC (tecla de acceso: 2)">El
-							ISTAC</a>
-					</li>
-					<li>
-						<a href="<fmt:message key='web_istac_base.url' />/noticias/" class="inactive" accesskey="4"
-							title="Noticias (tecla de acceso: 4)">Noticias</a>
-					</li>
-					<li>
-						<a href="<fmt:message key='web_istac_base.url' />/datos-abiertos/" class="inactive"
-							accesskey="5" title="Datos abiertos (tecla de acceso: 5)">Datos abiertos</a>
-					</li>
-                    <li>
-						<a href="<fmt:message key='web_istac_base.url' />/impacto-covid-19/" class="inactive"
-							accesskey="6" title="COVID-19 (tecla de acceso: 5)">COVID-19</a>
-                    </li>
-				</ul>
-
-				<!-- form name="gs" method="GET" action="<fmt:message key='web_istac_base.url' />/buscador/busca" -->
-				<form name="gs" method="GET" action="<fmt:message key='web_istac_base.url' />/buscador/busca">
-					<div id="formulario_google" style="padding-top: 1px;">
-						<input type="text" id="userQuery" name="userQuery" placeholder="texto de búsqueda"
-							class="buscar" value="">
-						<input type="submit" name="Buscar" value="Buscar" class="boton">
-						<input type="hidden" id="typeResult" name="typeResult" value="">
-						<input type="hidden" id="subject_areas_ff" name="subject_areas_ff" value="">
-						<input type="hidden" id="survey_title_ff" name="survey_title_ff" value="">
-						<input type="hidden" id="coverage_spatial_ff" name="coverage_spatial_ff" value="">
-						<input type="hidden" id="coverage_temporal_ff" name="coverage_temporal_ff" value="">
-						<input type="hidden" id="formato" name="formato" value="">
-						<input type="hidden" id="ff_select" name="ff_select" value="">
-						<input type="hidden" id="sort" name="sort" value="">
+			<div id="headercontainer">
+				<div role="navigation" aria-label="Cabecera">
+					<div id="cab_superior">
+						<!-- MENU DE AYUDA -->
+						<ul>
+							<li class="bypass-blocks"><a href="#centercontainer"
+									title="Salta contenido repetido y le sit&uacute;a en el bloque principal de la p&aacute;gina">Ir
+									al contenido principal</a></li>
+							<li><a href="https://sede.gobcan.es/hpae/" target="" accesskey="e"
+									title="Acceso a la sede electrónica de la Consejería de Hacienda, Presupuestos y Asuntos Europeos">Sede
+									electrónica</a>|</li>
+							<li><a href="<fmt:message key='web_istac_base.url' />/servicios/atencion.html" target=""
+									accesskey="o" title="Acceso al apartado de atención ciudadana">Contacto</a></li>
+						</ul>
+						<div class="cleared"></div>
 					</div>
-				</form>
+					<!-- IMAGEN GOBIERNO DE CANARIAS -->
+					<h1 class="logo">
+						<a href="<fmt:message key='web_istac_base.url' />" target="" accesskey="i"
+							title="Página principal del Instituto Canario de Estadística (ISTAC)">Página
+							principal del Instituto Canario de Estadística (ISTAC)</a>
+					</h1>
+					<!-- MENU CONTEXTUAL -->
+					<div id="menu_contextual" class="menu_contraido">
+						<nav class="navbar navbar-inverse">
+							<div class="navbar-header"><button type="button" class="navbar-toggle"
+									data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle
+										navigation</span><span class="icon-bar"></span><span
+										class="icon-bar"></span><span class="icon-bar"></span></button></div>
+							<div class="navbar-collapse navbar-ex1-collapse collapse" aria-expanded="false">
+								<ul class="menu nav-menu navbar-nav">
+									<li>
+										<a href="<fmt:message key='web_istac_base.url' />/estadisticas/" target=""
+											accesskey="1" title="Acceso al apartado temas estadísticos">Estadísticas</a>
+									</li>
+									<li>
+										<a href="<fmt:message key='web_istac_base.url' />/istac/" target=""
+											accesskey="2"
+											title="Acceso al apartado con información sobre el Institito Canario de Estadística">El
+											ISTAC</a>
+									</li>
+									<li>
+										<a href="<fmt:message key='web_istac_base.url' />/noticias/" target=""
+											accesskey="4"
+											title="Acceso al apartado noticias publicadas por el Institito Canario de Estadística">Noticias</a>
+									</li>
+									<li>
+										<a href="<fmt:message key='web_istac_base.url' />/datos-abiertos/" target=""
+											accesskey="5"
+											title="Acceso al apartado de datos abiertos del Institito Canario de Estadística">Datos
+											abiertos</a>
+									</li>
+									<li>
+										<a href="<fmt:message key='web_istac_base.url' />/impacto-covid-19/" target=""
+											accesskey="6"
+											title="Acceso al apartado de datos de impacto socioeconómico del COVID-19">COVID-19</a>
+									</li>
+									<!-- FORMULARIO DE BUSQUEDA SI EXISTE APLICATIVO QUE LO SUSTENTE -->
+									<li id="formulario_google">
+										<form target="_blank" name="gs" method="GET"
+											action="<fmt:message key='web_istac_base.url' />/buscador/busca">
+											<input type="text" name="userQuery" size="32" maxlength="256" id="cajabusca"
+												class="buscar" placeholder="texto de b&uacute;squeda" accesskey="b"
+												title="Introduzca el texto de b&uacute;squeda (tecla de acceso: b)" />
+											<input type="submit" value="Buscar" class="boton">
+											<input type="hidden" name="ambitos" value="" />
+											<input type="hidden" name="fqtr" value="" />
+											<input type="hidden" name="fbt" value="false" />
+										</form>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<div style="clear:left"></div>
+				</div>
 			</div>
-			<!-- end: #menu -->
 		</div>
-		<div id="migas">
+		<div id="banner" role="banner">
+			<div id="bannercontainer"></div>
+		</div>
+		<div id="migas" role="navigation" aria-label="Camino de hormigas">
+			<div id="redessocialescontainer">
+				<div class="redes_sociales_div">
+					<a href="<fmt:message key='web_istac_base.url' />/herramientas/rss.html" title="Canal de Rss"
+						target="_blank">
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/rss_20x20.png"
+							title="Canal de Rss" alt="Canal de Rss">
+					</a>
+					<a href="https://twitter.com/istac_es" title="Canal de Twitter" target="_blank">
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/twitter_20x20.png"
+							title="Canal de Twitter" alt="Canal de Twitter">
+					</a>
+					<a href="https://www.slideshare.net/ISTAC" title="Canal de Slideshare" target="_blank">
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/Slideshare_20x20.png"
+							title="Canal de Slideshare" alt="Canal de Slideshare">
+					</a>
+					<a href="https://www.youtube.com/user/istacES" title="Canal de Youtube" target="_blank">
+						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/youtube_20x20.png"
+							title="Canal de Youtube" alt="Canal de Youtube">
+					</a>
+					<a href="https://public.tableau.com/profile/istac#!/" accesskey="s"
+						title="Seguir a ISTAC en Tableau (tecla de acceso: u)" target="_blank"><img
+							src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.istac.web/resources/images/tableau_20.png"
+							title="Seguir a ISTAC en Tableau (tecla de acceso: u)"
+							alt="Seguir a ISTAC en Tableau (tecla de acceso: u)"></a>
+				</div>
+
+			</div>
 			<c:if test="${not empty param.miga}">
 				<c:import url="migas.jsp">
 					<c:param name="texto" value="${param.miga}" />
 					<c:param name="enlace" value="${param.enlace}" />
 				</c:import>
 			</c:if>
-			<div class="redes_sociales">
-				<a href="<fmt:message key='web_istac_base.url' />/herramientas/rss.html" accesskey="r"
-					title="Canales RSS (tecla de acceso: r)">
-					<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/rss_20x20.png"
-						title="Canales RSS (tecla de acceso: r)" alt="Canales RSS (tecla de acceso: r)">
-				</a>
-				<a href="<fmt:message key='web_istac_base.url' />/twitter" accesskey="t"
-					title="Seguir a istac_es en Twitter (tecla de acceso: t)">
-					<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/twitter_20x20.png"
-						title="Seguir a istac_es en Twitter (tecla de acceso: t)" alt="Seguir a istac_es en Twitter (tecla
-					de acceso: t)">
-				</a>
-				<a href="https://www.slideshare.net/ISTAC" accesskey="s"
-					title="Seguir a ISTAC en Slideshare (tecla de acceso: s)">
-					<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/Slideshare_20x20.png"
-						title="Seguir a ISTAC en Slideshare (tecla de acceso: s)" alt="Seguir a ISTAC en Slideshare (tecla
-					de acceso: s)">
-				</a>
-				<a href="https://www.youtube.com/user/istacES" accesskey="y"
-					title="Seguir a ISTAC en Youtube (tecla de acceso: y)">
-					<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/youtube_20x20.png"
-						title="Seguir a ISTAC en Youtube (tecla de acceso: y)" alt="Seguir a ISTAC en Youtube (tecla de
-					acceso: y)">
-				</a>
-				<a href="https://public.tableau.com/profile/istac#!/" accesskey="s"
-					title="Seguir a ISTAC en Tableau (tecla de acceso: u)">
-					<img src="<fmt:message key='complementos_apps.url' />/assets/img/icons/tableau_20.png"
-						title="Seguir a ISTAC en Tableau (tecla de acceso: u)" alt="Seguir a ISTAC en Tableau (tecla de
-					acceso: u)">
-				</a>
-			</div>
 		</div>
+
+		<!-- Added functionality from header -->
+		<script type="text/javascript"
+			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+		<script type="text/javascript"
+			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
+
 </fmt:bundle>

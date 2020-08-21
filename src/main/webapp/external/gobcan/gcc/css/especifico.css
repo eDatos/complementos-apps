@@ -1,0 +1,10 @@
+/* Se definen los elementos de estilo particulares para las consejerías*/
+
+#cabecera h3.sub_marca		{margin:0px; padding:0px; text-indent:-5000px;}
+#cabecera h3.sub_marca a	{background:url(../img/logos/logo_pla_pro_serv.gif) no-repeat scroll 100%;float:right;height:53px; width:132px;text-decoration:none; margin-top:13px; margin-right:13px;}
+
+#cabecera h3.sub_marca2		{margin:0px; padding:0px; text-indent:-5000px;}
+#cabecera h3.sub_marca2 a	{background:url(../img/logos/logo_pla_pro_serv.gif) no-repeat scroll 100%;float:right;height:53px; width:132px;text-decoration:none; margin-top:13px; margin-right:13px;}
+
+#cabecera h3.sub_marca3		{margin:0px; padding:0px; text-indent:-5000px;}
+#cabecera h3.sub_marca3 a	{background:url(../img/logos/logo_pla_pro_serv.gif) no-repeat scroll 100%;float:right;height:53px; width:132px;text-decoration:none; margin-top:13px; margin-right:13px;}
