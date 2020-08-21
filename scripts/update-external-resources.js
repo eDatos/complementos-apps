@@ -45,6 +45,7 @@ const RESOURCES_FILE_LIST = [
     { path: "gcc/img/iconos/twitter_20x20.png" },
     { path: "gcc/img/iconos/Slideshare_20x20.png" },
     { path: "gcc/img/iconos/youtube_20x20.png" },
+    { path: "cmsweb/export/system/modules/es.gobcan.istac.web/resources/images/tableau_20.png" },
     { path: "istac/resources/imagenes/logo_istac.jpg" },
     { path: "gcc/img/maqueta/borde_bajo_migas.gif" },
     { path: "gcc/img/auxis/flecha_amarilla.gif" },
