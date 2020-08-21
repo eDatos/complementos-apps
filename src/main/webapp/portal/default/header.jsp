@@ -107,7 +107,11 @@
 						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/youtube_20x20.png"
 							title="Canal de Youtube" alt="Canal de Youtube">
 					</a>
-
+					<a href="https://public.tableau.com/profile/istac#!/" accesskey="s"
+						title="Seguir a ISTAC en Tableau (tecla de acceso: u)" target="_blank"><img
+							src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.istac.web/resources/images/tableau_20.png"
+							title="Seguir a ISTAC en Tableau (tecla de acceso: u)"
+							alt="Seguir a ISTAC en Tableau (tecla de acceso: u)"></a>
 				</div>
 
 			</div>
