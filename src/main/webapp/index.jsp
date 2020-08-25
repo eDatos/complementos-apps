@@ -106,13 +106,14 @@
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps row justify-content-left">
-					<li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
+					<%-- EDATOS-3166 El enlace del atlas permanecerá oculto hasta el ok de Alberto para su publicación --%>
+					<%-- <li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
 						<a class="link-app" href="<fmt:message key="terria.url"/>">
 							<div class="app-image"></div>
 							<h2 class="app-name">Atlas Estadísticos de Canarias</h2>
 							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
 						</a>
-					</li>
+					</li> --%>
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app sie-app">
 						<a class="link-app" href="<fmt:message key="sie.url"/>">
 							<div class="app-image"></div>
