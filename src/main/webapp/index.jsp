@@ -87,7 +87,7 @@
 			}		
 
 			.list-app .app-name {
-				color: #008BD0;
+				color: #0072A2;
 				margin-top: 15px;
 				margin-bottom: 0;
 				font-size: 1.3em;

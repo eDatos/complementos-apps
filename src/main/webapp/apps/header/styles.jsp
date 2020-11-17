@@ -444,7 +444,7 @@
     }
 
     .istac-navbar-external {
-        background-color: #008BD0;
+        background-color: #0072A2;
     }
 
     .istac-navbar-internal {
