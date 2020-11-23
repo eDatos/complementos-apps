@@ -100,7 +100,7 @@
 
 		</style>
 
-		<jsp:include page="apps/header/header.jsp">
+		<jsp:include page="header/header.jsp">
 			<jsp:param name="appName" value="Inventario de aplicaciones" />
 		</jsp:include>
 		<div class="main">
@@ -159,7 +159,7 @@
 				</ul>
 			</div>
 		</div>
-		<%@include file="apps/footer/footer-complete.jsp" %>
+		<%@include file="footer/footer-complete.jsp" %>
 		
 	</body>
 </html>
