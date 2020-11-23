@@ -6,7 +6,7 @@ var rimraf = require('rimraf');
 const DEFAULT_PROTOCOL = "https";
 const BASE_URL = "://www.gobiernodecanarias.org/";
 const BASE_FOLDER = './src/main/webapp/';
-const BASE_PATH = 'external/gobcan/';
+const BASE_PATH = 'organisations/istac/external/';
 
 rimraf.sync(BASE_FOLDER + BASE_PATH);
 
