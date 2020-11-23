@@ -77,7 +77,7 @@
 		/* END TITLE BAR */
 	</style>
 	
-	<%@include file="apis/header.jsp" %>
+	<%@include file="header.jsp" %>
 	
 	<div class="apis">
 		<ul class="apis-list">
@@ -128,7 +128,7 @@
 		</ul>
 	</div>
 	
-	<%@include file="apps/footer/footer.jsp" %>
+	<%@include file="../apps/footer/footer.jsp" %>
 
 </body>
 </html>

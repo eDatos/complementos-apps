@@ -1,77 +1,77 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>es.gobcan.istac.complementos-apps</groupId>
-  <artifactId>complementos-apps</artifactId>
-  <version>2.1.2-SNAPSHOT</version>
-  <packaging>war</packaging>
+    <groupId>es.gobcan.istac.complementos-apps</groupId>
+    <artifactId>complementos-apps</artifactId>
+    <version>2.1.2-SNAPSHOT</version>
+    <packaging>war</packaging>
 
-  <name>complementos-apps</name>
-  
-  <properties>
-    <servlet-api.version>2.5</servlet-api.version>
-    <jstl.version>1.2</jstl.version>
-    <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
-    <urlrewritefilter.version>4.0.4</urlrewritefilter.version>
-  </properties>
+    <name>complementos-apps</name>
 
-  <scm>
-    <connection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</connection>
-    <developerConnection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://git.arte-consultores.com/istac/complementos-apps</url>
-  </scm>
+    <properties>
+        <servlet-api.version>2.5</servlet-api.version>
+        <jstl.version>1.2</jstl.version>
+        <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
+        <urlrewritefilter.version>4.0.4</urlrewritefilter.version>
+    </properties>
 
-  <issueManagement>
-    <system>Jira</system>
-    <url>http://jira.arte-consultores.com/browse/METAMAC</url>
-  </issueManagement>
-  <distributionManagement>
-    <repository>
-      <id>arte-repository</id>
-      <name>Arte Repository - RELEASE</name>
-      <url>http://repository.arte-consultores.com/content/repositories/releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>arte-repository</id>
-      <name>Arte Repository - SNAPSHOT</name>
-      <url>http://repository.arte-consultores.com/content/repositories/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
-  
-  <dependencies>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>${servlet-api.version}</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>jstl</groupId>
-      <artifactId>jstl</artifactId>
-      <version>${jstl.version}</version>
-    </dependency>
-      <dependency>
-    <groupId>org.tuckey</groupId>
-    <artifactId>urlrewritefilter</artifactId>
-    <version>${urlrewritefilter.version}</version>
-  </dependency>
-  </dependencies>
+    <scm>
+        <connection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</connection>
+        <developerConnection>scm:git:http://git.arte-consultores.com/istac/complementos-apps/</developerConnection>
+        <tag>HEAD</tag>
+        <url>http://git.arte-consultores.com/istac/complementos-apps</url>
+    </scm>
 
-  <build>
-    <finalName>complementos-apps-${project.version}</finalName>
-    <pluginManagement>
-        <plugins>
-            <plugin>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-                    <useReleaseProfile>false</useReleaseProfile>
-                    <tagNameFormat>${maven.build.timestamp}-v@{project.version}</tagNameFormat>
-                </configuration>
-            </plugin>
-        </plugins>
-    </pluginManagement>
+    <issueManagement>
+        <system>Jira</system>
+        <url>http://jira.arte-consultores.com/browse/METAMAC</url>
+    </issueManagement>
+    <distributionManagement>
+        <repository>
+            <id>arte-repository</id>
+            <name>Arte Repository - RELEASE</name>
+            <url>http://repository.arte-consultores.com/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>arte-repository</id>
+            <name>Arte Repository - SNAPSHOT</name>
+            <url>http://repository.arte-consultores.com/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
-  </build>
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.tuckey</groupId>
+            <artifactId>urlrewritefilter</artifactId>
+            <version>${urlrewritefilter.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>complementos-apps-${project.version}</finalName>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.5.3</version>
+                    <configuration>
+                        <useReleaseProfile>false</useReleaseProfile>
+                        <tagNameFormat>${maven.build.timestamp}-v@{project.version}</tagNameFormat>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+    </build>
 </project>
