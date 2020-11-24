@@ -1,7 +1,14 @@
 <!doctype html>
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix="fmt"  uri="http://java.sun.com/jsp/jstl/fmt" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" import="java.util.*" %> 
+<%@ page import = "java.util.ResourceBundle" %>
+<% 
+  ResourceBundle resource = ResourceBundle.getBundle("application");  
+  pageContext.setAttribute("apiStyleHeaderUrl", resource.getString("metamac.api.style.header.url"));
+  pageContext.setAttribute("apiStyleFooterUrl", resource.getString("metamac.api.style.footer.url"));
+%>
 <fmt:bundle basename="application">
 <html>
 <head>
@@ -76,10 +83,8 @@
     </style>
     
 </head>
-<body>	
-	
-	<%@include file="header.jsp" %>
-	
+<body>		
+	<c:import url='${apiStyleHeaderUrl}' />
 	<div class="apis">
 		<ul class="apis-list">
 			<li class="apis-item">
@@ -129,7 +134,8 @@
 		</ul>
 	</div>
 	
-	<%@include file="../apps/footer/footer.jsp" %>
+
+    <c:import url='${apiStyleFooterUrl}' />
 
 </body>
 </html>

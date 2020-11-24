@@ -2,6 +2,14 @@
 <%@ page pageEncoding="UTF-8" %>
 <%@ page contentType="text/html" %>
 <%@ taglib prefix="fmt"  uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" import="java.util.*" %> 
+<%@ page import = "java.util.ResourceBundle" %>
+<% 
+  ResourceBundle resource = ResourceBundle.getBundle("application");  
+  pageContext.setAttribute("appStyleHeaderUrl", resource.getString("metamac.app.style.header.url"));
+  pageContext.setAttribute("appStyleFooterUrl", resource.getString("metamac.app.style.footer.url"));
+%>
 <fmt:bundle basename="application">
 <html>
 	<head>
@@ -100,9 +108,9 @@
 
 		</style>
 
-		<jsp:include page="header/header.jsp">
-			<jsp:param name="appName" value="Inventario de aplicaciones" />
-		</jsp:include>
+        <c:import url='${appStyleHeaderUrl}'>
+            <c:param name="appName" value="Inventario de aplicaciones" />                   
+        </c:import>
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps row justify-content-left">
@@ -159,8 +167,9 @@
 				</ul>
 			</div>
 		</div>
-		<%@include file="footer/footer-complete.jsp" %>
-		
+        
+        <c:import url='${appStyleFooterUrl}' />
+
 	</body>
 </html>
 </fmt:bundle>
