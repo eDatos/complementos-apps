@@ -4,6 +4,9 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 
 <fmt:bundle basename="application">
+	<link href="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/favicon.ico"
+		rel="shortcut icon" />
+
 	<!-- BLOQUE de CONTENIDO -->
 	<div id="contenido" class="container">
 		<div id="cabecera">
