@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Aplicaciones</title>
 		<link rel="icon" href="<fmt:message key="complementos_apps.url"/>/assets/img/favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" href="<fmt:message key="complementos_apps.url"/>/assets/vendor/bootstrap-grid.min.css" />
+		<link rel="stylesheet" type="text/css" href="<fmt:message key="complementos_apps.url"/>/apps/assets/css/vendor/bootstrap-grid.min.css" />
 	</head>
 	<body>
 		<style>
@@ -55,35 +55,35 @@
 			}
 			
 			.list-app.terria-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/maps.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/maps.jpg");
 			}
 
 			.list-app.sie-app .app-image  {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/vote.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/vote.jpg");
 			}
 			
 			.list-app.operaciones-estadisticas-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/statistics-operations.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/statistics-operations.jpg");
 			}
 			
 			.list-app.estadistica-geoespacial-app .app-image  {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/geospatial-statistics.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/geospatial-statistics.jpg");
 			}
 			
 			.list-app.apis-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/apis.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/apis.jpg");
 			}
 			
 			.list-app.datos-abiertos-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/open-data.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/open-data.jpg");
 			}
 
 			.list-app.encuestas-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/survey.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/survey.jpg");
 			}
 			
 			.list-app.profesionales_turismo-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/tourism.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/tourism.jpg");
 			}		
 
 			.list-app .app-name {
