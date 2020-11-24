@@ -92,24 +92,24 @@
 				<div class="redes_sociales_div">
 					<a href="<fmt:message key='web_istac_base.url' />/herramientas/rss.html" title="Canal de Rss"
 						target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/rss_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/iconos/rss_20x20.png"
 							title="Canal de Rss" alt="Canal de Rss">
 					</a>
 					<a href="https://twitter.com/istac_es" title="Canal de Twitter" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/twitter_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/iconos/twitter_20x20.png"
 							title="Canal de Twitter" alt="Canal de Twitter">
 					</a>
 					<a href="https://www.slideshare.net/ISTAC" title="Canal de Slideshare" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/Slideshare_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/iconos/Slideshare_20x20.png"
 							title="Canal de Slideshare" alt="Canal de Slideshare">
 					</a>
 					<a href="https://www.youtube.com/user/istacES" title="Canal de Youtube" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/youtube_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/iconos/youtube_20x20.png"
 							title="Canal de Youtube" alt="Canal de Youtube">
 					</a>
 					<a href="https://public.tableau.com/profile/istac#!/" accesskey="s"
 						title="Seguir a ISTAC en Tableau (tecla de acceso: u)" target="_blank"><img
-							src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.istac.web/resources/images/tableau_20.png"
+							src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.istac.web/resources/images/tableau_20.png"
 							title="Seguir a ISTAC en Tableau (tecla de acceso: u)"
 							alt="Seguir a ISTAC en Tableau (tecla de acceso: u)"></a>
 				</div>
@@ -125,8 +125,8 @@
 
 		<!-- Added functionality from header -->
 		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+			src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
 		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
+			src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
 
 </fmt:bundle>

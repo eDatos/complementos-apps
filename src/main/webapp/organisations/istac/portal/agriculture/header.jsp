@@ -102,16 +102,16 @@
 			<div id="redessocialescontainer">
 				<div class="redes_sociales_div">
 					<a href="https://www.facebook.com/AgriculturaGobcan" title="Canal de Facebook" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/facebook_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/iconos/facebook_20x20.png"
 							title="Canal de Facebook" alt="Canal de Facebook">
 					</a>
 					<a href="https://twitter.com/AGRI_Gobcan" title="Canal de Twitter" target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/twitter_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/iconos/twitter_20x20.png"
 							title="Canal de Twitter" alt="Canal de Twitter">
 					</a>
 					<a href="https://www.youtube.com/channel/UCWyhkKntD0rQpUxgtC_wrPw" title="Canal de Youtube"
 						target="_blank">
-						<img src="<fmt:message key='complementos_apps.url' />/external/gobcan/gcc/img/iconos/youtube_20x20.png"
+						<img src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/iconos/youtube_20x20.png"
 							title="Canal de Youtube" alt="Canal de Youtube">
 					</a>
 				</div>
@@ -125,8 +125,8 @@
 
 		<!-- Added functionality from header -->
 		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+			src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
 		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
+			src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
 
 </fmt:bundle>

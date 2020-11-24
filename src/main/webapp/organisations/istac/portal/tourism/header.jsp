@@ -32,7 +32,7 @@
 					<!-- IMAGEN ENTIDAD -->
 					<h2>
 						<img style="vertical-align:middle"
-							src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/turismo/galerias/logos/08TURI.png"
+							src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsgobcan/export/sites/turismo/galerias/logos/08TURI.png"
 							alt="">
 					</h2>
 					<!-- IMAGEN ENTIDAD 2 -->
@@ -55,13 +55,13 @@
 		</div>
 
 		<img class="banner" title=""
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png"
+			src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png"
 			alt="" style="z-index: 4; width: 765px; height: 95px;">
 
 		<!-- Added functionality from header -->
 		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+			src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
 		<script type="text/javascript"
-			src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
+			src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
 
 </fmt:bundle>
