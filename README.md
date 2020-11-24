@@ -1,4 +1,18 @@
 # Complementos Apps
+
+## ¿Quién me usa?
+Tenemos complementos apps, como catálogo. 
+Y aparte, tenemos complementos apps como recursos reusables.
+
+## Estructura
+webapp
+- apps - Catálogo de aplicaciones
+- apis - Catálogo de apis
+- libs - Raíz de librerías (Highcharts, Highmaps)
+- assets - Recursos generales comunes a más de un proyecto. Pueden ser usados por el propio complementos apps, o pueden ser usados desde fuera (como el favicon)
+- organisations - Recursos específicos de una organización (como los header, footer, portales de visualización, cabeceras de apis)
+
+
 ## /portal/default/header.html
 Cabecera usada por el visualizador estadístico. Para mostrar migas en ella, habría que añadir los parámetros enlace y miga, por ejemplo:
 
