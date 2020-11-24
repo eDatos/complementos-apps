@@ -2,6 +2,14 @@
 <%@ page pageEncoding="UTF-8" %>
 <%@ page contentType="text/html" %>
 <%@ taglib prefix="fmt"  uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" import="java.util.*" %> 
+<%@ page import = "java.util.ResourceBundle" %>
+<% 
+  ResourceBundle resource = ResourceBundle.getBundle("application");  
+  pageContext.setAttribute("appStyleHeaderUrl", resource.getString("metamac.app.style.header.url"));
+  pageContext.setAttribute("appStyleFooterUrl", resource.getString("metamac.app.style.footer.url"));
+%>
 <fmt:bundle basename="application">
 <html>
 	<head>
@@ -9,7 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Aplicaciones</title>
 		<link rel="icon" href="<fmt:message key="complementos_apps.url"/>/assets/img/favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" href="<fmt:message key="complementos_apps.url"/>/assets/vendor/bootstrap-grid.min.css" />
+		<link rel="stylesheet" type="text/css" href="<fmt:message key="complementos_apps.url"/>/apps/assets/css/vendor/bootstrap-grid.min.css" />
 	</head>
 	<body>
 		<style>
@@ -55,35 +63,35 @@
 			}
 			
 			.list-app.terria-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/maps.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/maps.jpg");
 			}
 
 			.list-app.sie-app .app-image  {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/vote.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/vote.jpg");
 			}
 			
 			.list-app.operaciones-estadisticas-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/statistics-operations.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/statistics-operations.jpg");
 			}
 			
 			.list-app.estadistica-geoespacial-app .app-image  {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/geospatial-statistics.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/geospatial-statistics.jpg");
 			}
 			
 			.list-app.apis-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/apis.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/apis.jpg");
 			}
 			
 			.list-app.datos-abiertos-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/open-data.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/open-data.jpg");
 			}
 
 			.list-app.encuestas-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/survey.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/survey.jpg");
 			}
 			
 			.list-app.profesionales_turismo-app .app-image {
-				background-image: url("<fmt:message key="complementos_apps.url"/>/assets/img/tourism.jpg");
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/tourism.jpg");
 			}		
 
 			.list-app .app-name {
@@ -100,9 +108,9 @@
 
 		</style>
 
-		<jsp:include page="header/header.jsp">
-			<jsp:param name="appName" value="Inventario de aplicaciones" />
-		</jsp:include>
+        <c:import url='${appStyleHeaderUrl}'>
+            <c:param name="appName" value="Inventario de aplicaciones" />                   
+        </c:import>
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps row justify-content-left">
@@ -159,8 +167,9 @@
 				</ul>
 			</div>
 		</div>
-		<%@include file="footer/footer-complete.jsp" %>
-		
+        
+        <c:import url='${appStyleFooterUrl}' />
+
 	</body>
 </html>
 </fmt:bundle>

@@ -4,13 +4,16 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 
 <fmt:bundle basename="application">
+	<link href="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/favicon.ico"
+		rel="shortcut icon" />
+
 	<!-- Added functionality from header -->
 	<script type="text/javascript"
-		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
+		src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.min.js"></script>
 	<script type="text/javascript"
-		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
+		src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/js/responsive/boton_contraido.js"></script>
 	<script type="text/javascript"
-		src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js"></script>
+		src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsgobcan/export/system/modules/es.gobcan.portal.tipo/resources/js/jquery.cycle.all.js"></script>
 
 	<div id="contenido" class="container">
 		<div id="cabecera">
@@ -109,14 +112,14 @@
 						</div>
 						<div id="banner_grande_doble" class="banner_grande_doble">
 							<img class="banner" title="Medio Ambiente"
-								src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/medioambiente/galerias/banners/2_sostenibilidad_591x92.png"
+								src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsgobcan/export/sites/medioambiente/galerias/banners/2_sostenibilidad_591x92.png"
 								alt="Medio Ambiente">
 						</div>
 						<div id="banner_pequeno_doble_texto" class="banner_pequeno_doble_texto">
 						</div>
 						<div id="banner_pequeno_doble" class="banner_pequeno_doble">
 							<img class="banner" title="Medio Ambiente"
-								src="<fmt:message key='complementos_apps.url' />/external/gobcan/cmsgobcan/export/sites/medioambiente/galerias/banners/banner_derecho_151x95_medio_ambiente.png"
+								src="<fmt:message key='complementos_apps.url' />/organisations/istac/external/cmsgobcan/export/sites/medioambiente/galerias/banners/banner_derecho_151x95_medio_ambiente.png"
 								alt="Medio Ambiente">
 						</div>
 						<script>

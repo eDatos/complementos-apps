@@ -1,0 +1,21 @@
+@import url('../../organisations/istac/external/gcc/css/especifico.css');
+@import url('../../organisations/istac/external/gcc/css/voz.css') aural;
+@import url('../../organisations/istac/external/gcc/css/basico.css');
+@import url('../../organisations/istac/external/gcc/css/cuerpo.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/imprime.css') print;
+@import url('../../organisations/istac/external/istac/resources/css/istac.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_cabecera.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_widget.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_caja_lateral.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_banner.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/bootstrap.min.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_responsive.css');
+@import url('../../organisations/istac/external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_bootstrap.css');
+
+/* Minimal corrections on gobcan styles */
+@media (max-width: 991px) and (min-width: 768px) {
+	#contenido {
+		width: auto;
+	}
+}

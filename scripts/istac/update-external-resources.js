@@ -41,6 +41,7 @@ CSS_FILE_LIST.forEach((file) => {
 
 const RESOURCES_FILE_LIST = [
     // default - istac
+    { path: "gcc/img/favicon.ico" },
     { path: "gcc/img/iconos/rss_20x20.png" },
     { path: "gcc/img/iconos/twitter_20x20.png" },
     { path: "gcc/img/iconos/Slideshare_20x20.png" },

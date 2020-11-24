@@ -1,7 +1,14 @@
 <!doctype html>
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix="fmt"  uri="http://java.sun.com/jsp/jstl/fmt" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" import="java.util.*" %> 
+<%@ page import = "java.util.ResourceBundle" %>
+<% 
+  ResourceBundle resource = ResourceBundle.getBundle("application");  
+  pageContext.setAttribute("apiStyleHeaderUrl", resource.getString("metamac.api.style.header.url"));
+  pageContext.setAttribute("apiStyleFooterUrl", resource.getString("metamac.api.style.footer.url"));
+%>
 <fmt:bundle basename="application">
 <html>
 <head>
@@ -9,76 +16,75 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Catálogo de API abiertas</title>
 	<link rel="icon" href="<fmt:message key="complementos_apps.url"/>/assets/img/favicon.ico" type="image/x-icon" />
-</head>
-<body>
-	<style>
-	
-		/* BEGIN APIS */
-		.apis {
-			font-family: "Droid Sans",sans-serif;
-			font-size: 15px;
-			color: #000;
-			max-width: 960px;
-			margin: 0 auto;
-			padding: 5px 0 0 0;
-			clear: both
-		}
+    <style>
+    
+        /* BEGIN APIS */
+        .apis {
+            font-family: "Droid Sans",sans-serif;
+            font-size: 15px;
+            color: #000;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 5px 0 0 0;
+            clear: both
+        }
 
-		.apis .apis-list {
-			list-style: none;
-			padding-left: 15px;
-			padding-right: 15px;
-			padding-bottom: 20px;
-		}
-		
-		.apis .izq {
-			float: left
-		}
-		
-		.apis .der {
-			float: right
-		}
-		
-		.apis h1, .apis h2 {
-			padding-bottom: 10px;
-			font-weight: 700;
-			font-size: 25px
-		}
-		
-		.apis h2 {
-			border-bottom: 1px solid #d6d6d6;
-			box-sizing: border-box
-		}
-		
-		.apis h2 a {
-			color: #999;
-			font-size: 18px;
-			text-decoration: none
-		}
-		
-		.apis h2 a:hover {
-			color: #000;
-			text-decoration: underline
-		}
-		
-		.apis ol li, .apis p {
-			line-height: 1.4em;
-			padding: 0 0 10px;
-			color: #333;
-			text-align: justify
-		}
-		
-		/* END APIS */
-		
-		h1 {
-		    font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;    
-		    font-weight: normal;
-		}
-		/* END TITLE BAR */
-	</style>
-	
-	<%@include file="header.jsp" %>
-	
+        .apis .apis-list {
+            list-style: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 20px;
+        }
+        
+        .apis .izq {
+            float: left
+        }
+        
+        .apis .der {
+            float: right
+        }
+        
+        .apis h1, .apis h2 {
+            padding-bottom: 10px;
+            font-weight: 700;
+            font-size: 25px
+        }
+        
+        .apis h2 {
+            border-bottom: 1px solid #d6d6d6;
+            box-sizing: border-box
+        }
+        
+        .apis h2 a {
+            color: #999;
+            font-size: 18px;
+            text-decoration: none
+        }
+        
+        .apis h2 a:hover {
+            color: #000;
+            text-decoration: underline
+        }
+        
+        .apis ol li, .apis p {
+            line-height: 1.4em;
+            padding: 0 0 10px;
+            color: #333;
+            text-align: justify
+        }
+        
+        /* END APIS */
+        
+        h1 {
+            font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;    
+            font-weight: normal;
+        }
+        /* END TITLE BAR */
+    </style>
+    
+</head>
+<body>		
+	<c:import url='${apiStyleHeaderUrl}' />
 	<div class="apis">
 		<ul class="apis-list">
 			<li class="apis-item">
@@ -128,7 +134,8 @@
 		</ul>
 	</div>
 	
-	<%@include file="../apps/footer/footer.jsp" %>
+
+    <c:import url='${apiStyleFooterUrl}' />
 
 </body>
 </html>

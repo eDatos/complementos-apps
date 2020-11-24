@@ -2,6 +2,7 @@
 <%@ page contentType="text/css" %>
 <%@ taglib prefix="fmt"  uri="http://java.sun.com/jsp/jstl/fmt" %>
 
+<%-- TODO probablemente se pueda deprecar la propiedad y cargar estos estilos directamente desde apis/header/header.jsp --%>
 <fmt:bundle basename="application">
 .content-wrapper {
     max-width: 960px;
