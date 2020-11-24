@@ -6,7 +6,8 @@ var rimraf = require('rimraf');
 const DEFAULT_PROTOCOL = "https";
 const BASE_URL = "://www.gobiernodecanarias.org/";
 const BASE_FOLDER = './src/main/webapp/';
-const BASE_PATH = 'organisations/istac/external/';
+const BASE_SUBPATH = 'external/'; // relative to organisation
+const BASE_PATH = 'organisations/istac/' + BASE_SUBPATH;
 
 rimraf.sync(BASE_FOLDER + BASE_PATH);
 
@@ -36,7 +37,7 @@ CSS_FILE_LIST.forEach((file) => {
     if (file.service) {
         console.log("Next file is only for " + file.service.toString() + " services")
     }
-    console.log(`@import url('../../${BASE_PATH}${file.path}')${file.media ? ' ' + file.media : ''};`)
+    console.log(`@import url('../../${BASE_SUBPATH}${file.path}')${file.media ? ' ' + file.media : ''};`)
 });
 
 const RESOURCES_FILE_LIST = [
