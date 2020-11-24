@@ -5,18 +5,18 @@
 <urlrewrite>
 
     <rule>
-        <from>/resources/libs/highcharts/latest(.*)$</from>
-        <to type="redirect">%{context-path}/resources/libs/highcharts/v8.0.0$1</to>
+        <from>/libs/highcharts/latest(.*)$</from>
+        <to type="redirect">%{context-path}/libs/highcharts/v8.0.0$1</to>
     </rule>
     
     <rule>
-        <from>/resources/libs/highmaps/latest(.*)$</from>
-        <to type="redirect">%{context-path}/resources/libs/highmaps/v8.0.0$1</to>
+        <from>/libs/highmaps/latest(.*)$</from>
+        <to type="redirect">%{context-path}/libs/highmaps/v8.0.0$1</to>
     </rule>
     
     <rule>
-        <from>/resources/libs/highcharts-editor/latest(.*)$</from>
-        <to type="redirect">%{context-path}/resources/libs/highcharts-editor/v0.3.0$1</to>
+        <from>/libs/highcharts-editor/latest(.*)$</from>
+        <to type="redirect">%{context-path}/libs/highcharts-editor/v0.3.0$1</to>
     </rule>
 
 </urlrewrite>
