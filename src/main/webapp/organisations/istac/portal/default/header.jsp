@@ -6,6 +6,10 @@
 <fmt:bundle basename="application">
 	<link href="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/favicon.ico"
 		rel="shortcut icon" />
+	<!-- TODO habría que tomar una decisión sobre este condicional -->
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="//www.gobiernodecanarias.org/gcc/css/ie.css" />
+	<![endif]-->
 
 	<div id="contenido" class="container">
 		<div id="cabecera">

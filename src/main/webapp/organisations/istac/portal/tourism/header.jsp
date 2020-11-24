@@ -4,6 +4,11 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 
 <fmt:bundle basename="application">
+	<!-- TODO habría que tomar una decisión sobre este condicional -->
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="//www.gobiernodecanarias.org/gcc/css/ie.css" />
+	<![endif]-->
+
 	<link href="<fmt:message key='complementos_apps.url' />/organisations/istac/external/gcc/img/favicon.ico"
 		rel="shortcut icon" />
 
