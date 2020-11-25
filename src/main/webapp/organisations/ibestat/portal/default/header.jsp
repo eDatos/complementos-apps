@@ -7,7 +7,7 @@
 <% 
   ResourceBundle resource = ResourceBundle.getBundle("application");
   String complementosAppsUrl = resource.getString("complementos_apps.url");
-  pageContext.setAttribute("complementosAppsIbestatExternal", complementosAppsUrl + "organisations/ibestat/external/");
+  pageContext.setAttribute("complementosAppsIbestatExternal", complementosAppsUrl + "/organisations/ibestat/external");
   pageContext.setAttribute("ibestatWebPrincipal", resource.getString("ibestat.web_principal.url"));
 %>
 
