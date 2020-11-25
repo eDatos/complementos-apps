@@ -100,6 +100,25 @@
         <url-pattern>/organisations/istac/portal/agriculture/header.html</url-pattern>
     </servlet-mapping>
     
+    <!-- /organisations/ibestat/portal -->
+    <servlet>
+        <servlet-name>ibestat-portal-default-header</servlet-name>
+        <jsp-file>/organisations/ibestat/portal/default/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-portal-default-header</servlet-name>
+        <url-pattern>/organisations/ibestat/portal/default/header.html</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ibestat-portal-default-footer</servlet-name>
+        <jsp-file>/organisations/ibestat/portal/default/footer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-portal-default-footer</servlet-name>
+        <url-pattern>/organisations/ibestat/portal/default/footer.html</url-pattern>
+    </servlet-mapping>
+    
     
     <!-- / -->
     <welcome-file-list>  

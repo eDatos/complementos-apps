@@ -1,0 +1,42 @@
+a.nouline:hover 
+{
+text-decoration:underline;
+}
+
+a.nouline:link 
+{
+color:#000; 
+text-decoration:none;
+}
+
+a.nouline:visited 
+{
+color:#000; 
+text-decoration:none;
+}
+
+/* SOBREESCRITURA PARA LISTADOS ARBOL */
+.tools_lista_tablas_info img {
+	border-width:0 !important;
+	padding-right:0.417em;
+	padding-top:0;
+}
+
+.tools_lista_tablas {
+ 	border-bottom: 1px solid #E9E9E9; 
+ 	width:100%;
+}
+
+.titulo_entrada_arbol {
+	color: #666666;
+	font-size: 1em;
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+/* Estilo de parrafo en publicaciones.sas*/
+.sas p {
+	/*	font-size: 11px;*/
+	font-size: 0.917em;
+	color: #666666;
+}
