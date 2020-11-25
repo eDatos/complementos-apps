@@ -1,6 +1,4 @@
-var wget = require('node-wget');
-var mkdirp = require('mkdirp');
-var path = require('path');
+var utils = require("../functions/utils");
 var rimraf = require('rimraf');
 
 const DEFAULT_PROTOCOL = "https";
@@ -8,8 +6,6 @@ const BASE_URL = "://www.gobiernodecanarias.org/";
 const BASE_FOLDER = './src/main/webapp/';
 const BASE_SUBPATH = 'external/'; // relative to organisation
 const BASE_PATH = 'organisations/istac/' + BASE_SUBPATH;
-
-rimraf.sync(BASE_FOLDER + BASE_PATH);
 
 const CSS_FILE_LIST = [
     { path: "gcc/css/especifico.css" },
@@ -30,15 +26,6 @@ const CSS_FILE_LIST = [
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_responsive.css" },
     { path: "cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_bootstrap.css" },
 ];
-
-CSS_FILE_LIST.forEach((file) => {
-    mkdirp.sync(path.dirname(BASE_FOLDER + BASE_PATH + file.path));
-    wget({ url: DEFAULT_PROTOCOL + BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
-    if (file.service) {
-        console.log("Next file is only for " + file.service.toString() + " services")
-    }
-    console.log(`@import url('../../${BASE_SUBPATH}${file.path}')${file.media ? ' ' + file.media : ''};`)
-});
 
 const RESOURCES_FILE_LIST = [
     // default - istac
@@ -74,10 +61,8 @@ const RESOURCES_FILE_LIST = [
     { path: "cmsgobcan/export/sites/turismo/galerias/imagenes/Banners/cabecera_1.png", protocol: "http" },
 ];
 
+rimraf.sync(BASE_FOLDER + BASE_PATH);
+utils.updateCss(CSS_FILE_LIST, BASE_FOLDER, BASE_PATH, DEFAULT_PROTOCOL, BASE_URL, BASE_SUBPATH);
+utils.updateResources(RESOURCES_FILE_LIST, BASE_FOLDER, BASE_PATH, DEFAULT_PROTOCOL, BASE_URL);
 
-RESOURCES_FILE_LIST.forEach((file) => {
-    mkdirp.sync(path.dirname(BASE_FOLDER + BASE_PATH + file.path));
-    const PROTOCOL = file.protocol ? file.protocol : DEFAULT_PROTOCOL;
-    wget({ url: PROTOCOL + BASE_URL + file.path, dest: BASE_FOLDER + BASE_PATH + file.path });
-    console.log(`Downloaded ${BASE_FOLDER + BASE_PATH + file.path}`)
-});
+
