@@ -22,7 +22,7 @@
                     <img id="logo_peq" name="logo_peq" class="img-responsive"
                         alt="Institut d'Estadística de les Illes Balears"
                         title="Institut d'Estadística de les Illes Balears"
-                        src="${complementosAppsIbestatExternal}ibfiles/content/files/logo_ibestat_peq.png" />
+                        src="${complementosAppsIbestatExternal}/ibfiles/content/files/logo_ibestat_peq.png" />
                 </a>
             </div>
             <div class="col" style="text-align: right">
@@ -30,7 +30,7 @@
                     title="Conselleria d'Economia i Hisenda">
                     <img style="width:100px" id="escudo" name="escudo" alt="Consejería de Trabajo, Comercio e Industria"
                         title="Consejería de Trabajo, Comercio e Industria" class="img-responsive"
-                        src="${complementosAppsIbestatExternal}ibfiles/content/files/conselleria_treball.png" />
+                        src="${complementosAppsIbestatExternal}/ibfiles/content/files/conselleria_treball.png" />
                 </a>
             </div>
 

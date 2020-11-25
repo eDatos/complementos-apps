@@ -16,16 +16,16 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="${complementosAppsIbestatExternal}ibestat/theme/ibestat/css/estilos20111130.css" type="text/css"
+    <link rel="stylesheet" href="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/css/estilos20111130.css" type="text/css"
         media="screen,print" />
-    <link rel="stylesheet" href="${complementosAppsIbestatExternal}ibestat/theme/ibestat/css/arte.css" type="text/css"
+    <link rel="stylesheet" href="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/css/arte.css" type="text/css"
         media="screen,print" />
-    <link rel="stylesheet" href="${complementosAppsIbestatExternal}ibestat/theme/ibestat/css/estilos-print.css" type="text/css"
+    <link rel="stylesheet" href="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/css/estilos-print.css" type="text/css"
         media="print" />
-    <link rel="stylesheet" href="${complementosAppsIbestatExternal}ibestat/theme/ibestat/css/jquery.treeview.css" type="text/css"
+    <link rel="stylesheet" href="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/css/jquery.treeview.css" type="text/css"
         media="screen,print" />
-    <link rel="shortcut icon" href="${complementosAppsIbestatExternal}ibestat/favicon.ico" />
-    <link rel="icon" type="image/png" href="${complementosAppsIbestatExternal}ibestat/favicon.png" />
+    <link rel="shortcut icon" href="${complementosAppsIbestatExternal}/ibestat/favicon.ico" />
+    <link rel="icon" type="image/png" href="${complementosAppsIbestatExternal}/ibestat/favicon.png" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -36,9 +36,9 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="${complementosAppsIbestatExternal}ibestat/jaxi/js/jquery/jquery-1.2.6.js"></script>
-    <script type="text/javascript" src="${complementosAppsIbestatExternal}ibestat/js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="${complementosAppsIbestatExternal}ibestat/js/ibestatcms.js"></script>
+    <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/jaxi/js/jquery/jquery-1.2.6.js"></script>
+    <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/js/ibestatcms.js"></script>
 </head>
 
 <body data-ftl="ib_visualizer">
@@ -48,24 +48,24 @@
                 <div class="header_logo d-none d-lg-block">
                     <a class="navbar-brand" href="http://www.ibestat.cat/ibestat/inici">
                         <img name="logo" alt="Instituto d'Estadística de les Illes Balears"
-                            src="${complementosAppsIbestatExternal}ibfiles/content/files/logo.png"
+                            src="${complementosAppsIbestatExternal}/ibfiles/content/files/logo.png"
                             title="Instituto d'Estadística de les Illes Balears" />
                     </a>
                     <div id="botons_canvi_mida_font" style="display:none;text-align: center;">
                         <a id="link_font_gran" href="javascript:changeFont('18')" class="changefont"
                             title="Cambiar el tamaño de fuente">
                             <img alt="icono fuente grande" id="fuente_18" class="fuente_grande"
-                                src="${complementosAppsIbestatExternal}ibestat/theme/ibestat/interfaz/botones/transparent.png" />
+                                src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/interfaz/botones/transparent.png" />
                         </a>
                         <a id="link_font_mitjana" href="javascript:changeFont('15')" class="changefont"
                             title="Cambiar el tamaño de fuente">
                             <img alt="icono fuente mediana" id="fuente_15" class="fuente_mediana"
-                                src="${complementosAppsIbestatExternal}ibestat/theme/ibestat/interfaz/botones/transparent.png" />
+                                src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/interfaz/botones/transparent.png" />
                         </a>
                         <a id="link_font_petita" href="javascript:changeFont('12')" class="changefont"
                             title="Cambiar el tamaño de fuente">
                             <img alt="icono fuente pequeña" id="fuente_12" class="fuente_peque"
-                                src="${complementosAppsIbestatExternal}ibestat/theme/ibestat/interfaz/botones/transparent.png" />
+                                src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/interfaz/botones/transparent.png" />
                         </a>
                         <script type="text/javascript">
                             document.getElementById("botons_canvi_mida_font").style.display = "block";
@@ -78,7 +78,7 @@
                     <div id="menu_top">
                         <a class="d-none" href="http://www.ibestat.cat/ibestat/inici">
                             <img id="logo_govern_peu" name="logo_govern_peu" alt="Imagen en blanco" title="" width="117"
-                                height="65" src="${complementosAppsIbestatExternal}ibfiles/content/files/logo_govern_buid.png" />
+                                height="65" src="${complementosAppsIbestatExternal}/ibfiles/content/files/logo_govern_buid.png" />
                         </a>
                         <ul>
                             <li class="menu_top_mapa">
@@ -164,7 +164,7 @@
 
                 <nav class="navbar navbar-expand-lg navbar-light _bg-light">
                     <a class="navbar-brand d-lg-none d-xl-none d-_md-none" href="#"><img
-                            src="${complementosAppsIbestatExternal}ibestat/theme/ibestat/img/header-logo.png" class="img-responsive"></a>
+                            src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/img/header-logo.png" class="img-responsive"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#IbestatMenuHeader"
                         aria-controls="IbestatMenuHeader" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -380,7 +380,7 @@
                 <ul id="navlist">
                     <li id="inicio_migas">
                         <img alt="molla pa" class="printonly"
-                            src="${complementosAppsIbestatExternal}ibestat/theme/ibestat/interfaz/logo_gris_migas.png"
+                            src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/interfaz/logo_gris_migas.png"
                             style="vertical-align: middle;" />
                         <a href="${ibestatWebPrincipal}/ibestat/inici">Ibestat</a>
                     </li>
@@ -421,5 +421,5 @@
                     <div class="cab_nar">
                         <h1>Visualizador estadístico</h1>
                         <img alt="barra horitzontal" class="printonly"
-                            src="${complementosAppsIbestatExternal}ibestat/theme/ibestat/interfaz/cab_nar_print.png" />
+                            src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/interfaz/cab_nar_print.png" />
                     </div>
