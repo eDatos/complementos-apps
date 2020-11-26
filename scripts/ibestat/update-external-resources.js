@@ -55,6 +55,7 @@ const RESOURCES_FILE_LIST = [
     { path: "ibestat/theme/ibestat/interfaz/menu_tropo_estad_c.png" },
     { path: "ibestat/theme/ibestat/interfaz/menu_tropo_estad_e.png" },
     { path: "ibestat/theme/ibestat/interfaz/menu_tropo_estad_d.png" },
+    { path: "ibestat/theme/ibestat/interfaz/tropo_gris_tit.png" },
 ];
 
 
