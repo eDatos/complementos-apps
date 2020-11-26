@@ -100,6 +100,53 @@
         <url-pattern>/organisations/istac/portal/agriculture/header.html</url-pattern>
     </servlet-mapping>
     
+    <!-- /organisations/ibestat/apis -->
+    <servlet>
+        <servlet-name>ibestat-apis-styles</servlet-name>
+        <jsp-file>/organisations/ibestat/apis/header/styles.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-apis-styles</servlet-name>
+        <url-pattern>/organisations/ibestat/apis/header/styles.css</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ibestat-apis-header</servlet-name>
+        <jsp-file>/organisations/ibestat/apis/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-apis-header</servlet-name>
+        <url-pattern>/organisations/ibestat/apis/header/header.html</url-pattern>
+    </servlet-mapping>    
+    
+    <!-- /organisations/ibestat/common -->   
+    <servlet>
+        <servlet-name>ibestat-common-footer</servlet-name>
+        <jsp-file>/organisations/ibestat/common/footer/footer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-common-footer</servlet-name>
+        <url-pattern>/organisations/ibestat/common/footer/footer.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ibestat-common-footer-complete</servlet-name>
+        <jsp-file>/organisations/ibestat/common/footer/footer-complete.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-common-footer-complete</servlet-name>
+        <url-pattern>/organisations/ibestat/common/footer/footer-complete.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ibestat-common-header</servlet-name>
+        <jsp-file>/organisations/ibestat/common/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-common-header</servlet-name>
+        <url-pattern>/organisations/ibestat/common/header/header.html</url-pattern>
+    </servlet-mapping>
+    
     <!-- /organisations/ibestat/portal -->
     <servlet>
         <servlet-name>ibestat-portal-default-header</servlet-name>
