@@ -164,6 +164,13 @@
 							<p class="app-description">Acceso profesional a encuestas y a datos a medida.</p>
 						</a>
 					</li>
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app profesionales_turismo-app">
+						<a class="link-app" href="<fmt:message key="ods.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Indicadores de Desarrollo Sostenible de Canarias</h2>
+							<p class="app-description">Acceda a los indicadores de la Agenda 2030 para el Desarrollo Sostenible de Canarias.</p>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
