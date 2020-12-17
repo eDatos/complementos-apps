@@ -1,0 +1,21 @@
+@import url('../../external/gcc/css/especifico.css');
+@import url('../../external/gcc/css/voz.css') aural;
+@import url('../../external/gcc/css/basico.css');
+@import url('../../external/gcc/css/cuerpo.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/imprime.css') print;
+@import url('../../external/istac/resources/css/istac.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_cabecera.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_redes_sociales.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_widget.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_caja_lateral.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/tipo_banner.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/bootstrap.min.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_responsive.css');
+@import url('../../external/cmsweb/export/system/modules/es.gobcan.portal.tipo/resources/css/responsive/custom_bootstrap.css');
+
+/* Minimal corrections on gobcan styles */
+@media (max-width: 991px) and (min-width: 768px) {
+	#contenido {
+		width: auto;
+	}
+}

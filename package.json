@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update-external-resources": "node scripts/update-external-resources.js",
+    "update-external-resources:istac": "node scripts/istac/update-external-resources.js",
+    "update-external-resources:ibestat": "node scripts/ibestat/update-external-resources.js",
+    "update-external-resources": "npm run update-external-resources:istac && npm run update-external-resources:ibestat",
     "serve": "http-server ."
   },
   "repository": {

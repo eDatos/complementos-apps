@@ -1,0 +1,376 @@
+/* Estilos de impresión */
+
+.printonly {
+	display:inline;
+}
+
+body {
+	background-color: #ffffff;
+	font-size: 12px;
+}
+
+#pagina {
+	overflow:visible; /* Bug FF que no hace salto de pagina*/
+	/*width: 700px;*/
+}
+
+#wrapper, #header {
+	background: none;
+	/*width: 700px;*/
+}
+
+#header_logo, #header_flash, #header_busqueda, #menu_contenedor,  
+#sidebar, #logos_pie, #menu_pie, #print_div, .cab_tools{
+	display: none;
+}
+
+#migas_pan {
+	float: none;
+/*	width: 700px;*/
+	height: auto;
+	padding: 0px;
+	padding-left: 0px;
+	line-height: 2em;
+}
+
+#contenido, #cont, .cont_central, .cont_estad, #cont_estadinfo, #contenido_estad, #menu_contenedor_estad/*, #contenido_central, #pie */ {
+	/*width: 700px;*/
+	float: none;
+}
+
+.cont_cols_tabla_terr .col_uno_tabla_terr, .cont_cols_tabla_terr .col_dos_tabla_terr, .cont_cols_tabla_terr .col_tres_tabla_terr{
+	width: 200px;
+	float:left;
+}
+
+.cont_cols_tabla .col_uno_tabla, .cont_cols_tabla .col_dos_tabla, .cont_cols_tabla .col_tres_tabla{
+	width: 160px;
+}
+
+.cont_cols_tabla .col_cuatro_tabla{
+	width: 200px;
+}
+
+#contenido {
+	padding-left:0px;
+}
+
+.marco_gris_cont_estad {
+	/*width: 650px;*/
+}
+
+.contenedorCuadrado {
+	border: 1px solid #E9E9E9;
+	width: 690px;
+	padding: 0 0 0 0;
+}
+
+#contenido_estad {
+	padding: 0px;
+}
+
+#logos_pie {
+/*	width: 700px;*/
+}
+
+#pie_inferior {
+	float:none;
+	clear: both;
+	padding-top: 30px;
+/*	width: 700px;*/
+}
+
+.pie_info, .pie_info_normal {
+	padding-left: 0px !important;
+}
+
+/* Inicio */
+
+#bloc, #bloc_top, #bloc_repite {
+	width: 420px;
+	margin: auto;
+}
+
+#bloc_grafica {
+	margin-left: 0px;
+	height: auto;
+}
+
+#cab-tools-repite {
+	*width: 584px;/*IE*/
+}
+
+#bloc_top, #bloc_repite, #bloc_bottom {
+	background:none;	
+}
+
+.dos_cols, .bloque_dos_cols {
+	width: 700px;
+	display: block;
+	float: none;
+}
+
+
+.dos_cols .col_uno_discont, .dos_cols .col_uno {
+	vertical-align: top;
+	width: 48% !important;
+    float: none;
+    display: inline-block;
+    *float:left; /*IE*/
+}
+
+.dos_cols .col_dos {
+	vertical-align: top;
+	width: 48%;
+    float: none;
+    display: inline-block;
+    *float:right; /*IE*/
+}
+
+#accesos_inicio {
+	clear:both;
+}
+
+
+/* Seleccion de variables */
+
+.dos_cols_estad, .dos_cols_estad_var {
+/*	width: 700px;*/
+}
+
+.dos_cols_estad .col_uno_estad, .dos_cols_estad .col_dos_estad {
+	width: 44%;
+}
+
+.caja_selec, .cajavar, .caja_selec_var, .cajavar_filas {
+	width: 99%;
+}
+
+.dos_cols_estad_var .col_uno_estad_var, .dos_cols_estad_var .col_dos_estad_var {
+	width: 38%;
+}
+
+/* Tablas */
+.tools_tabla_resul, .tools_tabla_cont, .tools_chart_resul {
+	width: 700px;
+}
+
+/* suscripciones */
+
+#caja_izq {
+	width: 700px;
+}
+
+.col_uno_susc, .col_dos_susc, #caja_der {
+	width: 280px;
+	_width: 260px;
+}
+
+.col_uno_susc {
+	margin-left: -320px;
+	_margin-left: -300px;
+	_padding-left: 0px;
+}
+
+#form_registro #email, #form_registro #email_repeat, #form_registro #password, #form_registro #password_repeat  {
+	width: 90% !important;
+}
+
+.marco_gris_cont {
+	width: 560px;
+}
+
+/* contacto */
+form.contac textarea {
+	width : 98%;
+}
+
+.pie_legal {
+	*clear:both; /*IE*/
+}
+
+#navlist li {
+	display:inline;
+	padding: 6px 0 0 0;	
+}
+
+#inicio_listacab_poblacion {
+    padding-left: 0;
+    padding-right: 0;
+}
+#inicio_listacab_sociedad {
+    padding-left: 0;
+    padding-right: 0;
+}
+#inicio_listacab_entorno_fisico {
+    padding-left: 0;
+    padding-right: 0;
+}
+#inicio_listacab_economia {
+    padding-left: 0;
+    padding-right: 0;
+}
+#inicio_listacab_por_territorio {
+    padding-left: 0;
+    padding-right: 0;
+}
+.tab_activa {
+	color: #666;
+}
+
+#menu_contenedor_estad {
+	border: 2px solid #ccc;
+}
+
+.tablaDatos td.izqGr, .tablaDatos td.izqGr, .atableCellGr {
+	width: auto;
+}
+
+#ibecalendar *{
+	font-size: 10px;
+}
+
+#ibecalendar div *{
+	width: 88px !important;
+	position: static !important;
+}
+
+.datos_comarca {
+	width: 690px;
+}
+
+.datos_comarca_right {
+	width: 590px;
+	padding: 0 0 0 0;
+}
+
+.datos_comarca_left {
+	width: 100px;
+	padding: 0 0 0 0;
+}
+
+h2{
+	padding: 0 0 0 0;	
+}
+
+#cab_tools_print {	
+	visibility:hidden;
+}
+
+.subir {	
+	visibility:hidden;
+}
+
+.cab_ptos_izq{
+	padding-right: 0em;
+}
+
+.cab_ptos li {
+	padding-left: 0em;
+}
+
+h2.selCategories {
+	padding: 0 0 0 0;	
+}
+
+#nomConsultaJaxi {
+	padding: 0 0 0 0;	
+}
+
+.botonera_Social{
+	width:12em;
+}
+
+.tools_tabla_resul{
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.tools_tabla_resul li{
+	float: left;
+	padding-right: 0;
+}
+.tabla_resul{
+	padding-left: 0;
+}
+
+.cab_ptos_izq{
+	padding-right: 0em;
+}
+
+/*.tools_lista_tablas{
+	display:table-cell;
+	vertical-align:middle;
+}*/
+
+.tools_lista_tablas_info_text{
+	display:block;
+}
+
+.tools_lista_tablas_fecha{
+	display:none;
+}
+
+.qrcode{
+	display:block;
+	float:right;
+}
+
+#logos_pie {
+	display:none;
+}
+
+#pie_inferior {	
+	border-top: #000000 solid 1px;	
+}
+
+#menu_pie li.last-child {
+	display:none;
+}
+
+
+span.pie_info {
+	padding: 0 0 0 0;	
+}
+
+span.pie_info_normal {
+	padding: 0 0 0 0;	
+}
+
+#menu_pie{
+	display:none;
+}
+
+#navlist li#final_migas  {
+	border-bottom: 0px;
+	line-height: 2em;
+}
+
+#navlist li span  {
+	border-bottom: 0px;
+	line-height: 2em;
+}
+
+.tropo_flecha_gris {
+	padding-left: 0px;		
+}
+
+h1.h1_terr{
+	padding: 0 0 0 0;
+}
+
+.tools_lista_tablas_info{
+	display:none;
+}
+
+#menu_estad {
+	padding-left: 0;
+}
+
+
+@media (max-width:575px) {
+.dos_cols_estad_var .col_uno_estad_var, .dos_cols_estad_var .col_dos_estad_var {
+/*	width: 380px;*/
+	margin: auto;
+}
+}

@@ -2,106 +2,10 @@
 <web-app id="complementos-apps" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
-    <!-- /apis -->
-    <servlet>
-        <servlet-name>apis-styles</servlet-name>
-        <jsp-file>/apis/styles.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>apis-styles</servlet-name>
-        <url-pattern>/apis/styles.css</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>apis-header</servlet-name>
-        <jsp-file>/apis/header.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>apis-header</servlet-name>
-        <url-pattern>/apis/header.html</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>apis-footer</servlet-name>
-        <jsp-file>/apps/footer/footer.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>apis-footer</servlet-name>
-        <url-pattern>/apis/footer.html</url-pattern>
-    </servlet-mapping>
-    
-    
-    <!-- /apps -->
-    <servlet>
-        <servlet-name>apps-footer</servlet-name>
-        <jsp-file>/apps/footer/footer.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>apps-footer</servlet-name>
-        <url-pattern>/apps/footer/footer.html</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>apps-footer-complete</servlet-name>
-        <jsp-file>/apps/footer/footer-complete.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>apps-footer-complete</servlet-name>
-        <url-pattern>/apps/footer/footer-complete.html</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>apps-header</servlet-name>
-        <jsp-file>/apps/header/header.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>apps-header</servlet-name>
-        <url-pattern>/apps/header/header.html</url-pattern>
-    </servlet-mapping>
-
-    <!-- /portal -->
-    <servlet>
-        <servlet-name>portal-default-header</servlet-name>
-        <jsp-file>/portal/default/header.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>portal-default-header</servlet-name>
-        <url-pattern>/portal/default/header.html</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet>
-        <servlet-name>portal-environment-header</servlet-name>
-        <jsp-file>/portal/environment/header.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>portal-environment-header</servlet-name>
-        <url-pattern>/portal/environment/header.html</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>portal-tourism-header</servlet-name>
-        <jsp-file>/portal/tourism/header.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>portal-tourism-header</servlet-name>
-        <url-pattern>/portal/tourism/header.html</url-pattern>
-    </servlet-mapping>
-
-    <!-- /visualizer -->
-    <servlet>
-        <servlet-name>portal-agriculture-header</servlet-name>
-        <jsp-file>/visualizer/agricultura/header.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>portal-agriculture-header</servlet-name>
-        <url-pattern>/visualizer/agricultura/header.html</url-pattern>
-    </servlet-mapping>
-    
     <!-- /api -->
     <servlet>
         <servlet-name>apis-index</servlet-name>
-        <jsp-file>/apis.jsp</jsp-file>
+        <jsp-file>/apis/apis.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>apis-index</servlet-name>
@@ -110,7 +14,163 @@
     <servlet-mapping>
         <servlet-name>apis-index</servlet-name>
         <url-pattern>/api</url-pattern>
+    </servlet-mapping>   
+        
+    <!-- /organisations/istac/apis -->
+    <servlet>
+        <servlet-name>istac-apis-styles</servlet-name>
+        <jsp-file>/organisations/istac/apis/header/styles.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-apis-styles</servlet-name>
+        <url-pattern>/organisations/istac/apis/header/styles.css</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>istac-apis-header</servlet-name>
+        <jsp-file>/organisations/istac/apis/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-apis-header</servlet-name>
+        <url-pattern>/organisations/istac/apis/header/header.html</url-pattern>
+    </servlet-mapping>    
+    
+    <!-- /organisations/istac/common -->   
+    <servlet>
+        <servlet-name>istac-common-footer</servlet-name>
+        <jsp-file>/organisations/istac/common/footer/footer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-common-footer</servlet-name>
+        <url-pattern>/organisations/istac/common/footer/footer.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>istac-common-footer-complete</servlet-name>
+        <jsp-file>/organisations/istac/common/footer/footer-complete.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-common-footer-complete</servlet-name>
+        <url-pattern>/organisations/istac/common/footer/footer-complete.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>istac-common-header</servlet-name>
+        <jsp-file>/organisations/istac/common/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-common-header</servlet-name>
+        <url-pattern>/organisations/istac/common/header/header.html</url-pattern>
+    </servlet-mapping>
+
+    <!-- /organisations/istac/portal -->
+    <servlet>
+        <servlet-name>istac-portal-default-header</servlet-name>
+        <jsp-file>/organisations/istac/portal/default/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-portal-default-header</servlet-name>
+        <url-pattern>/organisations/istac/portal/default/header.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>istac-portal-environment-header</servlet-name>
+        <jsp-file>/organisations/istac/portal/environment/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-portal-environment-header</servlet-name>
+        <url-pattern>/organisations/istac/portal/environment/header.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>istac-portal-tourism-header</servlet-name>
+        <jsp-file>/organisations/istac/portal/tourism/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-portal-tourism-header</servlet-name>
+        <url-pattern>/organisations/istac/portal/tourism/header.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>istac-portal-agriculture-header</servlet-name>
+        <jsp-file>/organisations/istac/portal/agriculture/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>istac-portal-agriculture-header</servlet-name>
+        <url-pattern>/organisations/istac/portal/agriculture/header.html</url-pattern>
+    </servlet-mapping>
+    
+    <!-- /organisations/ibestat/apis -->
+    <servlet>
+        <servlet-name>ibestat-apis-styles</servlet-name>
+        <jsp-file>/organisations/ibestat/apis/header/styles.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-apis-styles</servlet-name>
+        <url-pattern>/organisations/ibestat/apis/header/styles.css</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ibestat-apis-header</servlet-name>
+        <jsp-file>/organisations/ibestat/apis/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-apis-header</servlet-name>
+        <url-pattern>/organisations/ibestat/apis/header/header.html</url-pattern>
+    </servlet-mapping>    
+    
+    <!-- /organisations/ibestat/common -->   
+    <servlet>
+        <servlet-name>ibestat-common-footer</servlet-name>
+        <jsp-file>/organisations/ibestat/common/footer/footer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-common-footer</servlet-name>
+        <url-pattern>/organisations/ibestat/common/footer/footer.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ibestat-common-footer-complete</servlet-name>
+        <jsp-file>/organisations/ibestat/common/footer/footer-complete.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-common-footer-complete</servlet-name>
+        <url-pattern>/organisations/ibestat/common/footer/footer-complete.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ibestat-common-header</servlet-name>
+        <jsp-file>/organisations/ibestat/common/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-common-header</servlet-name>
+        <url-pattern>/organisations/ibestat/common/header/header.html</url-pattern>
+    </servlet-mapping>
+    
+    <!-- /organisations/ibestat/portal -->
+    <servlet>
+        <servlet-name>ibestat-portal-default-header</servlet-name>
+        <jsp-file>/organisations/ibestat/portal/default/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-portal-default-header</servlet-name>
+        <url-pattern>/organisations/ibestat/portal/default/header.html</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ibestat-portal-default-footer</servlet-name>
+        <jsp-file>/organisations/ibestat/portal/default/footer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ibestat-portal-default-footer</servlet-name>
+        <url-pattern>/organisations/ibestat/portal/default/footer.html</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!-- / -->
+    <welcome-file-list>  
+        <welcome-file>/apps/apps.jsp</welcome-file>
+    </welcome-file-list>  
     
 
     <filter>
