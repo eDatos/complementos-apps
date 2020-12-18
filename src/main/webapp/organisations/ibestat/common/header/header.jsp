@@ -52,7 +52,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item pointer">
                             <a class="nav-link" href="<fmt:message key="complementos_apps.url"/>">
-                                <span class="border">INICIO</span>
+                                <span class="border">MÁS APLICACIONES</span>
                             </a>
                         </li>
                     </ul>

@@ -118,7 +118,7 @@
 
         .istac-navbar .nav-link .border {
             border: 1px solid #8CD2EA;
-            padding: 2px;
+            padding: 0.5rem;
         }
 
         .istac-navbar .nav-link:focus,
