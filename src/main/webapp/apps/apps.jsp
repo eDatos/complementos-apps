@@ -92,7 +92,11 @@
 			
 			.list-app.profesionales_turismo-app .app-image {
 				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/tourism.jpg");
-			}		
+			}
+
+			.list-app.ods-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/ods.jpg");
+			}	
 
 			.list-app .app-name {
 				color: #0072A2;
@@ -122,6 +126,13 @@
 							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
 						</a>
 					</li> --%>
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app ods-app">
+						<a class="link-app" href="<fmt:message key="ods.url"/>">
+							<div class="app-image"></div>
+							<h2 class="app-name">Indicadores de Desarrollo Sostenible de Canarias</h2>
+							<p class="app-description">Acceda a los indicadores de la Agenda 2030 para el Desarrollo Sostenible de Canarias.</p>
+						</a>
+					</li>
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app sie-app">
 						<a class="link-app" href="<fmt:message key="sie.url"/>">
 							<div class="app-image"></div>
