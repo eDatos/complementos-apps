@@ -31,7 +31,10 @@ const RESOURCES_FILE_LIST = [
     { path: "iestadis/img/flagingl-redonda-22.jpg" },
     { path: "webutils/medicion_audiencias.js" },
     { path: "webutils/piwik.js" },
-    { path: "webutils/IESTADIS_audiencias.js" }
+    { path: "webutils/IESTADIS_audiencias.js" },
+    { path: "iestadis/img/validation.gif" },
+    { path: "iestadis/img/ico-englishFlag.jpg" },
+    { path: "iestadis/img/ico-rss.jpg" },
 ];
 
 
