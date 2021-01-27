@@ -122,7 +122,7 @@
 					<%-- <li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
 						<a class="link-app" href="<fmt:message key="terria.url"/>">
 							<div class="app-image"></div>
-							<h2 class="app-name">Atlas Estadísticos de Canarias</h2>
+							<h2 class="app-name">Atlas Estadístico de Canarias</h2>
 							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
 						</a>
 					</li> --%>
