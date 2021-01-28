@@ -309,7 +309,7 @@
 
                             <li>
                                 <a href="${iecmWebPrincipal}/fijas/otros/estructu_atl.htm">
-                                    Atlas estadísticos </a>
+                                    Atlas estadístico </a>
                             </li>
                             <li>
                                 <a href="${iecmWebPrincipal}/fijas/estructu/general/otros/estructu_ois.htm">
