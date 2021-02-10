@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-external-resources:istac": "node scripts/istac/update-external-resources.js",
     "update-external-resources:ibestat": "node scripts/ibestat/update-external-resources.js",
-    "update-external-resources": "npm run update-external-resources:istac && npm run update-external-resources:ibestat",
+    "update-external-resources:iecm": "node scripts/iecm/update-external-resources.js",
+    "update-external-resources": "npm run update-external-resources:istac && npm run update-external-resources:ibestat && npm run update-external-resources:iecm",
     "serve": "http-server ."
   },
   "repository": {
