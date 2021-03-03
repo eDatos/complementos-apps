@@ -423,7 +423,7 @@
 
         @media (min-width: 1200px) {
             .navbar-brand.logo .logo-img {
-                height: 50px;
+                height: 84px;
             }
         }
 
@@ -452,7 +452,7 @@
         }
 
         .istac-navbar-external {
-            background-color: #0072A2;
+            background-color: #FFFFFF;
         }
 
         .istac-navbar-internal {
@@ -462,9 +462,11 @@
 
         /* TITLE BAR */
         .istac-title-bar {
-            border-bottom: 2px solid #59656e;
-            padding: 15px;
-            background-color: #fff;
+        	border-top: 2px solid #59656E;
+            border-bottom: 2px solid #59656E;
+            padding: 10px 0px 10px 0px;
+            margin-top: 35px;
+            background-color: #FFFFFF;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -482,7 +484,7 @@
             margin: 0 !important;
             font-size: 1.5em;
             font-weight: 500;
-            color: #59656e;
+            color: #59656E;
         }
 
         .istac-title-bar .istac-app-header-title .fa.fa-istac-home {
