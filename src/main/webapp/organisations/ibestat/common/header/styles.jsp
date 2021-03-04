@@ -521,9 +521,5 @@
             }
         }
         
-        #hidded{
-			position: absolute;
-			bottom: -99999px;
-		}
     </style>
 </fmt:bundle>
