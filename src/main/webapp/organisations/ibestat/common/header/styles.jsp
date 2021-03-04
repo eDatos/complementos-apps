@@ -423,7 +423,7 @@
 
         @media (min-width: 1200px) {
             .navbar-brand.logo .logo-img {
-                height: 84px;
+                height: 50px;
             }
         }
 
@@ -465,7 +465,6 @@
         	border-top: 2px solid #59656E;
             border-bottom: 2px solid #59656E;
             padding: 10px 0px 10px 0px;
-            margin-top: 35px;
             background-color: #FFFFFF;
             display: flex;
             flex-direction: row;
@@ -521,5 +520,10 @@
                 padding-right: 36px;
             }
         }
+        
+        #hidded{
+			position: absolute;
+			bottom: -99999px;
+		}
     </style>
 </fmt:bundle>
