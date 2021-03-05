@@ -521,5 +521,9 @@
             }
         }
         
+        [_nghost-c2] {
+ 			border-top:2px solid #59656e;
+		}
+        
     </style>
 </fmt:bundle>
