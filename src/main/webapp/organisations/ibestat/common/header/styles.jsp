@@ -524,6 +524,28 @@
         [_nghost-c2] {
  			border-top:2px solid #59656e;
 		}
+
+        #title-bar {
+            margin-top: 70px !important;
+        }
+
+        @media (min-width: 1200px) {
+        
+                #title-bar {
+                    padding-top: 0 !important;
+                }
+        }
+
+        @media (max-width: 1199px) {
+            
+            #title-bar {
+                margin-top: 50px !important;
+                padding-top: 0px !important;
+            }
+            .collapsable-menu {
+                height: 100%;
+            }
+        }
         
     </style>
 </fmt:bundle>
