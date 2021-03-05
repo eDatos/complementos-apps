@@ -97,6 +97,7 @@
             right: 0;
             left: 0;
             z-index: 1030;
+            border-bottom: 2px solid #59656E;
         }
 
         @media (max-width: 1199px) {
@@ -462,7 +463,6 @@
 
         /* TITLE BAR */
         .istac-title-bar {
-        	border-top: 2px solid #59656E;
             border-bottom: 2px solid #59656E;
             padding: 10px 0px 10px 0px;
             background-color: #FFFFFF;
@@ -521,28 +521,24 @@
             }
         }
         
-        [_nghost-c2] {
- 			border-top:2px solid #59656e;
-		}
-
-        #title-bar {
+        #title-bar.ckan {
             margin-top: 70px !important;
         }
 
         @media (min-width: 1200px) {
         
-                #title-bar {
+                #title-bar.ckan {
                     padding-top: 0 !important;
                 }
         }
 
         @media (max-width: 1199px) {
             
-            #title-bar {
+            #title-bar.ckan {
                 margin-top: 50px !important;
                 padding-top: 0px !important;
             }
-            .collapsable-menu {
+            .collapsable-menu.ckan {
                 height: 100%;
             }
         }
