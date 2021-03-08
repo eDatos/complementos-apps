@@ -97,6 +97,7 @@
             right: 0;
             left: 0;
             z-index: 1030;
+            border-bottom: 2px solid #59656E;
         }
 
         @media (max-width: 1199px) {
@@ -462,7 +463,6 @@
 
         /* TITLE BAR */
         .istac-title-bar {
-        	border-top: 2px solid #59656E;
             border-bottom: 2px solid #59656E;
             padding: 10px 0px 10px 0px;
             background-color: #FFFFFF;
@@ -520,6 +520,6 @@
                 padding-right: 36px;
             }
         }
-        
+                
     </style>
 </fmt:bundle>
