@@ -520,28 +520,6 @@
                 padding-right: 36px;
             }
         }
-        
-        #title-bar.ckan {
-            margin-top: 70px !important;
-        }
-
-        @media (min-width: 1200px) {
-        
-                #title-bar.ckan {
-                    padding-top: 0 !important;
-                }
-        }
-
-        @media (max-width: 1199px) {
-            
-            #title-bar.ckan {
-                margin-top: 50px !important;
-                padding-top: 0px !important;
-            }
-            .collapsable-menu.ckan {
-                height: 100%;
-            }
-        }
-        
+                
     </style>
 </fmt:bundle>
