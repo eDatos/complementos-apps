@@ -169,7 +169,7 @@
             width: 100%;
             height: 100%;
             padding: 5px 36px;
-            background-color: #59656E;
+            background-color: #999797;
             display: flex;
             justify-content: space-between;
             align-items: center;

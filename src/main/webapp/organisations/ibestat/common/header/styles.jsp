@@ -97,6 +97,7 @@
             right: 0;
             left: 0;
             z-index: 1030;
+            border-bottom: 2px solid #59656E;
         }
 
         @media (max-width: 1199px) {
@@ -452,7 +453,7 @@
         }
 
         .istac-navbar-external {
-            background-color: #0072A2;
+            background-color: #FFFFFF;
         }
 
         .istac-navbar-internal {
@@ -462,9 +463,9 @@
 
         /* TITLE BAR */
         .istac-title-bar {
-            border-bottom: 2px solid #59656e;
-            padding: 15px;
-            background-color: #fff;
+            border-bottom: 2px solid #59656E;
+            padding: 10px 0px 10px 0px;
+            background-color: #FFFFFF;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -482,7 +483,7 @@
             margin: 0 !important;
             font-size: 1.5em;
             font-weight: 500;
-            color: #59656e;
+            color: #59656E;
         }
 
         .istac-title-bar .istac-app-header-title .fa.fa-istac-home {
@@ -519,5 +520,6 @@
                 padding-right: 36px;
             }
         }
+                
     </style>
 </fmt:bundle>
