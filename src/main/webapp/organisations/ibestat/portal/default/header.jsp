@@ -416,8 +416,3 @@
             <div id="contenido" class="col-sm-12">
 
                 <div id="cont">
-                    <div class="cab_nar">
-                        <h1>Visualizador estadístico</h1>
-                        <img alt="barra horitzontal" class="printonly"
-                            src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/interfaz/cab_nar_print.png" />
-                    </div>
