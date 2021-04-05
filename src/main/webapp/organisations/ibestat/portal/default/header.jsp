@@ -39,9 +39,7 @@
     <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/jaxi/js/jquery/jquery-1.2.6.js"></script>
     <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/js/ibestatcms.js"></script>
-</head>
 
-<body data-ftl="ib_visualizer">
     <div id="wrapper" class="container">
         <div id="header">
             <nav class="navbar navbar-light _bg-light">
@@ -415,11 +413,6 @@
             </div>
         </div>
         <div id="pagina" class="row clear">
-            <div id="contenido" class="col-lg-9 col-xs-12 col-md-8 col-sm-12">
+            <div id="contenido" class="col-sm-12">
 
                 <div id="cont">
-                    <div class="cab_nar">
-                        <h1>Visualizador estadístico</h1>
-                        <img alt="barra horitzontal" class="printonly"
-                            src="${complementosAppsIbestatExternal}/ibestat/theme/ibestat/interfaz/cab_nar_print.png" />
-                    </div>

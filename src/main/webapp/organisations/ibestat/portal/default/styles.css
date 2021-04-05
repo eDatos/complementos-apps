@@ -2,3 +2,9 @@
 @import url('../../external/ibestat/theme/ibestat/css/arte.css');
 @import url('../../external/ibestat/theme/ibestat/css/jquery.treeview.css');
 @import url('../../external/ibestat/theme/ibestat/css/estilos-print.css') print;
+
+body .dataset-header-info .dataset-header-title {
+    font-size: 1.1em;
+    line-height: inherit;
+    color: inherit;
+}
