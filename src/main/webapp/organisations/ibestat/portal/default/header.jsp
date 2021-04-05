@@ -39,9 +39,7 @@
     <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/jaxi/js/jquery/jquery-1.2.6.js"></script>
     <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="${complementosAppsIbestatExternal}/ibestat/js/ibestatcms.js"></script>
-</head>
 
-<body data-ftl="ib_visualizer">
     <div id="wrapper" class="container">
         <div id="header">
             <nav class="navbar navbar-light _bg-light">
