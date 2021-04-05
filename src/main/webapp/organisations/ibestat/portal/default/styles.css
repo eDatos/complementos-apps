@@ -8,3 +8,10 @@ body .dataset-header-info .dataset-header-title {
     line-height: inherit;
     color: inherit;
 }
+
+.metamac-container .ui-widget-content {
+    color: inherit;
+    font-size: inherit;
+    background: none;
+    border: none;
+}
