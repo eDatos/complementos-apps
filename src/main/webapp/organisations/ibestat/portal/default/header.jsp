@@ -413,7 +413,7 @@
             </div>
         </div>
         <div id="pagina" class="row clear">
-            <div id="contenido" class="col-lg-9 col-xs-12 col-md-8 col-sm-12">
+            <div id="contenido" class="col-sm-12">
 
                 <div id="cont">
                     <div class="cab_nar">
