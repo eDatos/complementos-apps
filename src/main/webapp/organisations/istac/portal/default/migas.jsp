@@ -22,7 +22,8 @@
 					<a href="${enlaces[status.index]}">
 						<c:out value="${currentName}" />
 					</a>
-				</li>
+				</li> 
+                >
 			</c:otherwise>
 		</c:choose>
 	</c:forTokens>
