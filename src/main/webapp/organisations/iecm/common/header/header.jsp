@@ -16,7 +16,7 @@
   pageContext.setAttribute("webPrincipal", resource.getString("iecm.web_principal.url"));
 %>
     <%@include file="./styles.jsp" %>
-
+    <link href="<fmt:message key='complementos_apps.url' />/organisations/iecm/common/favicon.ico" rel="shortcut icon" />
     <script src="<fmt:message key="complementos_apps.url" />/organisations/iecm/common/header/header.js"></script>
     <script>
         var NAVBAR_ID = "istacNavbarId";
