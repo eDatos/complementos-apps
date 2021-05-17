@@ -8,7 +8,10 @@
 
 *Se deberá realizar primero la actualización de la versión 1.0.0 a la 2.0.0 y luego desde la 2.0.0 a la 3.0.0*
 
-## 3.2.0 a X.Y.Z
+## 3.3.0 a X.Y.Z
+* Actualizar el WAR
+
+## 3.2.0 a 3.3.0
 * Actualizar el WAR
 
 ## 0.0.0 a 3.2.0
