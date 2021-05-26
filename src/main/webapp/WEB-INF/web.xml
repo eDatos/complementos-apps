@@ -235,6 +235,73 @@
         <url-pattern>/organisations/iecm/portal/default/footer.html</url-pattern>
     </servlet-mapping>
     
+        <!-- SEMASTAT -->
+    <!-- /organisations/semastat/apis -->
+    <servlet>
+        <servlet-name>semastat-apis-styles</servlet-name>
+        <jsp-file>/organisations/semastat/apis/header/styles.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>semastat-apis-styles</servlet-name>
+        <url-pattern>/organisations/semastat/apis/header/styles.css</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>semastat-apis-header</servlet-name>
+        <jsp-file>/organisations/semastat/apis/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>semastat-apis-header</servlet-name>
+        <url-pattern>/organisations/semastat/apis/header/header.html</url-pattern>
+    </servlet-mapping>    
+    
+    <!-- /organisations/semastat/common -->   
+    <servlet>
+        <servlet-name>semastat-common-footer</servlet-name>
+        <jsp-file>/organisations/semastat/common/footer/footer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>semastat-common-footer</servlet-name>
+        <url-pattern>/organisations/semastat/common/footer/footer.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>semastat-common-footer-complete</servlet-name>
+        <jsp-file>/organisations/semastat/common/footer/footer-complete.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>semastat-common-footer-complete</servlet-name>
+        <url-pattern>/organisations/semastat/common/footer/footer-complete.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>semastat-common-header</servlet-name>
+        <jsp-file>/organisations/semastat/common/header/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>semastat-common-header</servlet-name>
+        <url-pattern>/organisations/semastat/common/header/header.html</url-pattern>
+    </servlet-mapping>
+    
+    <!-- /organisations/semastat/portal -->
+    <servlet>
+        <servlet-name>semastat-portal-default-header</servlet-name>
+        <jsp-file>/organisations/semastat/portal/default/header.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>semastat-portal-default-header</servlet-name>
+        <url-pattern>/organisations/semastat/portal/default/header.html</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>semastat-portal-default-footer</servlet-name>
+        <jsp-file>/organisations/semastat/portal/default/footer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>semastat-portal-default-footer</servlet-name>
+        <url-pattern>/organisations/semastat/portal/default/footer.html</url-pattern>
+    </servlet-mapping>
+    
     <!-- / -->
     <welcome-file-list>  
         <welcome-file>/apps/apps.jsp</welcome-file>
