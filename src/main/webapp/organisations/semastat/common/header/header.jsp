@@ -17,6 +17,19 @@
 %>
 <%@include file="./styles.jsp" %>
 
+<style>
+body {
+    font-family: 'IBM Plex Sans Condensed', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+div#bloq_interior {
+    padding: 36px 36px 0 36px;               
+}
+
+.dataset-header-info .dataset-header-title {
+    color: #0292c6;
+}
+</style>
+
 <link href="<fmt:message key='complementos_apps.url' />/organisations/semastat/common/favicon.ico" rel="shortcut icon" />
 <script src="<fmt:message key="complementos_apps.url"/>/organisations/semastat/common/header/header.js"></script>
 <script>
