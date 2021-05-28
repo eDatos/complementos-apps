@@ -28,6 +28,11 @@ div#bloq_interior {
 .dataset-header-info .dataset-header-title {
     color: #0292c6;
 }
+h2.tit_conten_1_col {
+    color: #0292c6;
+    font-size: 20px;
+    line-height: 25px;
+}
 </style>
 
 <link href="<fmt:message key='complementos_apps.url' />/organisations/semastat/common/favicon.ico" rel="shortcut icon" />
