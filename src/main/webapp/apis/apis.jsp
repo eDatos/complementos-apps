@@ -107,7 +107,7 @@
             <c:if test="${not empty statisticalResourcesRestExternal}">
                 <li class="apis-item">
                     <h2><a href="${statisticalResourcesRestExternal}" alt="API de recursos estadísticos">API de recursos estadísticos</a></h2>
-                    <p>Los recursos de información estadística son los productos que se obtienen de una operación estadística. El objetivo de esta API es facilitar la consulta de todos los recursos estadísticos almacenados en eDatos: cubos o tablas estadísticas, publicaciones o colecciones de tablas, consultas a cubos estadísticos.</p>
+                    <p>Los recursos de información estadística son los productos que se obtienen de una operación estadística. El objetivo de esta API es facilitar la consulta de todos los recursos estadísticos almacenados en el sistema: cubos o tablas estadísticas, publicaciones o colecciones de tablas, consultas a cubos estadísticos.</p>
                 </li>
             </c:if>
 
