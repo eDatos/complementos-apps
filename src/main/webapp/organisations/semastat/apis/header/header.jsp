@@ -9,6 +9,4 @@
 		<jsp:param name="appName" value="Catálogo de API abiertas" />
 		<jsp:param name="appUrl" value="${insertTranslation}" />
 	</jsp:include>
-
-	<div class="content-wrapper">
 </fmt:bundle>
