@@ -83,7 +83,6 @@ h2.tit_conten_1_col {
         <div class="istac-app-header istac-title-bar" id="title-bar">
             <a href="<%= appUrl %>">
                 <h1 class="istac-app-header-title">
-                    <i class="fa fa-istac-home"></i>
                     <span><%= appName %></span>
                 </h1>
             </a>

@@ -463,9 +463,9 @@
 
         /* TITLE BAR */
         .istac-title-bar {
-            border-bottom: 2px solid #59656E;
             padding: 10px 0px 10px 0px;
-            background-color: #FFFFFF;
+            background: linear-gradient(#f5ad0b, #e3542a);
+            color: white;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -483,7 +483,7 @@
             margin: 0 !important;
             font-size: 1.5em;
             font-weight: 500;
-            color: #59656E;
+            color: white;
         }
 
         .istac-title-bar .istac-app-header-title .fa.fa-istac-home {
