@@ -10,11 +10,16 @@
     boolean includeTileBar = params.containsKey("appName");
     String appName = request.getParameter("appName");
     String appUrl = params.containsKey("appUrl") ? request.getParameter("appUrl") : "";
+    String language = params.containsKey("lang") ? request.getParameter("lang") : "es";
 %>
 <% 
   ResourceBundle resource = ResourceBundle.getBundle("application");
   pageContext.setAttribute("ibestatWebPrincipal", resource.getString("ibestat.web_principal.url"));
 %>
+
+<fmt:setLocale value="<%= language %>"/>
+<fmt:setBundle basename="i18n.common.messages" var="i18n"/>
+
 <%@include file="./styles.jsp" %>
 
 <link href="<fmt:message key='complementos_apps.url' />/organisations/ibestat/common/favicon.ico" rel="shortcut icon" />
@@ -53,7 +58,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item pointer">
                             <a class="nav-link" href="<fmt:message key="complementos_apps.url"/>">
-                                <span class="border">MÁS APLICACIONES</span>
+                                <span class="border"><fmt:message key="header.label.mas_aplicaciones" bundle="${i18n}"/></span>
                             </a>
                         </li>
                     </ul>
