@@ -5,9 +5,15 @@
 <%@ page language="java" import="java.util.*" %> 
 <%@ page import = "java.util.ResourceBundle" %>
 <% 
+  Map params = request.getParameterMap();
   ResourceBundle resource = ResourceBundle.getBundle("application");
   pageContext.setAttribute("ibestatWebPrincipal", resource.getString("ibestat.web_principal.url"));
+  String language = params.containsKey("lang") ? request.getParameter("lang") : "es";
 %>
+
+<fmt:setLocale value="<%= language %>"/>
+<fmt:setBundle basename="i18n.common.messages" var="i18n"/>
+
 <fmt:bundle basename="application">
     <style>
         /* Bootstrap */
@@ -215,10 +221,10 @@
         <div class="footer-content">
             <div class="istac-links">
                 <div class="istac-links-wrapper">
-                    <a target="_blank" href="${ibestatWebPrincipal}/ibestat/page?p=aviso_legal">Aviso Legal</a>
-                    <a target="_blank" href="${ibestatWebPrincipal}/ibestat/page?p=Accessibilitat">Accesibilidad</a>
+                    <a target="_blank" href="${ibestatWebPrincipal}/ibestat/page?p=aviso_legal"><fmt:message key="footer.label.aviso_legal" bundle="${i18n}"/></a>
+                    <a target="_blank" href="${ibestatWebPrincipal}/ibestat/page?p=Accessibilitat"><fmt:message key="footer.label.accesibilidad" bundle="${i18n}"/></a>
                     <a target="_blank"
-                        href="https://www.google.es/maps/place/Carrer+Miquel+Santandreu,+4,+07006+Palma,+Illes+Balears/@39.5675987,2.6584315,17z/data=!3m1!4b1!4m2!3m1!1s0x1297924d2bf49a91:0x429fc3725969857a?hl=es">Sede</a>
+                        href="https://www.google.es/maps/place/Carrer+Miquel+Santandreu,+4,+07006+Palma,+Illes+Baleas/@39.5675987,2.6584315,17z/data=!3m1!4b1!4m2!3m1!1s0x1297924d2bf49a91:0x429fc3725969857a?hl=es"><fmt:message key="footer.label.sede" bundle="${i18n}"/></a>
                 </div>
             </div>
 
