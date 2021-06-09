@@ -5,12 +5,14 @@
 <%@ page language="java" import="java.util.*" %> 
 <%@ page import = "java.util.ResourceBundle" %>
 <fmt:bundle basename="application">
+<fmt:message key="defaul.locale" var="defaultLocale"/>
 <%
     Map params = request.getParameterMap();
     boolean includeTileBar = params.containsKey("appName");
     String appName = request.getParameter("appName");
     String appUrl = params.containsKey("appUrl") ? request.getParameter("appUrl") : "";
-    String language = params.containsKey("lang") ? request.getParameter("lang") : "es";
+    String defaultLocale = (String)pageContext.getAttribute("defaultLocale");
+    String language = params.containsKey("lang") ? request.getParameter("lang") : defaultLocale;
 %>
 <% 
   ResourceBundle resource = ResourceBundle.getBundle("application");

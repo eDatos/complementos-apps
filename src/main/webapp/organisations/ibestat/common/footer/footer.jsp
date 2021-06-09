@@ -4,17 +4,19 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page language="java" import="java.util.*" %> 
 <%@ page import = "java.util.ResourceBundle" %>
-<% 
-  Map params = request.getParameterMap();
-  ResourceBundle resource = ResourceBundle.getBundle("application");
-  pageContext.setAttribute("ibestatWebPrincipal", resource.getString("ibestat.web_principal.url"));
-  String language = params.containsKey("lang") ? request.getParameter("lang") : "es";
-%>
-
-<fmt:setLocale value="<%= language %>"/>
-<fmt:setBundle basename="i18n.common.messages" var="i18n"/>
-
 <fmt:bundle basename="application">
+    <fmt:message key="defaul.locale" var="defaultLocale"/>
+    <% 
+        Map params = request.getParameterMap();
+        ResourceBundle resource = ResourceBundle.getBundle("application");
+        pageContext.setAttribute("ibestatWebPrincipal", resource.getString("ibestat.web_principal.url"));
+        String defaultLocale = (String)pageContext.getAttribute("defaultLocale");
+        String language = params.containsKey("lang") ? request.getParameter("lang") : defaultLocale;
+    %>
+
+    <fmt:setLocale value="<%= language %>"/>
+    <fmt:setBundle basename="i18n.common.messages" var="i18n"/>
+
     <style>
         /* Bootstrap */
 
