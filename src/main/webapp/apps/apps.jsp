@@ -128,15 +128,6 @@
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps row justify-content-left">
-                    <c:if test="${not empty terriaUrl}">
-					<li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
-						<a class="link-app" href="${terriaUrl}">
-							<div class="app-image"></div>
-							<h2 class="app-name">Atlas Estadístico de Canarias</h2>
-							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
-						</a>
-					</li>
-                    </c:if>
                     <c:if test="${not empty odsUrl}">
     					<li class="col-sm-6 col-md-4 col-lg-3 list-app ods-app">
     						<a class="link-app" href="${odsUrl}">
@@ -145,6 +136,15 @@
     							<p class="app-description">Acceda a los indicadores de la Agenda 2030 para el Desarrollo Sostenible de Canarias.</p>
     						</a>
     					</li>
+                    </c:if>
+					<c:if test="${not empty terriaUrl}">
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
+						<a class="link-app" href="${terriaUrl}">
+							<div class="app-image"></div>
+							<h2 class="app-name">Atlas Estadístico de Canarias</h2>
+							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
+						</a>
+					</li>
                     </c:if>
                     <c:if test="${not empty sieUrl}">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app sie-app">
