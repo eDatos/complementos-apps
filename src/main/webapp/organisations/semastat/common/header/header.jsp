@@ -33,6 +33,20 @@ h2.tit_conten_1_col {
     font-size: 20px;
     line-height: 25px;
 }
+
+/* API version selector */
+.version-list {
+    padding: 0 20px;
+}
+.version-list h1 {
+    font-size: 25px;
+}
+.version-list h2 {
+    color: #999999;
+    font-family: "Droid Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
 </style>
 
 <link href="<fmt:message key='complementos_apps.url' />/organisations/semastat/common/favicon.ico" rel="shortcut icon" />
