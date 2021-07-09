@@ -453,7 +453,7 @@
         }
 
         .istac-navbar-external {
-            background-color: #FFFFFF;
+            background-color: #EFEFEF;
         }
 
         .istac-navbar-internal {
