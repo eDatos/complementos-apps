@@ -9,6 +9,16 @@
   ResourceBundle resource = ResourceBundle.getBundle("application");  
   pageContext.setAttribute("appStyleHeaderUrl", resource.getString("metamac.app.style.header.url"));
   pageContext.setAttribute("appStyleFooterUrl", resource.getString("metamac.app.style.footer.url"));
+  
+  pageContext.setAttribute("terriaUrl", resource.getString("terria.url"));
+  pageContext.setAttribute("odsUrl", resource.getString("ods.url"));
+  pageContext.setAttribute("sieUrl", resource.getString("sie.url"));
+  pageContext.setAttribute("operacionesEstadisticasUrl", resource.getString("operaciones_estadisticas.url"));
+  pageContext.setAttribute("datosAbiertosUrl", resource.getString("datos_abiertos.url"));
+  pageContext.setAttribute("catalogoApisUrl", resource.getString("catalogo_apis.url"));
+  pageContext.setAttribute("encuestasUrl", resource.getString("encuestas.url"));
+  pageContext.setAttribute("profesionalesTurismoUrl", resource.getString("profesionales_turismo.url"));  
+
 %>
 <fmt:bundle basename="application">
 <html>
@@ -118,63 +128,78 @@
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps row justify-content-left">
-					<%-- EDATOS-3166 El enlace del atlas permanecerá oculto hasta el ok de Alberto para su publicación --%>
-					<%-- <li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
-						<a class="link-app" href="<fmt:message key="terria.url"/>">
+                    <c:if test="${not empty odsUrl}">
+    					<li class="col-sm-6 col-md-4 col-lg-3 list-app ods-app">
+    						<a class="link-app" href="${odsUrl}">
+    							<div class="app-image"></div>
+    							<h2 class="app-name">Indicadores de Desarrollo Sostenible de Canarias</h2>
+    							<p class="app-description">Acceda a los indicadores de la Agenda 2030 para el Desarrollo Sostenible de Canarias.</p>
+    						</a>
+    					</li>
+                    </c:if>
+					<c:if test="${not empty terriaUrl}">
+					<li class="col-sm-6 col-md-4 col-lg-3 list-app terria-app">
+						<a class="link-app" href="${terriaUrl}">
 							<div class="app-image"></div>
 							<h2 class="app-name">Atlas Estadístico de Canarias</h2>
 							<p class="app-description">Visualice mapas en atlas estadísticos tematizados y contextualizados con información geográfica de Canarias.</p>
 						</a>
-					</li> --%>
-					<li class="col-sm-6 col-md-4 col-lg-3 list-app ods-app">
-						<a class="link-app" href="<fmt:message key="ods.url"/>">
-							<div class="app-image"></div>
-							<h2 class="app-name">Indicadores de Desarrollo Sostenible de Canarias</h2>
-							<p class="app-description">Acceda a los indicadores de la Agenda 2030 para el Desarrollo Sostenible de Canarias.</p>
-						</a>
 					</li>
+                    </c:if>
+                    <c:if test="${not empty sieUrl}">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app sie-app">
-						<a class="link-app" href="<fmt:message key="sie.url"/>">
+						<a class="link-app" href="${sieUrl}">
 							<div class="app-image"></div>
 							<h2 class="app-name">Sistema de información electoral</h2>
 							<p class="app-description">Acceda a los datos de todas las convocatorias electorales en Canarias desde 1979.</p>
 						</a>
 					</li>
+                    </c:if>
+                    <c:if test="${not empty operacionesEstadisticasUrl}">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app operaciones-estadisticas-app">
-						<a class="link-app" href="<fmt:message key="operaciones_estadisticas.url"/>">
+						<a class="link-app" href="${operacionesEstadisticasUrl}">
 							<div class="app-image"></div>
 							<h2 class="app-name">Catálogo de operaciones estadísticas</h2>
 							<p class="app-description">Consulte la lista de las operaciones estadísticas incluidas en los Planes Estadísticos de Canarias.</p>
 						</a>
 					</li>
+                    </c:if>
+                    <c:if test="${not empty datosAbiertosUrl}">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app datos-abiertos-app">
-						<a class="link-app" href="<fmt:message key="datos_abiertos.url"/>">
+						<a class="link-app" href="${datosAbiertosUrl}">
 							<div class="app-image"></div>
 							<h2 class="app-name">Catálogo de datos abiertos</h2>
 							<p class="app-description">Encuentre las tablas, microdatos, cartografías y activos semánticos de la estadística de Canarias.</p>
 						</a>
 					</li>
+                    </c:if>
+                    <c:if test="${not empty catalogoApisUrl}">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app apis-app">
-						<a class="link-app" href="<fmt:message key="catalogo_apis.url"/>">
+						<a class="link-app" href="${catalogoApisUrl}">
 							<div class="app-image"></div>
 							<h2 class="app-name">Catálogo de API abiertas</h2>
 							<p class="app-description">Estudie y pruebe nuestras API de acceso abierto a la información estadística de Canarias.</p>
 						</a>
 					</li>
+                    </c:if>
+                    <c:if test="${not empty encuestasUrl}">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app encuestas-app">
-						<a class="link-app" href="<fmt:message key="encuestas.url"/>">
+						<a class="link-app" href="${encuestasUrl}">
 							<div class="app-image"></div>
 							<h2 class="app-name">Sistema de encuestas web</h2>
 							<p class="app-description">Acceda a los cuestionarios web de las encuestas para las que se le ha solicitado su colaboración.</p>
 						</a>
 					</li>
+                    </c:if>
+                    <c:if test="${not empty profesionalesTurismoUrl}">
 					<li class="col-sm-6 col-md-4 col-lg-3 list-app profesionales_turismo-app">
-						<a class="link-app" href="<fmt:message key="profesionales_turismo.url"/>">
+						<a class="link-app" href="${profesionalesTurismoUrl}">
 							<div class="app-image"></div>
 							<h2 class="app-name">Portal de profesionales del turismo</h2>
 							<p class="app-description">Acceso profesional a encuestas y a datos a medida.</p>
 						</a>
 					</li>
+                    </c:if>
 				</ul>
 			</div>
 		</div>
