@@ -8,6 +8,11 @@
 
 *Se deberá realizar primero la actualización de la versión 1.0.0 a la 2.0.0 y luego desde la 2.0.0 a la 3.0.0*
 
+## 3.4.0 a x.y.z
+* Se añade la propiedad `la-palma-volcan.url`, que hace referencia a la URL del Atlas que contiene la visualización
+  sobre la evolución de la colada magmática y la afectación a viviendas debido a la erupción del volcán de La Palma 
+  en 2021.
+
 ## 3.3.0 a 3.4.0
 * Se añade la propiedad nueva semastat.web_principal.url y se le da soporte a semastat como organización
 * Desaparece la propiedad de configuración istac\_apis\_base.url
