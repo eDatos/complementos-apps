@@ -11,6 +11,7 @@
   pageContext.setAttribute("appStyleFooterUrl", resource.getString("metamac.app.style.footer.url"));
   
   pageContext.setAttribute("terriaUrl", resource.getString("terria.url"));
+  pageContext.setAttribute("laPalmaVolcanUrl", resource.getString("la-palma-volcan.url"));
   pageContext.setAttribute("odsUrl", resource.getString("ods.url"));
   pageContext.setAttribute("sieUrl", resource.getString("sie.url"));
   pageContext.setAttribute("operacionesEstadisticasUrl", resource.getString("operaciones_estadisticas.url"));
@@ -106,7 +107,11 @@
 
 			.list-app.ods-app .app-image {
 				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/ods.jpg");
-			}	
+			}
+
+			.list-app.la-palma-volcan-app .app-image {
+				background-image: url("<fmt:message key="complementos_apps.url"/>/apps/assets/img/la-palma-volcan.jpg");
+			}
 
 			.list-app .app-name {
 				color: #0072A2;
@@ -128,6 +133,15 @@
 		<div class="main">
 			<div class="container">
 				<ul class="list-apps row justify-content-left">
+                    <c:if test="${not empty laPalmaVolcanUrl}">
+    					<li class="col-sm-6 col-md-4 col-lg-3 list-app la-palma-volcan-app">
+    						<a class="link-app" href="${laPalmaVolcanUrl}">
+    							<div class="app-image"></div>
+    							<h2 class="app-name">Erupción Volcánica La Palma 2021</h2>
+    							<p class="app-description">Haga un seguimiento diario del avance de la erupción volcánica y las zonas poblacionales afectadas.</p>
+    						</a>
+    					</li>
+                    </c:if>
                     <c:if test="${not empty odsUrl}">
     					<li class="col-sm-6 col-md-4 col-lg-3 list-app ods-app">
     						<a class="link-app" href="${odsUrl}">
