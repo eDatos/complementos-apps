@@ -137,7 +137,7 @@
     					<li class="col-sm-6 col-md-4 col-lg-3 list-app la-palma-volcan-app">
     						<a class="link-app" href="${laPalmaVolcanUrl}">
     							<div class="app-image"></div>
-    							<h2 class="app-name">Seguimiento de erupción volcánica</h2>
+    							<h2 class="app-name">Erupción Volcánica La Palma 2021</h2>
     							<p class="app-description">Haga un seguimiento diario del avance de la erupción volcánica y las zonas poblacionales afectadas.</p>
     						</a>
     					</li>
