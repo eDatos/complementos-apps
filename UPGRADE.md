@@ -8,7 +8,7 @@
 
 *Se deberá realizar primero la actualización de la versión 1.0.0 a la 2.0.0 y luego desde la 2.0.0 a la 3.0.0*
 
-## 3.4.0 a x.y.z
+## 3.4.0 a 3.5.0
 * Se añade la propiedad `la-palma-volcan.url`, que hace referencia a la URL del Atlas que contiene la visualización
   sobre la evolución de la colada magmática y la afectación a viviendas debido a la erupción del volcán de La Palma 
   en 2021.
