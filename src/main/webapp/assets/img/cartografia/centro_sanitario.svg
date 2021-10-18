@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="39"
+   viewBox="0 0 32 39.000001"
+   id="svg8605"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="CentroSanitario.svg"
+   inkscape:export-filename="C:\Users\jhernandez\Documents\imagenCorp\iconos\cartografia\varios\CentroSanitario.png"
+   inkscape:export-xdpi="286.42999"
+   inkscape:export-ydpi="286.42999">
+  <defs
+     id="defs8607" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="4.9356533"
+     inkscape:cy="25.903821"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8610">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1013.3622)">
+    <g
+       id="g9263"
+       transform="translate(0.46890479,4.3016722)">
+      <path
+         inkscape:export-ydpi="89.889763"
+         inkscape:export-xdpi="89.889763"
+         inkscape:export-filename="C:\Documents and Settings\jhernandez\Mis documentos\imagenCorp\iconos\cartografia\ICONOS_GRAFCAN.png"
+         style="display:inline;fill:#940500;fill-opacity:1;stroke:none;stroke-width:3.40799999"
+         d="m 3.1359454,1009.5552 c -2.29079998,0 -3.57869998,1.1846 -3.57869998,3.6046 l 0,24.9466 c 0,2.2637 1.1582,3.449 3.44689998,3.449 l 5.4449,0 3.0413996,2.6181 4.0407,3.3968 4.0413,-3.3968 3.0407,-2.6181 5.4429,0 c 2.2893,0 3.4489,-1.126 3.4489,-3.449 l 0,-24.9466 c 0,-2.361 -1.1595,-3.6046 -3.5202,-3.6046 -3e-4,0 -24.8566996,-0.01 -24.8487996,0 z"
+         id="path7701"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="89.889763"
+         inkscape:export-xdpi="89.889763"
+         inkscape:export-filename="C:\Documents and Settings\jhernandez\Mis documentos\imagenCorp\iconos\cartografia\ICONOS_GRAFCAN.png"
+         id="path6947"
+         d="m 15.978745,1014.0854 -11.6430996,8.904 2.6875,0 0,13.4339 17.0166996,0 0,-13.4339 2.6867,0 -10.7478,-8.904 z m -2.468,8.226 4.0407,0 0,4.2167 4.2166,0 0,4.04 -4.2166,0 0,4.2166 -4.0407,0 0,-4.2166 -4.2159996,0 0,-4.04 4.2159996,0 0,-4.2167 z"
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
