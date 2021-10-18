@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="48px"
+   height="48px"
+   viewBox="0 0 48 48"
+   enable-background="new 0 0 48 48"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="social_rss_circle.svg"
+   inkscape:export-filename="C:\Users\jhernandez\Documents\imagenCorp\iconos\iconos_jorge\ico_web\DEFINITIVOS\Social_RSS_circle"
+   inkscape:export-xdpi="200.625"
+   inkscape:export-ydpi="200.625"><metadata
+   id="metadata3803"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs3801" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1021"
+   inkscape:window-height="993"
+   id="namedview3799"
+   showgrid="false"
+   inkscape:zoom="4.9166667"
+   inkscape:cx="9.3658001"
+   inkscape:cy="23.79661"
+   inkscape:window-x="2092"
+   inkscape:window-y="15"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+
+<circle
+   style="opacity:1;fill:#003366;fill-opacity:1;stroke:none;stroke-width:1.02699995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.027, 2.05399999999999980;stroke-dashoffset:0;stroke-opacity:0.47462685"
+   id="path4139"
+   cx="24"
+   cy="24"
+   r="24"
+   inkscape:export-xdpi="200.625"
+   inkscape:export-ydpi="200.625" /><g
+   id="g4148"
+   transform="matrix(0.82636084,0,0,0.82636084,5.5023224,3.5265089)"
+   inkscape:export-xdpi="200.625"
+   inkscape:export-ydpi="200.625"><path
+     id="path4144"
+     d="m 10.1875,7.0937502 c 17.2589,0 31.25,13.9910998 31.25,31.2499998 0,0.63476 -0.0252,1.24961 -0.0625,1.875 l -7.53125,0 c 0.0483,-0.6181 0.0937,-1.24442 0.0937,-1.875 0,-13.10958 -10.64042,-23.75 -23.75,-23.75 -0.8089098,0 -1.6180698,0.0459 -2.4062498,0.125 l 0,-7.5312498 c 0.79859,-0.0611 1.59198,-0.0937 2.4062498,-0.0937 z"
+     style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" /><path
+     id="path4142"
+     d="m 9.1875002,18.9375 c 0.33076,-0.0168 0.66507,0 0.9999998,0 10.71762,0 19.40625,8.68863 19.40625,19.40625 0,0.63757 -0.0336,1.25319 -0.0937,1.875 l -6.25,0 c 0.0883,-0.61686 0.15625,-1.23374 0.15625,-1.875 0,-7.30053 -5.91822,-13.21875 -13.21875,-13.21875 -0.8262398,0 -1.6219898,0.10497 -2.4062498,0.25 l 0,-6.3125 c 0.46281,-0.0572 0.93393,-0.1011 1.40625,-0.125 z"
+     style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" /><path
+     id="rect4378-1"
+     d="m 12.25,30.9375 c 2.79594,0 5.0625,2.26656 5.0625,5.0625 0,2.79594 -2.26656,5.0625 -5.0625,5.0625 -2.7959398,0 -5.0624998,-2.26656 -5.0624998,-5.0625 0,-2.79594 2.26656,-5.0625 5.0624998,-5.0625 z"
+     style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" /></g></svg>

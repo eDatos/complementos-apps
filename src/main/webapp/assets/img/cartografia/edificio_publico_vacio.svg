@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="39"
+   viewBox="0 0 32 39.000001"
+   id="svg8605"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="EdifPubliVacio.svg"
+   inkscape:export-filename="C:\Users\jhernandez\Documents\imagenCorp\iconos\cartografia\varios\EdifPubliVacio.png"
+   inkscape:export-xdpi="286.42999"
+   inkscape:export-ydpi="286.42999">
+  <defs
+     id="defs8607" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="-7.2978547"
+     inkscape:cy="25.586905"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8610">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1013.3622)">
+    <g
+       id="g9171"
+       transform="translate(-10.832177,4.8699222)">
+      <path
+         inkscape:export-ydpi="89.889763"
+         inkscape:export-xdpi="89.889763"
+         inkscape:export-filename="C:\Documents and Settings\jhernandez\Mis documentos\imagenCorp\iconos\cartografia\ICONOS_GRAFCAN.png"
+         style="display:inline;fill:#e4a51c;fill-opacity:1;stroke:none;stroke-width:3.40799999"
+         d="m 14.437027,1008.987 c -2.2908,0 -3.5787,1.1845 -3.5787,3.6046 l 0,24.9465 c 0,2.2637 1.1582,3.449 3.4469,3.449 l 5.4449,0 3.0414,2.6181 4.0407,3.3968 4.0413,-3.3968 3.0407,-2.6181 5.4429,0 c 2.2893,0 3.4489,-1.126 3.4489,-3.449 l 0,-24.9465 c 0,-2.3611 -1.1595,-3.6046 -3.5202,-3.6046 -3e-4,0 -24.8567,-0.01 -24.8488,0 z"
+         id="path7655"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="89.889763"
+         inkscape:export-xdpi="89.889763"
+         inkscape:export-filename="C:\Documents and Settings\jhernandez\Mis documentos\imagenCorp\iconos\cartografia\ICONOS_GRAFCAN.png"
+         inkscape:connector-curvature="0"
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+         d="m 27.279827,1013.8161 -11.6431,8.9041 2.6875,0 0,13.4338 17.0167,0 0,-13.4338 2.6867,0 -10.7478,-8.9041 z m -6.1962,6.5209 c 0,0 0.01,0 0.014,0 l 2.4993,2.4987 a 5.9052709,5.9052709 0 0 1 7.4115,0.7567 5.9052709,5.9052709 0 0 1 0.7595,7.415 l 2.4952,2.4952 c 0,0 0,0.01 0,0.014 l -1.682,1.682 c 0,0 -0.01,0 -0.014,0 l -2.4992,-2.4986 a 5.9052709,5.9052709 0 0 1 -7.4109,-0.7561 5.9052709,5.9052709 0 0 1 -0.7602,-7.415 l -2.4952,-2.4951 c 0,0 0,-0.01 0,-0.014 l 1.682,-1.682 z m 5.8919,3.6528 a 3.7830642,3.7830642 0 0 0 -1.8302,0.3954 l 5.0687,5.0678 a 3.7830642,3.7830642 0 0 0 -0.7066,-4.3599 3.7830642,3.7830642 0 0 0 -2.5319,-1.1033 z m -3.525,2.0924 a 3.7830642,3.7830642 0 0 0 0.7065,4.3606 3.7830642,3.7830642 0 0 0 4.3613,0.7079 l -5.0678,-5.0685 z"
+         id="path6901" />
+    </g>
+  </g>
+</svg>
