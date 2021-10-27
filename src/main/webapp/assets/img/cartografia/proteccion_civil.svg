@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="39"
+   viewBox="0 0 32 39.000001"
+   id="svg8605"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ProteccionCivil.svg"
+   inkscape:export-filename="C:\Users\jhernandez\Documents\imagenCorp\iconos\cartografia\varios\ProteccionCivil.png"
+   inkscape:export-xdpi="286.42999"
+   inkscape:export-ydpi="286.42999">
+  <defs
+     id="defs8607" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="-9.6168567"
+     inkscape:cy="25.840686"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8610">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1013.3622)">
+    <g
+       id="g9218"
+       transform="translate(-10.769042,8.8474056)"
+       inkscape:export-xdpi="90.147034"
+       inkscape:export-ydpi="90.147034">
+      <g
+         inkscape:export-ydpi="89.889763"
+         inkscape:export-xdpi="89.889763"
+         inkscape:export-filename="C:\Documents and Settings\jhernandez\Mis documentos\imagenCorp\iconos\cartografia\ICONOS_GRAFCAN.png"
+         transform="matrix(0.05542205,0,0,0.05542205,10.70089,1004.9108)"
+         style="display:inline;fill:#940500;fill-opacity:1;stroke:none"
+         id="g7669">
+        <path
+           style="fill:#940500;fill-opacity:1;stroke:none;stroke-width:3.40799999"
+           d="m 2515.4297,16.125 c -6.5864,0 -10.2891,3.403692 -10.2891,10.361328 l 0,71.72461 c 0,6.508132 3.3299,9.914062 9.9102,9.914062 l 15.6543,0 8.7441,7.52734 11.6172,9.76758 11.6191,-9.76758 8.7422,-7.52734 15.6485,0 c 6.5819,0 9.916,-3.23543 9.916,-9.914062 l 0,-71.72461 c 0,-6.788097 -3.3336,-10.361328 -10.1211,-10.361328 -6e-4,0 -71.464,-0.02279 -71.4414,0 z"
+           transform="matrix(6.275838,0,0,6.275838,-15720.156,-99.424462)"
+           id="path7671"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         inkscape:export-ydpi="89.889763"
+         inkscape:export-xdpi="89.889763"
+         inkscape:export-filename="C:\Documents and Settings\jhernandez\Mis documentos\imagenCorp\iconos\cartografia\ICONOS_GRAFCAN.png"
+         inkscape:connector-curvature="0"
+         id="path6917"
+         d="m 26.770091,1008.7445 a 11.863141,11.863141 0 0 0 -11.865101,11.8631 11.863141,11.863141 0 0 0 11.865101,11.863 11.863141,11.863141 0 0 0 11.863,-11.863 11.863141,11.863141 0 0 0 -11.863,-11.8631 z m 0,2.2969 a 9.5650456,9.5650456 0 0 1 9.5642,9.5662 9.5650456,9.5650456 0 0 1 -9.5642,9.5642 9.5650456,9.5650456 0 0 1 -9.566201,-9.5642 9.5650456,9.5650456 0 0 1 9.566201,-9.5662 z m 0,1.8944 -3.5683,6.1073 -3.503901,6.1425 7.072201,0.035 7.0702,-0.035 -3.5039,-6.1425 -3.5663,-6.1073 z"
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+</svg>
